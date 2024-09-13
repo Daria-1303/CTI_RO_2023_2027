@@ -1,0 +1,6 @@
+https://www.fpga4fun.com/Debouncer.html
+
+https://www.intel.com/content/www/us/en/docs/programmable/683325/18-1/create-a-project-and-apply-constraints.html
+
+
+Puteti sa va instalati model sim pe Windows, merge foarte bine pentru a testa cod verilog acasa
