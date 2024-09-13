@@ -1,0 +1,3 @@
+PDF-urile se deschid cu parola mac2024.
+
+Fisierele cu extensia .xopp pot fi deschise in aplicatia Xournal++
