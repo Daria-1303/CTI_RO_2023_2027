@@ -1,0 +1,20 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/stan/Desktop/Xilinx/MY_XOR_3/MY_XOR_3_isim_beh.exe -prj /home/stan/Desktop/Xilinx/MY_XOR_3/MY_XOR_3_beh.prj work.MY_XOR_3 work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/stan/Desktop/Xilinx/MY_XOR_3/MY_XOR_3.vf" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95476 KB
+Fuse CPU Usage: 2170 ms
+Compiling module XOR2
+Compiling module MY_XOR_3
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable /home/stan/Desktop/Xilinx/MY_XOR_3/MY_XOR_3_isim_beh.exe
+Fuse Memory Usage: 655636 KB
+Fuse CPU Usage: 2170 ms
+GCC CPU Usage: 540 ms

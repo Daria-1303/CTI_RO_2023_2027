@@ -1,0 +1,3 @@
+verilog isim_temp "ff.v"
+verilog isim_temp "ff_tb.v"
+verilog isim_temp "/opt/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"

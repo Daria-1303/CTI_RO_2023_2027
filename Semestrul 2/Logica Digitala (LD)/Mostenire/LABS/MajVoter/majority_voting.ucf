@@ -1,0 +1,7 @@
+#Inputs
+NET "in1" LOC = "G15"; # SW1 P
+NET "in2" LOC = "J16"; # SW2 P
+NET "in3" LOC = "G13"; # SW3 P
+
+#outputs
+NET "maj" LOC = "J14";

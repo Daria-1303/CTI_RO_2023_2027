@@ -1,0 +1,85 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 counter_dec_hex.ngc counter_dec_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o counter_dec_hex_map.ncd counter_dec_hex.ngd counter_dec_hex.pcf 
+par -w -intstyle ise -ol high -t 1 counter_dec_hex_map.ncd counter_dec_hex.ncd counter_dec_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml counter_dec_hex.twx counter_dec_hex.ncd -o counter_dec_hex.twr counter_dec_hex.pcf 
+bitgen -intstyle ise -f counter_dec_hex.ut counter_dec_hex.ncd 

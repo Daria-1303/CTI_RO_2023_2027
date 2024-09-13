@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/MY_XOR_2/MY_XOR_2.xst" -ofn "/home/stan/Desktop/Xilinx/MY_XOR_2/MY_XOR_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 MY_XOR_2.ngc MY_XOR_2.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MY_XOR_2_map.ncd MY_XOR_2.ngd MY_XOR_2.pcf 
+par -w -intstyle ise -ol high -t 1 MY_XOR_2_map.ncd MY_XOR_2.ncd MY_XOR_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MY_XOR_2.twx MY_XOR_2.ncd -o MY_XOR_2.twr MY_XOR_2.pcf 

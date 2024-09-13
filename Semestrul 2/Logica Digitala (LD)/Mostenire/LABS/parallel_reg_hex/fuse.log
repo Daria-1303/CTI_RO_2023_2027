@@ -1,0 +1,9 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex_isim_beh.exe -prj /home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex_beh.prj work.counter_dec_hex work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_register.v" into library work
+Analyzing Verilog file "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec.v" into library work
+ERROR:HDLCompiler:806 - "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec.v" Line 23: Syntax error near "output".
+Verilog file /home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec.v ignored due to errors

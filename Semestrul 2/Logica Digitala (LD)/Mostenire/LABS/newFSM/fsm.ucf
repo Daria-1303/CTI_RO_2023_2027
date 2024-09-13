@@ -1,0 +1,13 @@
+NET "clk" CLOCK_DEDICATED_ROUTE = false;
+NET "clk" LOC = "R17";
+NET "rst" LOC = "E18";
+NET "start" LOC = "L13";
+NET "count" LOC = "L14";
+NET "stop" LOC = "K17";
+NET "current_state[0]" LOC = "J14";
+NET "current_state[1]" LOC = "J15";
+NET "current_state[2]" LOC = "K15";
+NET "out[3]" LOC = "R4";
+NET "out[2]" LOC = "F4";
+NET "out[1]" LOC = "P15";
+NET "out[0]" LOC = "E17";

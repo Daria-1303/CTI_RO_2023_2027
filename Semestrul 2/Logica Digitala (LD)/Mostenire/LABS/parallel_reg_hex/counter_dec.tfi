@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+counter_dec instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .q(q)
+    );
+
+

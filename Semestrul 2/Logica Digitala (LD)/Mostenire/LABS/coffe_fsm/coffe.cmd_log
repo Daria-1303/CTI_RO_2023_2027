@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/coffe_fsm/coffe.xst" -ofn "/home/stan/Desktop/Xilinx/coffe_fsm/coffe.syr" 

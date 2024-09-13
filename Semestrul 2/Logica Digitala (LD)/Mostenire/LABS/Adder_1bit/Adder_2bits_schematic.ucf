@@ -1,0 +1,10 @@
+#Inputs
+NET "a0" LOC = "G18";
+NET "b0" LOC ="H18";
+NET "a1" LOC = "K18";
+NET "b1" LOC ="K17";
+NET "c_in" LOC = "L14";
+#Outputs
+NET "c_out" LOC = "J14";
+NET "s1" LOC ="J15";
+NET "s0" LOC = "K15";

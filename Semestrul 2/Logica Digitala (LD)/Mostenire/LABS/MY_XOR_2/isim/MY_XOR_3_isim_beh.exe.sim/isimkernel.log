@@ -1,0 +1,29 @@
+Command line:
+   MY_XOR_3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52419
+
+Mon Mar  4 20:10:10 2019
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 197.022 Meg
+
+ Total Signals          : 24
+ Total Nets             : 18
+ Total Signal Drivers   : 7
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 8
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 98
+Total Line Count : 14
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 272.523 Meg
+
+Mon Mar  4 20:10:16 2019
+

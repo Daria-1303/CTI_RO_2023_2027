@@ -1,0 +1,13 @@
+NET "clk" CLOCK_DEDICATED_ROUTE = false;
+NET "clk" LOC = "R17";
+NET "rst" LOC = "E18";
+NET "c05" LOC = "L13";
+NET "c10" LOC = "L14";
+NET "coffee[0]" LOC = "G18";
+NET "coffee[1]" LOC = "H18";
+NET "current_state[0]" LOC = "J14";
+NET "current_state[1]" LOC = "J15";
+NET "current_state[2]" LOC = "K15";
+NET "expresso_lung" LOC = "R4";
+NET "expresso" LOC = "F4";
+NET "cappucino" LOC = "P15";

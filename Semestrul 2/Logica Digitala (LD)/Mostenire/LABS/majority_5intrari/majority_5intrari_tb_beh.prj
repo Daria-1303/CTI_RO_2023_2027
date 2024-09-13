@@ -1,0 +1,3 @@
+verilog work "majority_5intrari.v"
+verilog work "majority_5intrari_tb.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

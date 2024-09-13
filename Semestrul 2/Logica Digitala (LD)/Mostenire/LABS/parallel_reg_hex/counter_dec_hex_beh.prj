@@ -1,0 +1,4 @@
+verilog work "paralel_register.v"
+verilog work "counter_dec.v"
+verilog work "counter_dec_hex.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

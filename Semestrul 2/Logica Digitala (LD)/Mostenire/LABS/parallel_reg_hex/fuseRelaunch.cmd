@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex_isim_beh.exe" -prj "/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex_beh.prj" "work.counter_dec_hex" "work.glbl" 

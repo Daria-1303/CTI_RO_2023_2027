@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/stan/Desktop/Xilinx/Adder_1bit/adder_2bits_tb_isim_beh.exe" -prj "/home/stan/Desktop/Xilinx/Adder_1bit/adder_2bits_tb_beh.prj" "work.adder_2bits_tb" "work.glbl" 

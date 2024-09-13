@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/barrel/barrel_shifter_hex.xst" -ofn "/home/stan/Desktop/Xilinx/barrel/barrel_shifter_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsr.ucf -p xc3s500e-fg320-5 barrel_shifter_hex.ngc barrel_shifter_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o barrel_shifter_hex_map.ncd barrel_shifter_hex.ngd barrel_shifter_hex.pcf 
+par -w -intstyle ise -ol high -t 1 barrel_shifter_hex_map.ncd barrel_shifter_hex.ncd barrel_shifter_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml barrel_shifter_hex.twx barrel_shifter_hex.ncd -o barrel_shifter_hex.twr barrel_shifter_hex.pcf -ucf fsr.ucf 
+bitgen -intstyle ise -f barrel_shifter_hex.ut barrel_shifter_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/barrel/barrel_shifter_hex.xst" -ofn "/home/stan/Desktop/Xilinx/barrel/barrel_shifter_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsr.ucf -p xc3s500e-fg320-5 barrel_shifter_hex.ngc barrel_shifter_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o barrel_shifter_hex_map.ncd barrel_shifter_hex.ngd barrel_shifter_hex.pcf 
+par -w -intstyle ise -ol high -t 1 barrel_shifter_hex_map.ncd barrel_shifter_hex.ncd barrel_shifter_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml barrel_shifter_hex.twx barrel_shifter_hex.ncd -o barrel_shifter_hex.twr barrel_shifter_hex.pcf -ucf fsr.ucf 
+bitgen -intstyle ise -f barrel_shifter_hex.ut barrel_shifter_hex.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsr.ucf -p xc3s500e-fg320-5 barrel_shifter_hex.ngc barrel_shifter_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o barrel_shifter_hex_map.ncd barrel_shifter_hex.ngd barrel_shifter_hex.pcf 
+par -w -intstyle ise -ol high -t 1 barrel_shifter_hex_map.ncd barrel_shifter_hex.ncd barrel_shifter_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml barrel_shifter_hex.twx barrel_shifter_hex.ncd -o barrel_shifter_hex.twr barrel_shifter_hex.pcf -ucf fsr.ucf 
+bitgen -intstyle ise -f barrel_shifter_hex.ut barrel_shifter_hex.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsr.ucf -p xc3s500e-fg320-5 barrel_shifter_hex.ngc barrel_shifter_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o barrel_shifter_hex_map.ncd barrel_shifter_hex.ngd barrel_shifter_hex.pcf 
+par -w -intstyle ise -ol high -t 1 barrel_shifter_hex_map.ncd barrel_shifter_hex.ncd barrel_shifter_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml barrel_shifter_hex.twx barrel_shifter_hex.ncd -o barrel_shifter_hex.twr barrel_shifter_hex.pcf -ucf fsr.ucf 
+bitgen -intstyle ise -f barrel_shifter_hex.ut barrel_shifter_hex.ncd 

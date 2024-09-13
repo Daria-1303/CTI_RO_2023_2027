@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.ncd
+OUTFILE=/home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec_hex.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/stan/Desktop/Xilinx/parallel_reg_hex
+LICENSE=WebPack
+USER_INFO=211689270_0_0_870

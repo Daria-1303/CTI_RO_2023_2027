@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee_tb_isim_beh.exe" -prj "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee_tb_beh.prj" "work.coffee_tb" "work.glbl" 

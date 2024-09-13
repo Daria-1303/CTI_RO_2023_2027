@@ -1,0 +1,14 @@
+#Inputs
+NET "c[0]" LOC = "J13" ; #SW1
+NET "c[1]" LOC = "M18" ; #SW2
+NET "c[2]" LOC = "N18" ; #SW3
+NET "c[3]" LOC = "P18" ; #SW4
+#Outputs
+NET "hex[0]" LOC = "G15" ;
+NET "hex[1]" LOC = "J16" ;
+NET "hex[2]" LOC = "G13" ;
+NET "hex[3]" LOC = "H16" ;
+NET "hex[4]" LOC = "H15" ;
+NET "hex[5]" LOC = "F14" ;
+NET "hex[6]" LOC = "G16" ;
+NET "cut" LOC = "J12";

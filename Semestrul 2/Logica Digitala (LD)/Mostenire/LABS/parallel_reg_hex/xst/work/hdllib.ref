@@ -1,0 +1,5 @@
+MO paralel_register NULL paralel_register.v vlg41/paralel__register.bin 1559045791
+MO counter_dec NULL counter_dec.v vlg13/counter__dec.bin 1557233106
+MO hex_display NULL hex_display.v vlg4A/hex__display.bin 1559045791
+MO counter_dec_hex NULL counter_dec_hex.v vlg5F/counter__dec__hex.bin 1557233106
+MO paralel_reg_hex NULL paralel_reg_hex.v vlg16/paralel__reg__hex.bin 1559045791

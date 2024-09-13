@@ -1,0 +1,5 @@
+set -tmpdir "/home/stan/Desktop/Xilinx/parallel_reg_hex/xst/projnav.tmp"
+set -xsthdpdir "/home/stan/Desktop/Xilinx/parallel_reg_hex/xst"
+elaborate
+-ifn counter_dec.prj
+-ifmt mixed

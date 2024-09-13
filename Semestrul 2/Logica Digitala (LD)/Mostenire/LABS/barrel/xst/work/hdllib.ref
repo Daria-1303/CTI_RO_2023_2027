@@ -1,0 +1,4 @@
+MO barrel_shifter NULL barrel_shifter.v vlg78/barrel__shifter.bin 1559042535
+MO hex_7display NULL ../hex_7display/hex_7display.v vlg25/hex__7display.bin 1559042535
+MO mux2_1 NULL mux2_1.v vlg3C/mux2__1.bin 1559042535
+MO barrel_shifter_hex NULL barrel_shifter_hex.v vlg74/barrel__shifter__hex.bin 1559042535

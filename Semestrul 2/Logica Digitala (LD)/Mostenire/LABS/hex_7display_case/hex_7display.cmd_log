@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/hex_7display_case/hex_7display.xst" -ofn "/home/stan/Desktop/Xilinx/hex_7display_case/hex_7display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hex_7display_map.ncd hex_7display.ngd hex_7display.pcf 
+par -w -intstyle ise -ol high -t 1 hex_7display_map.ncd hex_7display.ncd hex_7display.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_7display.twx hex_7display.ncd -o hex_7display.twr hex_7display.pcf -ucf hex_7display_u.ucf 
+bitgen -intstyle ise -f hex_7display.ut hex_7display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hex_7display_map.ncd hex_7display.ngd hex_7display.pcf 
+par -w -intstyle ise -ol high -t 1 hex_7display_map.ncd hex_7display.ncd hex_7display.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_7display.twx hex_7display.ncd -o hex_7display.twr hex_7display.pcf -ucf hex_7display_u.ucf 
+bitgen -intstyle ise -f hex_7display.ut hex_7display.ncd 
+bitgen -intstyle ise -f hex_7display.ut hex_7display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o hex_7display_map.ncd hex_7display.ngd hex_7display.pcf 
+par -w -intstyle ise -ol high -t 1 hex_7display_map.ncd hex_7display.ncd hex_7display.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hex_7display.twx hex_7display.ncd -o hex_7display.twr hex_7display.pcf -ucf hex_7display_u.ucf 
+bitgen -intstyle ise -f hex_7display.ut hex_7display.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hex_7display_u.ucf -p xc3s500e-fg320-5 hex_7display.ngc hex_7display.ngd  

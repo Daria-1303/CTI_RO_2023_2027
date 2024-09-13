@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/coffe_fsm/coffee.xst" -ofn "/home/stan/Desktop/Xilinx/coffe_fsm/coffee.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o coffee_map.ncd coffee.ngd coffee.pcf 
+par -w -intstyle ise -ol high -t 1 coffee_map.ncd coffee.ncd coffee.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coffee.twx coffee.ncd -o coffee.twr coffee.pcf -ucf coffee.ucf 
+bitgen -intstyle ise -f coffee.ut coffee.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o coffee_map.ncd coffee.ngd coffee.pcf 
+par -w -intstyle ise -ol high -t 1 coffee_map.ncd coffee.ncd coffee.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coffee.twx coffee.ncd -o coffee.twr coffee.pcf -ucf coffee.ucf 
+bitgen -intstyle ise -f coffee.ut coffee.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o coffee_map.ncd coffee.ngd coffee.pcf 
+par -w -intstyle ise -ol high -t 1 coffee_map.ncd coffee.ncd coffee.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coffee.twx coffee.ncd -o coffee.twr coffee.pcf -ucf coffee.ucf 
+bitgen -intstyle ise -f coffee.ut coffee.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coffee.ucf -p xc3s500e-fg320-5 coffee.ngc coffee.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o coffee_map.ncd coffee.ngd coffee.pcf 
+par -w -intstyle ise -ol high -t 1 coffee_map.ncd coffee.ncd coffee.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coffee.twx coffee.ncd -o coffee.twr coffee.pcf -ucf coffee.ucf 
+bitgen -intstyle ise -f coffee.ut coffee.ncd 

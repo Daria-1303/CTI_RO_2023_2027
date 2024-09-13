@@ -1,0 +1,10 @@
+CARNETUL LA EXAMEN -> NUMAR MATRICOL
+
+sa stii sa citesti wave ul
+sa stii sa faci o minimizare cu orice porti logice cu inversoare sau decodificator (combinational)
+
+25 de minute la grile-----> 20 
+
+Care sunt vectorii adiacenti cu un vector pe 4 biti??
+
+QUine MCcluskey---: implicanti primi

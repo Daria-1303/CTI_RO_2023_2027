@@ -1,0 +1,36 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/stan/Desktop/Xilinx/hex_7display_case/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/stan/Desktop/Xilinx/hex_7display_case/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "hex_7display_case.v" in library work
+ERROR:HDLCompilers:26 - "hex_7display_case.v" line 28 expecting 'end', found 'endmodule'
+Module <hex_7display> compiled
+ERROR:HDLCompilers:26 - "hex_7display_case.v" line 28 expecting 'endmodule', found 'EOF'
+Analysis of file <".prj"> failed.
+--> 
+
+
+Total memory usage is 479004 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,52 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paralel_reg_hex.twx paralel_reg_hex.ncd -o paralel_reg_hex.twr paralel_reg_hex.pcf -ucf register.ucf 
+bitgen -intstyle ise -f paralel_reg_hex.ut paralel_reg_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paralel_reg_hex.twx paralel_reg_hex.ncd -o paralel_reg_hex.twr paralel_reg_hex.pcf -ucf register.ucf 
+bitgen -intstyle ise -f paralel_reg_hex.ut paralel_reg_hex.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/stan/Desktop/Xilinx/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paralel_reg_hex.twx paralel_reg_hex.ncd -o paralel_reg_hex.twr paralel_reg_hex.pcf -ucf register.ucf 
+bitgen -intstyle ise -f paralel_reg_hex.ut paralel_reg_hex.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc paralel_reg_hex.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc paralel_reg_hex.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paralel_reg_hex.twx paralel_reg_hex.ncd -o paralel_reg_hex.twr paralel_reg_hex.pcf -ucf paralel_reg_hex.ucf 
+bitgen -intstyle ise -f paralel_reg_hex.ut paralel_reg_hex.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc paralel_reg_hex.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paralel_reg_hex.twx paralel_reg_hex.ncd -o paralel_reg_hex.twr paralel_reg_hex.pcf -ucf paralel_reg_hex.ucf 
+bitgen -intstyle ise -f paralel_reg_hex.ut paralel_reg_hex.ncd 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc paralel_reg_hex.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/parallel_reg_hex/paralel_reg_hex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc paralel_reg_hex.ucf -p xc3s500e-fg320-5 paralel_reg_hex.ngc paralel_reg_hex.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o paralel_reg_hex_map.ncd paralel_reg_hex.ngd paralel_reg_hex.pcf 
+par -w -intstyle ise -ol high -t 1 paralel_reg_hex_map.ncd paralel_reg_hex.ncd paralel_reg_hex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml paralel_reg_hex.twx paralel_reg_hex.ncd -o paralel_reg_hex.twr paralel_reg_hex.pcf -ucf paralel_reg_hex.ucf 
+bitgen -intstyle ise -f paralel_reg_hex.ut paralel_reg_hex.ncd 

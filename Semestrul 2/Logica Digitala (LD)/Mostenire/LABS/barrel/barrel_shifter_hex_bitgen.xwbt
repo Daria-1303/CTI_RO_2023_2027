@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.ncd
+OUTFILE=/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_hex.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/arosu/Documents/Facultate/LD/LABS/barrel
+LICENSE=WebPack
+USER_INFO=211689577_0_0_771

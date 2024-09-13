@@ -1,0 +1,8 @@
+#Inputs
+NET "in1" LOC = "G15";
+NET "in2" LOC = "J16";
+NET "in3" LOC = "G13";
+NET "in4" LOC = "H16";
+NET "in5" LOC = "G18";
+#outputs
+NET "maj" LOC = "J14";

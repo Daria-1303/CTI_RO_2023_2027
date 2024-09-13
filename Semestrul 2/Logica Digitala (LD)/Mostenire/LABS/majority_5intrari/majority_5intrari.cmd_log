@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/majority_5intrari/majority_5intrari.xst" -ofn "/home/stan/Desktop/Xilinx/majority_5intrari/majority_5intrari.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc majority_5intrari.ucf -p xc3s500e-fg320-5 majority_5intrari.ngc majority_5intrari.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o majority_5intrari_map.ncd majority_5intrari.ngd majority_5intrari.pcf 
+par -w -intstyle ise -ol high -t 1 majority_5intrari_map.ncd majority_5intrari.ncd majority_5intrari.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml majority_5intrari.twx majority_5intrari.ncd -o majority_5intrari.twr majority_5intrari.pcf -ucf majority_5intrari.ucf 
+bitgen -intstyle ise -f majority_5intrari.ut majority_5intrari.ncd 

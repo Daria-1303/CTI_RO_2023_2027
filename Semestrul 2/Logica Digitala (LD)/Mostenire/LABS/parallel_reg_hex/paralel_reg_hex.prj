@@ -1,0 +1,3 @@
+verilog work "paralel_register.v"
+verilog work "hex_display.v"
+verilog work "paralel_reg_hex.v"

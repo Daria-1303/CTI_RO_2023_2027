@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/Adder_1bit/adder_2bits.xst" -ofn "/home/stan/Desktop/Xilinx/Adder_1bit/adder_2bits.syr" 

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj reg_paralel -o /home/stan/Desktop/Xilinx/parallel_reg_hex/counter_dec.tfi -lib work /home/stan/Desktop/Xilinx/parallel_reg_hex//counter_dec.v -module counter_dec -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

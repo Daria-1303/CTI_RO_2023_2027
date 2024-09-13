@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 26 15:45:52 2019
+
+drc -z hex_7display.ncd hex_7display.pcf
+
+DRC detected 0 errors and 0 warnings.

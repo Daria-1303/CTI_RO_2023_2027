@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 14 15:05:09 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "R17" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "cappucino" LOCATE = SITE "P15" LEVEL 1;
+COMP "c10" LOCATE = SITE "L14" LEVEL 1;
+COMP "c05" LOCATE = SITE "L13" LEVEL 1;
+COMP "coffee<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "expresso" LOCATE = SITE "F4" LEVEL 1;
+COMP "coffee<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "current_state<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "current_state<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "current_state<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "expresso_lung" LOCATE = SITE "R4" LEVEL 1;
+COMP "rst" LOCATE = SITE "E18" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

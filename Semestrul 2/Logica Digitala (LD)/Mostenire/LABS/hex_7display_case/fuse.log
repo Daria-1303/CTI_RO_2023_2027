@@ -1,0 +1,20 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/stan/Desktop/Xilinx/hex_7display_case/hex_7display_isim_beh.exe -prj /home/stan/Desktop/Xilinx/hex_7display_case/hex_7display_beh.prj work.hex_7display work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/stan/Desktop/Xilinx/hex_7display_case/hex_7display_case.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95480 KB
+Fuse CPU Usage: 2310 ms
+Compiling module hex_7display
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 2 Verilog Units
+Built simulation executable /home/stan/Desktop/Xilinx/hex_7display_case/hex_7display_isim_beh.exe
+Fuse Memory Usage: 655648 KB
+Fuse CPU Usage: 2330 ms
+GCC CPU Usage: 440 ms

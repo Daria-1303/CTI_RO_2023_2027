@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee_tb_isim_beh.exe -prj /home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee_tb_beh.prj work.coffee_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffe.v" into library work
+Analyzing Verilog file "/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95496 KB
+Fuse CPU Usage: 1060 ms
+Compiling module coffee
+Compiling module coffee_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable /home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee_tb_isim_beh.exe
+Fuse Memory Usage: 1180016 KB
+Fuse CPU Usage: 1070 ms
+GCC CPU Usage: 250 ms

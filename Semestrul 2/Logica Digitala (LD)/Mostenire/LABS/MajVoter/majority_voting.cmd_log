@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/MajVoter/majority_voting.xst" -ofn "/home/stan/Desktop/Xilinx/MajVoter/majority_voting.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc majority_voting.ucf -p xc3s500e-fg320-5 majority_voting.ngc majority_voting.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o majority_voting_map.ncd majority_voting.ngd majority_voting.pcf 
+par -w -intstyle ise -ol high -t 1 majority_voting_map.ncd majority_voting.ncd majority_voting.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml majority_voting.twx majority_voting.ncd -o majority_voting.twr majority_voting.pcf -ucf majority_voting.ucf 
+bitgen -intstyle ise -f majority_voting.ut majority_voting.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/MajVoter/majority_voting.xst" -ofn "/home/stan/Desktop/Xilinx/MajVoter/majority_voting.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc majority_voting.ucf -p xc3s500e-fg320-5 majority_voting.ngc majority_voting.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o majority_voting_map.ncd majority_voting.ngd majority_voting.pcf 
+par -w -intstyle ise -ol high -t 1 majority_voting_map.ncd majority_voting.ncd majority_voting.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml majority_voting.twx majority_voting.ncd -o majority_voting.twr majority_voting.pcf -ucf majority_voting.ucf 
+bitgen -intstyle ise -f majority_voting.ut majority_voting.ncd 
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/MajVoter/majority_voting.xst" -ofn "/home/stan/Desktop/Xilinx/MajVoter/majority_voting.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc majority_voting.ucf -p xc3s500e-fg320-5 majority_voting.ngc majority_voting.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o majority_voting_map.ncd majority_voting.ngd majority_voting.pcf 
+par -w -intstyle ise -ol high -t 1 majority_voting_map.ncd majority_voting.ncd majority_voting.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml majority_voting.twx majority_voting.ncd -o majority_voting.twr majority_voting.pcf -ucf majority_voting.ucf 
+bitgen -intstyle ise -f majority_voting.ut majority_voting.ncd 

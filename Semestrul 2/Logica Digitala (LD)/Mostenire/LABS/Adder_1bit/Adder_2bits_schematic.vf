@@ -1,0 +1,89 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Adder_2bits_schematic.vf
+// /___/   /\     Timestamp : 03/12/2019 15:42:46
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog /home/stan/Desktop/Xilinx/Adder_1bit/Adder_2bits_schematic.vf -w /home/stan/Desktop/Xilinx/Adder_1bit/Adder_2bits_schematic.sch
+//Design Name: Adder_2bits_schematic
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Adder_2bits_schematic(a0, 
+                             a1, 
+                             b0, 
+                             b1, 
+                             c_in, 
+                             c_out, 
+                             s0, 
+                             s1);
+
+    input a0;
+    input a1;
+    input b0;
+    input b1;
+    input c_in;
+   output c_out;
+   output s0;
+   output s1;
+   
+   wire XLXN_6;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_20;
+   
+   OR3  XLXI_1 (.I0(XLXN_9), 
+               .I1(XLXN_10), 
+               .I2(XLXN_11), 
+               .O(XLXN_16));
+   AND2  XLXI_3 (.I0(b0), 
+                .I1(a0), 
+                .O(XLXN_9));
+   AND2  XLXI_4 (.I0(b0), 
+                .I1(c_in), 
+                .O(XLXN_10));
+   AND2  XLXI_5 (.I0(c_in), 
+                .I1(a0), 
+                .O(XLXN_11));
+   XOR2  XLXI_9 (.I0(b0), 
+                .I1(a0), 
+                .O(XLXN_6));
+   XOR2  XLXI_10 (.I0(c_in), 
+                 .I1(XLXN_6), 
+                 .O(s0));
+   XOR2  XLXI_11 (.I0(XLXN_16), 
+                 .I1(XLXN_17), 
+                 .O(s1));
+   XOR2  XLXI_12 (.I0(b1), 
+                 .I1(a1), 
+                 .O(XLXN_17));
+   AND2  XLXI_14 (.I0(b1), 
+                 .I1(a1), 
+                 .O(XLXN_18));
+   AND2  XLXI_15 (.I0(b1), 
+                 .I1(XLXN_16), 
+                 .O(XLXN_19));
+   AND2  XLXI_16 (.I0(XLXN_16), 
+                 .I1(a1), 
+                 .O(XLXN_20));
+   OR3  XLXI_17 (.I0(XLXN_18), 
+                .I1(XLXN_19), 
+                .I2(XLXN_20), 
+                .O(c_out));
+endmodule

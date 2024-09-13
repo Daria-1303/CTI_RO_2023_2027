@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.ncd
+OUTFILE=/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm/coffee.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/arosu/Documents/Facultate/LD/LABS/coffe_fsm
+LICENSE=WebPack
+USER_INFO=211689577_0_0_771

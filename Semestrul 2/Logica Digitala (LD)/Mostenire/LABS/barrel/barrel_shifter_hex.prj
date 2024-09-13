@@ -1,0 +1,4 @@
+verilog work "mux2_1.v"
+verilog work "../hex_7display/hex_7display.v"
+verilog work "barrel_shifter.v"
+verilog work "barrel_shifter_hex.v"

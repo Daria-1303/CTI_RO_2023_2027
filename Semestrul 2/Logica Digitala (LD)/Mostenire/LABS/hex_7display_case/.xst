@@ -1,0 +1,5 @@
+set -tmpdir "/home/stan/Desktop/Xilinx/hex_7display_case/xst/projnav.tmp"
+set -xsthdpdir "/home/stan/Desktop/Xilinx/hex_7display_case/xst"
+elaborate
+-ifn .prj
+-ifmt mixed

@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Apr 02 14:38:50 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "hex<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "hex<1>" LOCATE = SITE "R18" LEVEL 1;
+COMP "hex<2>" LOCATE = SITE "R15" LEVEL 1;
+COMP "hex<3>" LOCATE = SITE "T17" LEVEL 1;
+COMP "hex<4>" LOCATE = SITE "P17" LEVEL 1;
+COMP "hex<5>" LOCATE = SITE "R16" LEVEL 1;
+COMP "hex<6>" LOCATE = SITE "T18" LEVEL 1;
+COMP "c<0>" LOCATE = SITE "G15" LEVEL 1;
+COMP "c<1>" LOCATE = SITE "J16" LEVEL 1;
+COMP "c<2>" LOCATE = SITE "G13" LEVEL 1;
+COMP "c<3>" LOCATE = SITE "H16" LEVEL 1;
+SCHEMATIC END;
+

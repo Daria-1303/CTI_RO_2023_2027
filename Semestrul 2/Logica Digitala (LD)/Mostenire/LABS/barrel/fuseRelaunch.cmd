@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_TB_isim_beh.exe" -prj "/home/arosu/Documents/Facultate/LD/LABS/barrel/barrel_shifter_TB_beh.prj" "work.barrel_shifter_TB" "work.glbl" 

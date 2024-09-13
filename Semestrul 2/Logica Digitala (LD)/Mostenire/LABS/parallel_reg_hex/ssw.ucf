@@ -1,0 +1,16 @@
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#INPUTS
+NET "clk" LOC = "H13";
+NET "rst" LOC = "N17";
+NET "l" LOC = "R17";
+
+
+#outputs
+NET "out[0]" LOC = "L18";
+NET "out[1]" LOC = "F18";
+NET "out[2]" LOC = "D17";
+NET "out[3]" LOC = "D16";
+NET "out[4]" LOC = "G14";
+NET "out[5]" LOC = "J17";
+NET "out[6]" LOC = "H14";

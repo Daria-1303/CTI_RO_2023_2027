@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/stan/Desktop/Xilinx/hex_7display_case/hex_7display_isim_beh.exe" -prj "/home/stan/Desktop/Xilinx/hex_7display_case/hex_7display_beh.prj" "work.hex_7display" "work.glbl" 

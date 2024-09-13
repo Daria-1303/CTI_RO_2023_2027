@@ -1,0 +1,3 @@
+verilog work "hex_display.v"
+verilog work "counter_dec.v"
+verilog work "counter_dec_hex.v"

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/comp_2bits/comp_2bits.xst" -ofn "/home/stan/Desktop/Xilinx/comp_2bits/comp_2bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc comp_2bits.ucf -p xc3s500e-fg320-5 comp_2bits.ngc comp_2bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comp_2bits_map.ncd comp_2bits.ngd comp_2bits.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc comp_2bits.ucf -p xc3s500e-fg320-5 comp_2bits.ngc comp_2bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comp_2bits_map.ncd comp_2bits.ngd comp_2bits.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc comp_2bits.ucf -p xc3s500e-fg320-5 comp_2bits.ngc comp_2bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comp_2bits_map.ncd comp_2bits.ngd comp_2bits.pcf 
+par -w -intstyle ise -ol high -t 1 comp_2bits_map.ncd comp_2bits.ncd comp_2bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comp_2bits.twx comp_2bits.ncd -o comp_2bits.twr comp_2bits.pcf -ucf comp_2bits.ucf 
+bitgen -intstyle ise -f comp_2bits.ut comp_2bits.ncd 

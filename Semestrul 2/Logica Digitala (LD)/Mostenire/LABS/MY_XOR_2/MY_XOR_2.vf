@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MY_XOR_2.vf
+// /___/   /\     Timestamp : 03/04/2019 19:46:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog /home/stan/Desktop/Xilinx/MY_XOR_2/MY_XOR_2.vf -w /home/stan/Desktop/Xilinx/MY_XOR_2/MY_XOR_2.sch
+//Design Name: MY_XOR_2
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MY_XOR_2(A, 
+                B, 
+                O);
+
+    input A;
+    input B;
+   output O;
+   
+   
+   XOR2  XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(O));
+endmodule

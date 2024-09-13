@@ -1,0 +1,15 @@
+NET "a[3]" LOC = "R17";
+NET "a[2]" LOC = "N17";
+NET "a[1]" LOC = "L13";
+NET "a[0]" LOC = "L14";
+NET "sel[1]" LOC = "H18";
+NET "sel[0]" LOC = "G18";
+
+NET "hex[0]" LOC = "L18";
+NET "hex[1]" LOC = "F18";
+NET "hex[2]" LOC = "D17";
+NET "hex[3]" LOC = "D16";
+NET "hex[4]" LOC = "G14";
+NET "hex[5]" LOC = "J17";
+NET "hex[6]" LOC = "H14";
+

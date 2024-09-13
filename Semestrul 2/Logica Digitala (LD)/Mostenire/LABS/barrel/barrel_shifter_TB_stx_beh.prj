@@ -1,0 +1,4 @@
+verilog isim_temp "mux2_1.v"
+verilog isim_temp "barrel_shifter.v"
+verilog isim_temp "barrel_shifter_TB.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

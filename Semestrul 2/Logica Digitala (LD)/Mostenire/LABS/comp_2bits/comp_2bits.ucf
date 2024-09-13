@@ -1,0 +1,8 @@
+#Inputs
+NET "a[0]" LOC = "G15";
+NET "b[0]" LOC = "G13";
+NET "a[1]" LOC = "J16";
+NET "b[1]" LOC = "H16";
+#Outputs
+NET "sm_eq" LOC = "J14";
+NET "gr_eg" LOC = "J15";

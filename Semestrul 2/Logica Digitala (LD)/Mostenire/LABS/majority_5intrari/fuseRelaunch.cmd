@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/stan/Desktop/Xilinx/majority_5intrari/majority_5intrari_tb_isim_beh.exe" -prj "/home/stan/Desktop/Xilinx/majority_5intrari/majority_5intrari_tb_beh.prj" "work.majority_5intrari_tb" "work.glbl" 

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/stan/Desktop/Xilinx/Adder_1bit/Adder_2bits_schematic.xst" -ofn "/home/stan/Desktop/Xilinx/Adder_1bit/Adder_2bits_schematic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder_2bits_schematic.ucf -p xc3s500e-fg320-5 Adder_2bits_schematic.ngc Adder_2bits_schematic.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Adder_2bits_schematic_map.ncd Adder_2bits_schematic.ngd Adder_2bits_schematic.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_2bits_schematic_map.ncd Adder_2bits_schematic.ncd Adder_2bits_schematic.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Adder_2bits_schematic.twx Adder_2bits_schematic.ncd -o Adder_2bits_schematic.twr Adder_2bits_schematic.pcf -ucf Adder_2bits_schematic.ucf 
+bitgen -intstyle ise -f Adder_2bits_schematic.ut Adder_2bits_schematic.ncd 
+bitgen -intstyle ise -f Adder_2bits_schematic.ut Adder_2bits_schematic.ncd 

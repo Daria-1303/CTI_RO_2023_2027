@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+xst -intstyle ise -ifn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.xst" -ofn "/home/arosu/Documents/Facultate/LD/LABS/newFSM/fsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsm.ucf -p xc3s500e-fg320-5 fsm.ngc fsm.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsm.ucf -p xc3s500e-fg320-5 fsm.ngc fsm.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsm_map.ncd fsm.ngd fsm.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_map.ncd fsm.ncd fsm.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsm.twx fsm.ncd -o fsm.twr fsm.pcf -ucf fsm.ucf 
+bitgen -intstyle ise -f fsm.ut fsm.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsm.ucf -p xc3s500e-fg320-5 fsm.ngc fsm.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsm_map.ncd fsm.ngd fsm.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsm.ucf -p xc3s500e-fg320-5 fsm.ngc fsm.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fsm_map.ncd fsm.ngd fsm.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_map.ncd fsm.ncd fsm.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fsm.twx fsm.ncd -o fsm.twr fsm.pcf -ucf fsm.ucf 
+bitgen -intstyle ise -f fsm.ut fsm.ncd 

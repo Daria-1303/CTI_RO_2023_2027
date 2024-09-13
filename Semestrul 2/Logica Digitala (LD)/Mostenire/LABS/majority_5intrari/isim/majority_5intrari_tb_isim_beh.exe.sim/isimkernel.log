@@ -1,0 +1,29 @@
+Command line:
+   majority_5intrari_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40547
+
+Tue Mar  5 15:07:47 2019
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 197.03 Meg
+
+ Total Signals          : 30
+ Total Nets             : 29
+ Total Signal Drivers   : 21
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 24
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 114
+Total Line Count : 39
+
+ Total Simulation Time: 0.17 sec
+
+ Current Memory Usage: 272.531 Meg
+
+Tue Mar  5 15:08:38 2019
+
