@@ -4,3 +4,54 @@ https://www.intel.com/content/www/us/en/docs/programmable/683325/18-1/create-a-p
 
 
 Puteti sa va instalati model sim pe Windows, merge foarte bine pentru a testa cod verilog acasa
+
+https://nandland.com/introduction-to-modelsim-for-beginners/
+
+https://www.intel.com/content/www/us/en/docs/programmable/683870/24-2/faq.html
+
+Simulator circuite numerice
+
+https://github.com/hneemann/Digital
+
+https://ro.wikipedia.org/wiki/Complement_fa%C8%9B%C4%83_de_doi
+
+
+!!!!!!!! In culegerea urmatoare o sa gasiti cele mai folositoare exercitii
+
+https://www.dannicula.ro/ed_ci/
+
+
+
+/// model sim run, dati copy paste
+
+
+# add all your source files to the sourcefiles list
+# add the files separated by spaces
+# Example:-----------------------------------------
+# set sourcefiles {mux_1s.v mux_2s.v mux2s_tb.v}
+set sourcefiles {cntr.v}
+
+# set name of the top module in variable topmodule
+# Example:-----------------------------------------
+# set topmodule mux2s_tb
+set topmodule cntr_tb
+
+###################################################
+#####DO NOT MODIFY THE SCRIPT BELLOW THIS LINE#####
+###################################################
+
+# quit current simulation if any
+quit -sim
+
+# empty the work library if present
+if [file exists "work"] {vdel -all}
+#create a new work library
+vlib work
+
+# run the compiler
+if [catch "eval vlog $sourcefiles"] {
+    puts "correct the compilation errors"
+    return
+}
+
+vsim -voptargs=+acc $topmodule
