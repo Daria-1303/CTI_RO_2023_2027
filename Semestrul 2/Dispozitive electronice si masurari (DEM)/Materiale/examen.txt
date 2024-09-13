@@ -1,0 +1,33 @@
+Intra la examen : 
+	1.  unitati de baza(7 + cateva exemple)
+	2. Ce este procesul de măsurare?
+	3. Măsurările directe vs. Măsurările indirecte;
+	4. Acuratețea (exactitatea) de măsurare, precizia (repetabilitatea) de măsurare, reproductibilitatea;
+	5. Eroarea absolută și eroarea relativă; (examen)
+
+
+
+Material 3
+
+1. Intervalele simetrice ale distributiei normale + paragraf de dupa.
+2. Ce inseamna rezolutie la conversie -> EXAMEN)
+3. Ce este incertitudinea de masurare ?(examen) vezi Material 3
+4. Precizați care este inacuratețea de măsurare maximă
+
+Material 4
+
+1. Caracterizarea semnalelor(semnalele periodice si aleatorii, semnalele periodice -> sinusoidal: descrierea parametrilor= offset, amplitudine, )
+2. Teorema esantionarii
+
+Material 5
+
+1. Amplificatorul operational(scurta descriere si la ce este bun)
+2. Caracteristica de transfer( in functie de tensiunea de alimentare)
+3. CMMR - descriere, ce inseamna si de ce este important
+4. Filtrarea semnalelor si la ce este utila si precizati doua tipuri de filtre pe care le cunoasteti(trece-jos si trece-sus si ce inseamna fiecare si caracteristica de trece in frecventa)
+
+Prima data se vor da intrebarile(nu avem voie cu materiale - o foaie pt intrebari, 5 min/intrebare, se trag 5 intrebari)
+
+Apoi se da partea cu probleme 
+
+Se adauga punctele de la test( 8,5 fara probleme => 8 daca ai puncte bonus)

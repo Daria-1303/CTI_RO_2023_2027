@@ -1,0 +1,18 @@
+REZUMAT C1
+
+1. Ne propunem să măsurăm lungimile a două obiecte. Știm că primul obiect are o lungime a cărei valoare convențional adevărată este X1 = 10m.
+Al doilea obiect are o lungime a cărei valoare convențional adevărată este X2 = 100m. Valorile măsurate pentru cele două obiecte sunt xm1 = 11m și
+xm2 = 101m. Utilizând relațiile de calcul pentru Δ și 𝛿, determinați care proces de măsurare este afectat de o eroare mai mare.
+
+2. Un rezervor de apă are o capacitate de 5000 litri. În timpul procesului de umplere completă a rezervorului, cu ajutorul unui debitmetru/contor de apă standard
+obținem o indicație de 4950 litri. Ulterior, la o nouă umplere, decidem să utilizăm un debitmetru digital de o calitate superioară. Indicația obținută
+este de 4995 litri. Determinați erorile absolută și relativă în fiecare caz.
+
+3. Pentru măsurarea intensității curentului într-un circuit utilizăm un ampermetru de laborator. Rezultatele obținute după 10 măsurari, exprimate în mA
+sunt: 5.383, 5.377, 5.378, 5.382, 5.380, 5.383, 5.379, 5.377, 5.380 și 5.381. Apoi, decidem ca în aceleași condiții experimentale, să măsurăm curentul
+cu ajutorul unui ampermetru calibrat, performant. Obținem valoarea de 5.375mA. Determinați precizia de măsurare în cazul ampermetrului de laborator. Precizați
+care este inacuratețea de măsurare maximă (pentru ampermetrul de laborator)?   
+
+4. Un traductor de presiune are un domeniu de măsură de 0 - 15 bar. Cunoaștem faptul că inacuratețea de măsurare pentru acest aparat este exprimată ca 
+±1% din domeniul de măsură (sau FSR, Full Scale Range). Precizați care este eroarea de măsurare maxim posibilă? Precizați care este eroarea de măsurare
+maxim posibilă exprimată procentual, în cazul în care utilizăm traductorul pentru măsurarea unor presiuni de 1,5 bar și 5 bar? 

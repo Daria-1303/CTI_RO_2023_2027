@@ -1,0 +1,32 @@
+REZUMAT C1
+
+Documentatie - materiale PDF curs, resurse online la alegerea studentului (Ex. canale youtube, pagini web, cautari google).
+
+Ex. https://www.falstad.com/circuit/e-index.html, https://www.youtube.com/@EEVblog, https://www.youtube.com/@fluke, https://www.youtube.com/@mitocw, https://www.youtube.com/@StarTalk.
+
+1. Terminologie asociata cu proiectarea/constructia/productia circuitelor imprimate.
+
+	- PCB (Printed Circuit Board) si PCBA (Printed Circuit Board Assembly);
+	- BOM, Schematics, CAD data.
+	
+2. Unitati de masura.
+
+	- International System of Units (SI), Systeme Internationale d'Unites, 1960. Bazat pe vechiul sistem Metric (1789, Franta);
+	  
+	  -> Unitati de baza (7, m/kg/s/A/K/cd/mol) + cateva exemple de unitati derivate (viteza m/s, acceleratia m/s^2);
+	  -> In contextul acestui curs, cunoasterea unitatilor de masura pentru: putere (W), curent (A), tensiune electrică (U), frecvență (Hz), rezistență (R) etc.;
+	  -> Cateva exemple de unitati de masura prezente in Sistemul Imperial, aflate in uz, diferite fata de unitatile de masura utilizate in SI.
+	  
+	- Conversia intre multiplii si submultiplii unitatilor de masura. M (mega,*10^6)/k(kilo,*10^3)/m(milli,*10^-3)/µ(micro,*10^-6)/n(nano,*10^-9)/p(pico,*10^-12).
+
+3. Terminologie asociată domeniului instrumentației și măsurărilor.
+
+	- Ce este procesul de măsurare?
+	- Ce este măsurandul? Mărimi electrice vs. neelectrice;
+	- Măsurările directe vs. Măsurările indirecte;
+	- Acuratețea (exactitatea) de măsurare, precizia (repetabilitatea) de măsurare, reproductibilitatea;
+	- Caracterizarea procesului de măsurare. Valoarea adevărată, valoarea convențional adevărată, valoarea măsurată;
+	- Eroarea absolută și eroarea relativă;
+	- Erori sistematice și erori aleatorii.
+	
+4. Aplicații. De vazut material cu enunțuri și indicații.

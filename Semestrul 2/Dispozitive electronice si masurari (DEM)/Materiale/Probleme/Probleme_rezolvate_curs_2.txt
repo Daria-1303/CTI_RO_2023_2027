@@ -1,0 +1,30 @@
+PB1
+
+Xm1 = 0.81V, xm2 = 6.95V
+X1 = 0.8V, X2 = 7V.
+
+a)	Calculam erorile absolute.
+
+Delta1 = 0.01V sau 10mV si Delta2 = -0.05V sau 50mV.
+Si apoi cele relative procentuale.
+Er1% = |0.01V/0.8V| * 100 = 1.25% pentru prima masurare.
+Er2% = |-0.05V/7V| * 100 = 0.71% pentru a doua masurare.
+
+        Astfel, a doua masurare prezinta acuratete mai buna, eroarea de care este afectata fiind relativ mai mica.
+
+b)	Voltmetrul are +-2%FSR si FSR = 10V -> eroarea maxim posibila indiferent de valoarea masurata este 0.2V sau 200mV.
+Cum afecteaza aceasta eroare masurarile noastre?
+
+Er1% =+- (0.2V/0.81V) * 100 = +- 24.7% - enorm, inacceptabil.
+Er2% =+- (0.2V/6.95V) * 100 = +- 2.9% - mai bine dar tot prost.
+
+Este clar ca in aceasta situatie a doua masurarea este mai putin afectata. Deoarece valoarea masurata este mai mare relativ la FSR.
+c)	La fel pt urmatorul voltmetru. Eroarea este 0.12V.
+
+Er1% =+- (0.12V/0.81V) * 100 = +- 14.81% - enorm, inacceptabil, totusi mai ok decat in primul caz pt aceasta masurare.
+Er2% =+- (0.12V/6.95V) * 100 = +- 1.73% - mai bine.
+
+Concluzii:
+
+Daca aparatul prezinta acuratetea functie de FSR, urmarim ca +-…% din FSR sa fie cat mai mic. Si alegem FSR cat mai apropiat de valoarea de masurat.
+De exemplu pentru prima masurarea puteam comuta, daca era posibil, pe un FSR = 5V sau chiar FSR = 1V, chiar daca procentul de eroare maxim posibila se pastra identic.

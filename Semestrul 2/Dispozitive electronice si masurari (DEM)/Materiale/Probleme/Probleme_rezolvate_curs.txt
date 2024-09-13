@@ -1,0 +1,41 @@
+PB1
+
+T = 2 div. Setarea Timp/div = 50us.
+T = 100us -> f = 1/T -> f = 10kHz.
+App = 5 div. Setarea Volt/div = 2V.
+App = 10V -> A = 5V.
+Este semnal sinusoidal –> Aef = A/sqrt(2)=3.5V.
+
+['PB1--------------------']
+APP = 5;
+T = 2;
+V_div = 2;
+T_div = 50*10^-6;
+
+Period = T*T_div;
+frequency = round(1/Period,2);
+['Frequency Value [Hz]: ',num2str(frequency),'']
+
+A_divisions = APP/2;
+A_value = A_divisions * V_div;
+['Amplitude Value [V]: ',num2str(A_value),'']
+A_RMS = round(A_value/sqrt(2),2);
+['Amplitude RMS [V]: ',num2str(A_RMS),'']
+
+PB2
+
+Fmax = 2.5kHz -> T = 0,4ms.
+In 0,4ms trebuie sa inregistram 20 de valori ->
+Te rata de esantionare este 0,02ms sau 20us.
+Deci fe = 1/Te = 50kHz.
+
+['PB2--------------------']
+f = 2.5 * 10^3;
+T = 10^3 * 1/f;
+Number_Samples = 20;
+['Signal Period [ms]: ',num2str(T),'']
+%In 0.4ms we have to record 20 samples.
+Te = T/Number_Samples;
+['Sampling Period [ms]: ',num2str(Te),'']
+fs = 1/Te;
+['Sampling frequency [kHz]: ',num2str(fs),'']
