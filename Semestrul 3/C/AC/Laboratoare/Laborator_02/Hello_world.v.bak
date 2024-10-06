@@ -1,0 +1,6 @@
+module main;
+
+initial 
+	$display("Hello, world!");
+//pentru run do run_helloWorld.txt
+endmodule
