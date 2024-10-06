@@ -2,8 +2,12 @@
 
 ## Highlights
 -cursuri simplificate
+
 -exercitii si probleme rezolvate
+
 -explicatii 
+
 -subiecte de teste si examene
+
 
 
