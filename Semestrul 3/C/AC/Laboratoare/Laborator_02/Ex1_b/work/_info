@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Mostenire_CTI_RO_2023_2027/Semestrul 3/C/AC/Laboratoare/Laborator_02/Ex1_b
+vex1b
+Z1 !s110 1728280433
+!i10b 1
+!s100 366UNWXU@>jOAIjKOM2NF3
+IEFemW5=Be<2cEQ1hSW2U01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1728280400
+Z4 8ex1b.v
+Z5 Fex1b.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1728280433.000000
+Z8 !s107 ex1b.v|
+Z9 !s90 -reportprogress|300|ex1b.v|
+!i113 1
+Z10 tCvgOpt 0
+vex1b_tb
+R1
+!i10b 1
+!s100 YXUX>9KzmHDC6FaT`hM=B0
+IL`P@8^lGnmN_RW2TgSbU02
+R2
+R0
+R3
+R4
+R5
+L0 8
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

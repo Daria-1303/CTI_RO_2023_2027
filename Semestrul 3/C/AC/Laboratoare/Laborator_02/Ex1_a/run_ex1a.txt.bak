@@ -1,0 +1,6 @@
+if [file exists "work"] {vdel -all}
+vlib work
+if [catch "vlog ex1a.v"] return
+vsim -voptargs=+acc ex1a
+run -all
+quit -sim
