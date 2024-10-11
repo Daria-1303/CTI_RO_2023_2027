@@ -7,8 +7,9 @@
 
 -explicatii 
 
--subiecte de teste si examene
+-subiecte de teste si examene + rezolvari
 
+## Contact
 
-
+-Daca doreste cineva sa contribuie sau sa adauge, puteti lasa mesaj
 
