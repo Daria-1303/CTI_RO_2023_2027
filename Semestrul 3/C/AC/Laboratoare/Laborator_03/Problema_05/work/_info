@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Mostenire_CTI_RO_2023_2027/Semestrul 3/C/AC/Laboratoare/Laborator_03/Problema_05
+vmul5bcd
+Z1 !s110 1728727953
+!i10b 1
+!s100 Cj=i0e`9]MX;_5nbCJQjT2
+I?z87>jGQeW1a4V582ef7F1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1728727948
+Z4 8mul5bcd.v
+Z5 Fmul5bcd.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1728727953.000000
+Z8 !s107 mul5bcd.v|
+Z9 !s90 -reportprogress|300|mul5bcd.v|
+!i113 1
+Z10 tCvgOpt 0
+vmul5bcd_tb
+R1
+!i10b 1
+!s100 bhSCD4G6mf_aE7QQoeEK70
+I6lH4HMXAUC76g7J55:4zj3
+R2
+R0
+R3
+R4
+R5
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
