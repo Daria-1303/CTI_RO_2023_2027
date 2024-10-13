@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92CD2CB1-710D-4D29-A154-AEF3195A9BF7}|Laborator_01\\Laborator_01.vcxproj|C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\Laborator_01\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92CD2CB1-710D-4D29-A154-AEF3195A9BF7}|Laborator_01\\Laborator_01.vcxproj|solutionrelative:Laborator_01\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92CD2CB1-710D-4D29-A154-AEF3195A9BF7}|Laborator_01\\Laborator_01.vcxproj|C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\Laborator_01\\date.in||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{92CD2CB1-710D-4D29-A154-AEF3195A9BF7}|Laborator_01\\Laborator_01.vcxproj|solutionrelative:Laborator_01\\date.in||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "date.in",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\Laborator_01\\date.in",
+              "RelativeDocumentMoniker": "Laborator_01\\date.in",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\Laborator_01\\date.in",
+              "RelativeToolTip": "Laborator_01\\date.in",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-30T16:15:33.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\Laborator_01\\main.c",
+              "RelativeDocumentMoniker": "Laborator_01\\main.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitLab\\sda_1_2_ciobanu_daria\\Laborator_01\\Laborator_01\\main.c",
+              "RelativeToolTip": "Laborator_01\\main.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-30T16:05:30.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

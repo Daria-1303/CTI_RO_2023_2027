@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\daria\Documents\GitLab\sda_1_2_ciobanu_daria\Laborator_01\Laborator_01\main.c(17,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitLab\sda_1_2_ciobanu_daria\Laborator_01\Laborator_01\main.c(23,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitLab\sda_1_2_ciobanu_daria\Laborator_01\Laborator_01\main.c(32,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Laborator_01.vcxproj -> C:\Users\daria\Documents\GitLab\sda_1_2_ciobanu_daria\Laborator_01\x64\Debug\Laborator_01.exe
