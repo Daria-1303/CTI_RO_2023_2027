@@ -1,0 +1,93 @@
+# Current time Mon Oct 14 08:21:11 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca685a: '<unknown (@0xca685a)>'
+# 1    0x00ca4d21: '<unknown (@0xca4d21)>'
+# 2    0x005f35de: '<unknown (@0x5f35de)>'
+# 3    0x0113aafb: '<unknown (@0x113aafb)>'
+# 4    0x00ca296d: '<unknown (@0xca296d)>'
+# 5    0x005ff7f0: '<unknown (@0x5ff7f0)>'
+# 6    0x005ff9d8: '<unknown (@0x5ff9d8)>'
+# 7    0x005ffa54: '<unknown (@0x5ffa54)>'
+# 8    0x005f925f: '<unknown (@0x5f925f)>'
+# 9    0x005f91c5: '<unknown (@0x5f91c5)>'
+# 10   0x0082766a: '<unknown (@0x82766a)>'
+# 11   0x0092547d: '<unknown (@0x92547d)>'
+# 12   0x77bb0a9f: 'LdrSetDllManifestProber + 0x11f' in 'c:\windows\system32\ntdll.dll'
+# 13   0x77bad067: 'RtlUnwind + 0x1c7' in 'c:\windows\system32\ntdll.dll'
+# 14   0x77bb9206: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 15   0x00ca4d21: '<unknown (@0xca4d21)>'
+# 16   0x00520949: '<unknown (@0x520949)>'
+# 17   0xfef904d4: 'div3.v:13'
+# 18   0x00ca2804: '<unknown (@0xca2804)>'
+# 19   0x00507969: '<unknown (@0x507969)>'
+# End of Stack Trace
+
+
+# Current time Mon Oct 14 08:22:44 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca685a: '<unknown (@0xca685a)>'
+# 1    0x00ca4d21: '<unknown (@0xca4d21)>'
+# 2    0x005f35de: '<unknown (@0x5f35de)>'
+# 3    0x0113aafb: '<unknown (@0x113aafb)>'
+# 4    0x00ca296d: '<unknown (@0xca296d)>'
+# 5    0x005ff7f0: '<unknown (@0x5ff7f0)>'
+# 6    0x005ff9d8: '<unknown (@0x5ff9d8)>'
+# 7    0x005ffa54: '<unknown (@0x5ffa54)>'
+# 8    0x005f925f: '<unknown (@0x5f925f)>'
+# 9    0x005f91c5: '<unknown (@0x5f91c5)>'
+# 10   0x0082766a: '<unknown (@0x82766a)>'
+# 11   0x0092547d: '<unknown (@0x92547d)>'
+# 12   0x77bb0a9f: 'LdrSetDllManifestProber + 0x11f' in 'c:\windows\system32\ntdll.dll'
+# 13   0x77bad067: 'RtlUnwind + 0x1c7' in 'c:\windows\system32\ntdll.dll'
+# 14   0x77bb9206: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 15   0x00ca4d21: '<unknown (@0xca4d21)>'
+# 16   0x00520949: '<unknown (@0x520949)>'
+# 17   0xfef90448: 'div3.v:15'
+# 18   0x00ca2804: '<unknown (@0xca2804)>'
+# 19   0x00507969: '<unknown (@0x507969)>'
+# End of Stack Trace
+
+
+# Current time Mon Oct 14 08:41:47 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "10.5b"
+# Version = "2016.10"
+# Date = "Oct  5 2016"
+# Platform = win32pe
+# Signature = a4da31216fa3031746f0a74423efc007
+# 0    0x00ca685a: '<unknown (@0xca685a)>'
+# 1    0x00ca4d21: '<unknown (@0xca4d21)>'
+# 2    0x005f35de: '<unknown (@0x5f35de)>'
+# 3    0x0113aafb: '<unknown (@0x113aafb)>'
+# 4    0x00ca296d: '<unknown (@0xca296d)>'
+# 5    0x005ff7f0: '<unknown (@0x5ff7f0)>'
+# 6    0x005ff9d8: '<unknown (@0x5ff9d8)>'
+# 7    0x005ffa54: '<unknown (@0x5ffa54)>'
+# 8    0x005f925f: '<unknown (@0x5f925f)>'
+# 9    0x005f91c5: '<unknown (@0x5f91c5)>'
+# 10   0x0082766a: '<unknown (@0x82766a)>'
+# 11   0x0092547d: '<unknown (@0x92547d)>'
+# 12   0x77bb0a9f: 'LdrSetDllManifestProber + 0x11f' in 'c:\windows\system32\ntdll.dll'
+# 13   0x77bad067: 'RtlUnwind + 0x1c7' in 'c:\windows\system32\ntdll.dll'
+# 14   0x77bb9206: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 15   0x00ca4d21: '<unknown (@0xca4d21)>'
+# 16   0x00520949: '<unknown (@0x520949)>'
+# 17   0xfef90448: 'div3.v:15'
+# 18   0x00ca2804: '<unknown (@0xca2804)>'
+# 19   0x00507969: '<unknown (@0x507969)>'
+# End of Stack Trace
+
+

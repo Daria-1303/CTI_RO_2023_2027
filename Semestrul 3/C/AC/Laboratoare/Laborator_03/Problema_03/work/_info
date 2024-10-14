@@ -9,42 +9,42 @@ z2
 cModel Technology
 Z0 dC:/Users/daria/Documents/GitHub/Mostenire_CTI_RO_2023_2027/Semestrul 3/C/AC/Laboratoare/Laborator_03/Problema_03
 vcnt1s
-Z1 !s110 1728726157
+!s110 1728884634
 !i10b 1
 !s100 zLGm[i4GM:1Q;a;kZdFHA0
 I^Sl<k]KcU>n?MEzPmYbca1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1728726156
-Z4 8cnt1s.v
-Z5 Fcnt1s.v
+Z2 w1728726156
+Z3 8cnt1s.v
+Z4 Fcnt1s.v
 L0 1
-Z6 OV;L;10.5b;63
+Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1728726157.000000
-Z8 !s107 cnt1s.v|
-Z9 !s90 -reportprogress|300|cnt1s.v|
+Z6 !s108 1728884634.000000
+Z7 !s107 cnt1s.v|
+Z8 !s90 -reportprogress|300|cnt1s.v|
 !i113 1
-Z10 tCvgOpt 0
+Z9 tCvgOpt 0
 vcnt1s_tb
-R1
+!s110 1728884635
 !i10b 1
 !s100 NP5fmkVJPMSk0:?4M3B6e2
 I[LC[hHPaGFEo`88emBigE3
-R2
+R1
 R0
+R2
 R3
 R4
-R5
 L0 23
-R6
+R5
 r1
 !s85 0
 31
+R6
 R7
 R8
-R9
 !i113 1
-R10
+R9

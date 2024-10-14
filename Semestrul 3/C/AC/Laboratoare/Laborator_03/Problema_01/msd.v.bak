@@ -5,11 +5,11 @@ module msd (
   
 always @(*) begin
 	if(i >= 20)
-		o = 2;
+		o <= 2;
 	else if(i >= 10)
-		o = 1;
+		o <= 1;
 	else
-		o = i;
+		o <= i;
 end
 
 endmodule

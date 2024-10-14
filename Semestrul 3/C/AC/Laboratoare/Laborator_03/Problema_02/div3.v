@@ -1,23 +1,23 @@
 module div3 (
   input [3:0] i,
-  output reg [2:0] o // Ie?irea trebuie s? fie reg pentru a fi atribuit? într-un bloc always
+  output [2:0] o 
 );
 
-reg [3:0] temp;   // Variabil? temporar? pentru stocarea valorii lui i
-reg [2:0] count;  // Contor pentru cât
+reg [3:0] temp;   
+reg [2:0] count;  
 
 always @(*) begin
     temp = i;     
     count = 0;     
 
-    while (temp >= 3) begin
+    if (temp >= 3) begin
         temp = temp - 3;      
         count = count + 1;    
     end
     
-    o = count;  
+          
 end
-
+	assign o = count; 
 endmodule
 
 
