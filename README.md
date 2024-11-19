@@ -12,7 +12,7 @@
 - https://github.com/Daria-1303/Teoria-Sistemelor--TS-
 
 ## Structuri de date si algoritmi
--https://github.com/Daria-1303/Structuri-de-date-si-algoritmi-SDA-
+- https://github.com/Daria-1303/Structuri-de-date-si-algoritmi-SDA-
 
 ## Programare orientata pe obiecte
 - https://github.com/Daria-1303/POO
