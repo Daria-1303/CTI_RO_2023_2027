@@ -17,6 +17,9 @@
 ## Programare orientata pe obiecte
 - https://github.com/Daria-1303/POO
 
+## Retele de calculatoare
+- https://github.com/Daria-1303/Retele-de-Calculatoare-RC
+
 ## Highlights 
 -cursuri simplificate 
 
