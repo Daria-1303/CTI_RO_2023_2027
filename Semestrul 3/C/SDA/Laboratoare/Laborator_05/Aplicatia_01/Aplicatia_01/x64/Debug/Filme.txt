@@ -1,0 +1,1585 @@
+An	Durata	Titlu	Categorie	Premii
+1972	15	My Country Right or Wrong	War	Nu
+1942	18	Battle of Midway, The	War	Nu
+1970	26	Bloopers from Star Trek	Comedy	Nu
+1956	27	Case of the Mukkinese Battle Horn, The	Comedy	Nu
+1991	28	Kids & Pesticides	Drama	Nu
+1993	30	Alfred Hitchcock Presents, Sorcerer's Apprentice	Mystery	Nu
+1954	30	Bank on the Stars	Drama	Nu
+1989	30	Matt Talbot	Drama	Nu
+1954	40	Inauguration of the Pleasure Dome	Short	Nu
+1991	40	National Enquirer, The Untold Story	Music	Nu
+1990	45	This Is Horror	Horror	Nu
+1986	49	Jay Leno: The American Dream	Comedy	Nu
+1983	50	Father Murphy, A Horse from Heaven	Comedy	Nu
+1987	50	Madonna Live, The Virgin Tour	Music	Nu
+1990	50	Industrial Symphony, The Dream of the Broken-Hearted	Music	Nu
+1964	51	Outer Limits, The	Science Fiction	Nu
+1992	52	Persuaders, The Overture, The	Mystery	Nu
+1986	52	Howie Mandel's North American Watusi Tour	Comedy	Nu
+1991	52	Lawless Frontier, The	Western	Nu
+1991	52	Riders of Destiny	Western	Nu
+1993	53	Big Bands, The	Music	Nu
+1992	53	Gotta Dance, Gotta Sing	Music	Nu
+1947	53	Law of the Lash	Western	Nu
+1992	53	Return of the Lash	Action	Nu
+1991	53	Randy Rides Alone	Western	Nu
+1935	54	Desert Trail, The	Western	Nu
+1992	54	Border Feud	Action	Nu
+1934	54	Hell Town	Western	Nu
+1934	54	Lucky Texan	Western	Nu
+1991	54	Neath the Arizona Skies	Western	Nu
+1985	55	Gonzo Presents Muppet Weird Stuff	Comedy	Nu
+1985	55	Rowlf's Rhapsodies with the Muppets	Comedy	Nu
+1989	55	Will Rogers, Look Back in Laughter	Comedy	Nu
+1938	55	Overland Stage Raiders	Western	Nu
+1938	55	Pals of the Saddle	Western	Nu
+1939	55	Frontier Horizon	Western	Nu
+1990	56	Best of Candid Camera, The	Comedy	Nu
+1947	56	Hawk of Powder River	Western	Nu
+1941	56	Man from Montana	Western	Nu
+1940	56	Riders of Pasco Basin	Western	Nu
+1985	56	Fozzie's Muppet Scrapbook	Comedy	Nu
+1947	56	West to Glory	Western	Nu
+1992	56	Dawn Rider, The	Western	Nu
+1991	56	King of the Pecos	Western	Nu
+1991	56	Lawless Nineties, The	Western	Nu
+1923	57	Desert Rider	Western	Nu
+1941	57	Bury Me Not on the Lone Prairie	Western	Nu
+1940	57	Law & Order	Western	Nu
+1955	57	Jack Benny Show	Comedy	Nu
+1949	58	Crashing Thru	Western	Nu
+1947	58	Fighting Vigilantes, The	Western	Nu
+1986	58	Monty Python's Flying Circus, Vol 3.	Comedy	Nu
+1993	58	Range Feud	Western	Nu
+1937	59	Swing It Sailor!	Comedy	Nu
+1949	59	Law of the Golden West	Western	Nu
+1948	59	Bandits of Dark Canyon	Western	Nu
+1948	59	Wild Frontier, The	Western	Nu
+1990	59	Erasure, Live Wild!	Music	Nu
+1949	59	Shadows of the West	Western	Nu
+1986	59	Monty Python's Flying Circus, Vol 2.	Comedy	Nu
+1992	59	Lawless Frontier	Western	Nu
+1983	60	Best of the Big Laff Off, The	Comedy	Nu
+1993	60	Bill Cosby, Live at Harrah's	Comedy	Nu
+1992	60	America's Music, Gospel	Music	Nu
+1989	60	Minsky's Follies	Comedy	Nu
+1927	60	Easy Virtue	Mystery	Nu
+1991	60	Boxing Babes	Action	Nu
+1992	60	A Certain Sacrifice	Music	Nu
+1990	60	Immaculate Collection, The	Music	Nu
+1987	60	Encounters	Drama	Nu
+1991	60	America's Music, Blues	Music	Nu
+1943	60	Lone Star Trail, The	Western	Nu
+1991	60	Super Duper Bloopers	Comedy	Nu
+1988	60	Daphnis & Chloe	Music	Nu
+1955	60	Meet Millie	Drama	Nu
+1949	60	Pioneer Marshal	Western	Nu
+1949	60	Ranger of the Cherokee Strip	Western	Nu
+1950	60	Vanishing Westerner	Western	Nu
+1948	60	Bold Frontiersman, The	Western	Nu
+1935	60	Mysterious Mr. Wong	Mystery	Nu
+1991	60	Burning Poles, Cecil Taylor in Performance	Music	Nu
+1991	60	Garrison Keillor's Home	Comedy	Nu
+1937	60	Throwback, The	Western	Nu
+1937	60	Mystery of the Hooded Horsemen	Western	Nu
+1937	60	Tex Rides with the Boy Scouts	Western	Nu
+1986	60	Monty Python's Flying Circus	Comedy	Nu
+1986	60	Monty Python's Flying Circus, Vol 1.	Comedy	Nu
+1992	60	Hollywood Mavericks	Comedy	Nu
+1990	60	Live at Harrah's	Comedy	Nu
+1959	60	Rawhide, Premiere Episode	Western	Nu
+1959	60	Maverick, Duel at Sundown	Western	Nu
+1986	60	Steve Martin Live!	Comedy	Nu
+1974	60	Steve Martin, The Funnier Side of Eastern Canada	Comedy	Nu
+1987	60	Joe Piscopo New Jersey Special	Comedy	Nu
+1991	60	Joe Piscopo Video, The	Comedy	Nu
+1957	60	Cheyenne, The Iron Trail	Western	Nu
+1992	61	Ladies of the Chorus	Music	Nu
+1937	61	Swing It, Sailor!	Comedy	Nu
+1947	61	Check Your Guns	Western	Nu
+1989	61	Exile in Concert	Music	Nu
+1927	62	Drop Kick, The	Drama	Nu
+1935	64	One Frightened Night	Horror	Nu
+1943	64	Ape Man, The	Horror	Nu
+1993	65	John Cleese on How to Irritate People	Comedy	Nu
+1932	65	Freaks	Horror	Nu
+1988	65	Face at the Window, The	Horror	Nu
+1991	65	Robin Williams	Comedy	Nu
+1926	66	Lodger (Story of the London Fog)	Mystery	Nu
+1961	66	Tonight for Sure	Comedy	Nu
+1932	66	Number Seventeen	Crime	Nu
+1949	66	Outlaw Country	Western	Nu
+1955	67	Killer's Kiss	Mystery	Nu
+1931	68	Ambassador Bill	Comedy	Nu
+1929	68	Racketeer	Drama	Nu
+1945	69	Woman Who Came Back	Drama	Nu
+1983	69	Eddie Murphy, Delirious	Comedy	Nu
+1936	70	Doughnuts & Society	Comedy	Nu
+1986	71	Paramount Comedy Theater: Well-Developed	Comedy	Nu
+1972	71	Big Bust Out, The	Action	Nu
+1932	71	As You Desire Me	Drama	Nu
+1937	71	Ticket of Leave Man, The	Mystery	Nu
+1983	72	After the Rehearsal	Drama	Nu
+1933	72	Baby Face	Drama	Nu
+1992	72	American Film Institute, Alfred Hitchcock	Mystery	Nu
+1968	73	Firemen's Ball, The	Comedy	Nu
+1987	73	J-Men Forever	Action	Nu
+1957	73	Time Lock	Drama	Nu
+1938	74	Dollar	Drama	Nu
+1971	74	People, The	Drama	Nu
+1931	74	Inspiration	Drama	Nu
+1929	74	Single Standard, The	Drama	Nu
+1989	74	B. A. D. Cats	Action	Nu
+1935	75	Count of Old Town, The	Comedy	Nu
+1941	75	Walpurgis Night	Drama	Nu
+1993	75	Employee's Entrance	Drama	Nu
+1988	75	Let It Rock	Drama	Nu
+1953	75	Goon Show Movie, The	Comedy	Nu
+1977	75	Comedy Tonight	Comedy	Nu
+1988	76	Daffy Duck's Quackbusters	Action	Nu
+1930	76	Romance	Drama	Nu
+1991	76	Slumber Party Massacre III	Horror	Nu
+1993	76	Return Engagement	Drama	Nu
+1966	76	Flight to Fury	Action	Nu
+1958	77	That Naughty Girl	Comedy	Nu
+1936	77	Sabotage	Mystery	Nu
+1984	77	Secret Policeman's Private Parts, The	Comedy	Nu
+1972	78	Say Goodbye Maggie Cole	Drama	Nu
+1927	78	My Best Girl	Drama	Nu
+1949	78	Devil's Wanton, The	Drama	Nu
+1988	78	Hot Money	Drama	Nu
+1992	79	Blame It on the Bellboy	Comedy	Nu
+1953	79	Wild One, The	Drama	Nu
+1953	79	Appointment in Honduras	Drama	Nu
+1989	80	Skull	Drama	Nu
+1934	80	Judge Priest	Drama	Nu
+1969	80	Rebel Rousers	Action	Nu
+1991	80	Going Under	Comedy	Nu
+1963	80	Winter Light	Drama	Nu
+1939	80	Allegheny Uprising	Drama	Nu
+1937	80	Young & Innocent	Mystery	Nu
+1991	80	Hollywood's Greatest War Movies	War	Nu
+1954	81	Fear	Drama	Nu
+1948	81	Rope	Drama	Nu
+1940	81	Lady in Question	Drama	Nu
+1989	81	Deep Cover	Mystery	Nu
+1967	81	Glory Stompers, The	Action	Nu
+1988	81	Another Woman	Drama	Nu
+1988	81	Smallest Show on Earth, The	Comedy	Nu
+1966	81	Persona	Drama	Da
+1963	81	Terror, The	Horror	Nu
+1982	81	Monty Python Live at the Hollywood Bowl	Comedy	Nu
+1957	82	Brink of Life	Drama	Nu
+1983	82	Final Terror, The	Horror	Nu
+1975	82	Love & Death	Comedy	Nu
+1986	82	Whoopee Boys, The	Comedy	Nu
+1974	82	Catamount Killing, The	Action	Nu
+1966	82	Ride in the Whirlwind	Western	Nu
+1985	82	Angelic Conversation, The	Comedy	Nu
+1945	82	Dakota	Western	Nu
+1943	82	Sanshiro Sugata	Drama	Nu
+1988	83	Nadine	Comedy	Nu
+1953	83	Voyage in Italy	Drama	Nu
+1940	83	Seven Sinners	Drama	Nu
+1989	83	Stripped to Kill II, Live Girls	Mystery	Nu
+1989	83	Masque of the Red Death	Horror	Nu
+1991	83	Strictly Business	Comedy	Nu
+1988	83	Hot to Trot	Comedy	Nu
+1987	83	Surf Nazis Must Die	Horror	Nu
+1988	83	Control	Drama	Nu
+1990	83	U S. Sub Standard.	Comedy	Nu
+1986	83	Blue City	Action	Nu
+1992	83	Apache Woman	Western	Nu
+1956	83	Killing, The	Drama	Nu
+1958	83	Up the Creek	Comedy	Nu
+1951	83	Rashomon	Drama	Da
+1984	83	Manhunt, The	Action	Nu
+1992	83	Devil's Disciple, The	Mystery	Nu
+1929	84	Blackmail	Mystery	Nu
+1936	84	Secret Agent	Mystery	Nu
+1985	84	Purple Rose of Cairo, The	Comedy	Da
+1931	84	Susan Lennox, Her Fall & Rise	Drama	Nu
+1949	84	Three Strange Loves	Drama	Nu
+1986	84	Stewardess School	Comedy	Nu
+1971	84	Statue, The	Drama	Nu
+1992	84	Dragonfight	Drama	Nu
+1989	84	Police Academy 6: City under Siege	Comedy	Nu
+1986	84	Police Academy 3: Back in Training	Comedy	Nu
+1989	84	Dear America, Letters Home from Vietnam	War	Nu
+1988	84	Night Tide	Drama	Nu
+1991	84	Two-Way Stretch	Comedy	Nu
+1942	85	Wheel of Fortune	Drama	Nu
+1992	85	Double Edge	Drama	Nu
+1984	85	Broadway Danny Rose	Comedy	Nu
+1992	85	Naked Obsession	Mystery	Nu
+1934	85	Painted Veil, The	Drama	Nu
+1987	85	Hot Child in the City	Mystery	Nu
+1979	85	Cocaine Cowboys	Action	Nu
+1939	85	Back Door to Heaven	Drama	Nu
+1988	85	Casablanca Express	Action	Nu
+1941	85	Lady from Louisiana	Drama	Nu
+1991	85	Circuitry Man	Action	Nu
+1967	85	Trip, The	Drama	Nu
+1988	85	Doin' Time on Planet Earth	Comedy	Da
+1990	85	Crash & Burn	Science Fiction	Nu
+1950	85	Men, The	Drama	Nu
+1986	85	Torment	Horror	Nu
+1992	85	Survival Zone	Action	Nu
+1987	85	Operation Nam	War	Nu
+1967	85	Thirty Is a Dangerous Age, Cynthia	Comedy	Nu
+1975	85	Only Way Home, The	Drama	Nu
+1955	86	Dreams	Drama	Nu
+1969	86	Women, The	Drama	Nu
+1992	86	Hurricane Smith	Action	Nu
+1987	86	Fair Game	Action	Nu
+1950	86	Wagon Master	Western	Nu
+1991	86	Blind Man's Bluff	Mystery	Nu
+1989	86	Let It Ride	Comedy	Nu
+1987	86	Straight to Hell	Action	Nu
+1972	86	Play It Again, Sam	Comedy	Nu
+1989	86	Dracula's Widow	Horror	Nu
+1981	86	Polyester	Comedy	Nu
+1980	86	Pepi Luci Bom	Comedy	Nu
+1987	86	House of the Rising Sun	Drama	Nu
+1963	86	Raven, The	Horror	Nu
+1990	86	Wagonmaster	Western	Nu
+1989	86	Cyborg	Action	Nu
+1983	86	Scream	Horror	Nu
+1987	86	Disorderlies	Comedy	Nu
+1973	87	Ms. Don Juan	Drama	Nu
+1939	87	Only One Night	Drama	Nu
+1986	87	Monster in the Closet	Comedy	Nu
+1973	87	Stacey!	Action	Nu
+1989	87	Videodrome	Horror	Nu
+1948	87	Lady from Shanghai	Mystery	Nu
+1988	87	Souvenir	Drama	Nu
+1991	87	Scenes from a Mall	Comedy	Nu
+1986	87	Cobra	Action	Nu
+1987	87	Mistress	Drama	Nu
+1991	87	To Die Standing	Action	Nu
+1990	87	All New Tales from the Crypt, A Trilogy	Horror	Nu
+1972	87	Hannie Caulder	Drama	Nu
+1947	87	Night Is My Future	Drama	Nu
+1936	87	Modern Times	Comedy	Nu
+1931	87	A Nous la Liberte	Drama	Nu
+1975	87	They Came from Within	Horror	Nu
+1991	87	Killer Tomatoes Strike Back	Comedy	Nu
+1979	87	Attack of the Killer Tomatoes	Comedy	Nu
+1955	87	Ladykillers, The	Comedy	Nu
+1991	87	Father's Little Dividend	Comedy	Nu
+1992	87	Law & Jake Wade, The	Drama	Nu
+1989	88	Final Notice	Mystery	Nu
+1942	88	Lady for a Night	Drama	Nu
+1986	88	Running Out of Luck	Comedy	Nu
+1986	88	Seven Minutes in Heaven	Comedy	Nu
+1988	88	Blue Iguana, The	Drama	Nu
+1992	88	Adventures in Dinosaur City	Action	Nu
+1973	88	Sleeper	Comedy	Nu
+1987	88	Arrogant, The	Drama	Nu
+1959	88	Carlton-Browne of the F.O.	Comedy	Nu
+1989	88	Women on the Verge of a Nervous Breakdown	Comedy	Nu
+1992	88	Back in the U.S.S.R.	Action	Nu
+1978	88	Silent Movie	Comedy	Nu
+1991	88	Born to Ride	Action	Nu
+1989	88	Money, The	Drama	Nu
+1990	88	Kissing Place, The	Drama	Nu
+1985	88	Roller Blade	Action	Nu
+1979	88	Treasure Seekers, The	Action	Nu
+1989	88	Center of the Web	Mystery	Nu
+1968	88	Hour of the Wolf	Drama	Nu
+1990	88	Amazon	Action	Nu
+1959	88	Virgin Spring, The	Drama	Da
+1981	88	Going Ape	Comedy	Nu
+1987	88	Hell Comes to Frogtown	Science Fiction	Nu
+1935	88	Thirty-Nine Steps, The	Science Fiction	Nu
+1971	88	And Now for Something Completely Different	Comedy	Nu
+1948	88	Criss Cross	Drama	Nu
+1971	88	Joe Kidd	Western	Nu
+1993	88	Great White Death	Action	Nu
+1991	89	Bloodbath	Horror	Nu
+1974	89	Monty Python & the Holy Grail	Comedy	Nu
+1990	89	Quick Change	Comedy	Nu
+1975	89	Terrorists, The	Action	Nu
+1989	89	Fire & Rain	Action	Nu
+1990	89	Bloodsucking Pharaohs in Pittsburgh	Comedy	Nu
+1979	89	Buffet Froid	Comedy	Nu
+1989	89	After School	Drama	Nu
+1936	89	Libeled Lady	Comedy	Nu
+1991	89	If Looks Could Kill	Action	Nu
+1987	89	Business As Usual	Comedy	Nu
+1988	89	Salome's Last Dance	Comedy	Nu
+1977	89	World's Greatest Lover, The	Comedy	Nu
+1986	89	True Stories	Comedy	Nu
+1992	89	Flame & the Arrow, The	Action	Nu
+1957	89	Paths of Glory	Drama	Nu
+1989	89	Nightmare on Elm Street, Pt. 5, The Dream Child	Horror	Nu
+1948	89	Return of October	Comedy	Nu
+1986	89	Water	Comedy	Nu
+1990	89	A Chorus of Disapproval	Comedy	Nu
+1988	89	Cheerleader Camp	Horror	Nu
+1986	89	Legend	Science Fiction	Nu
+1988	89	Phantom of the Ritz	Horror	Nu
+1974	89	Little Prince, The	Music	Nu
+1991	89	Green Glove	Drama	Nu
+1970	89	Menace on the Mountain	Action	Nu
+1963	89	Crawling Hand, The	Science Fiction	Nu
+1960	90	Devil's Eye, The	Drama	Nu
+1992	90	Germicide	Drama	Nu
+1991	90	Henry, Portrait of a Serial Killer	Horror	Nu
+1988	90	Dr Alien	Science Fiction	Nu
+1959	90	Voulez-Vous Danser Avec Moi?	Comedy	Nu
+1958	90	Bride Is Much Too Beautiful, The	Comedy	Nu
+1955	90	Doctor at Sea	Comedy	Nu
+1957	90	And God Created Woman	Drama	Nu
+1972	90	Scarlet Letter, The	Drama	Nu
+1940	90	June Night	Drama	Nu
+1935	90	Swedenhielms	Drama	Nu
+1990	90	Twenty Four Hours in a Woman's Life	Drama	Nu
+1988	90	Golden Ninja Invasion	Action	Nu
+1989	90	Vampire Raiders, Ninja Queen	Action	Nu
+1989	90	Never on Tuesday	Drama	Nu
+1989	90	Puppet Master	Science Fiction	Nu
+1980	90	Fifth Floor, The	Mystery	Nu
+1992	90	Beauty & the Beast	Science Fiction	Nu
+1967	90	Elvira Madigan	Drama	Nu
+1985	90	Fantasy Man	Comedy	Nu
+1992	90	Diary of a Hitman	Drama	Nu
+1928	90	Woman of Affairs	Drama	Nu
+1984	90	Johnny Dangerously	Comedy	Nu
+1986	90	Knights & Emeralds	Drama	Nu
+1986	90	Running Mates	Drama	Nu
+1989	90	New Year's Day	Comedy	Nu
+1983	90	Blame It on Rio	Comedy	Nu
+1987	90	Superman IV: The Quest for Peace	Action	Nu
+1970	90	Quackser Fortune Has a Cousin in the Bronx	Comedy	Nu
+1987	90	Dragonard	Drama	Nu
+1986	90	Hard Choices	Drama	Nu
+1987	90	Ninja Masters of Death	Action	Nu
+1974	90	Second Coming of Suzanne., The	Drama	Nu
+1988	90	Big Top Pee-wee	Comedy	Nu
+1968	90	Producers, The	Comedy	Nu
+1990	90	Red Sonja	Action	Nu
+1952	90	Big Jim McLain	Western	Nu
+1988	90	Going for the Gold	Action	Nu
+1988	90	Naked Gun: From the Files of Police Squad!, THe	Comedy	Nu
+1988	90	Police Academy 5: Assignment Miami Beach	Comedy	Nu
+1984	90	Ransom	Drama	Nu
+1987	90	PK. & the Kid.	Drama	Nu
+1976	90	Black & White in Color	Comedy	Da
+1971	90	Garden of the Finzi-Continis, The	Drama	Da
+1991	90	Basil The Rat	Comedy	Nu
+1979	90	Fawlty Towers, Gourmet Night, Waldorf Salad & The Kipper & the Corpse	Comedy	Nu
+1986	90	Head Office	Comedy	Nu
+1976	90	Rocky	Drama	Da
+1986	90	French Lesson	Comedy	Nu
+1943	90	Lassie Come Home	Drama	Nu
+1983	90	Man with Two Brains, The	Comedy	Nu
+1988	90	Cannibal Women in the Avocado Jungle of Death	Comedy	Nu
+1975	90	Wild Party, The	Drama	Nu
+1989	90	Savage Intruder, The	Horror	Nu
+1970	90	Bloody Mama	Action	Nu
+1977	90	Tentacles	Horror	Nu
+1949	90	Lust for Gold	Drama	Nu
+1983	90	Le Dernier Combat	Drama	Nu
+1984	90	Inside Man, The	Action	Nu
+1989	90	American Autobahn	Drama	Nu
+1990	90	Big Bad John	Action	Nu
+1987	90	Empire of Spiritual Ninja	Action	Nu
+1986	90	Ninja, the Violent Sorcerer	Action	Nu
+1954	90	Human Desire	Drama	Nu
+1978	90	Eraserhead	Horror	Nu
+1940	90	In Old California	Western	Nu
+1987	90	Eddie Murphy Raw	Comedy	Nu
+1987	90	Good Father, The	Drama	Nu
+1988	90	Dark Age	Action	Nu
+1993	90	Duel	Mystery	Nu
+1989	90	Van, The	Comedy	Nu
+1989	90	Branford Marsalis, Steep	Music	Nu
+1989	90	Beartooth	Action	Nu
+1979	90	James Taylor in Concert	Music	Nu
+1957	91	Wild Strawberries	Drama	Da
+1962	91	Through a Glass Darkly	Drama	Da
+1972	91	Cries & Whispers	Drama	Da
+1959	91	Killers of Kilimanjaro	Action	Nu
+1937	91	Intermezzo	Drama	Nu
+1987	91	Programmed to Kill	Action	Nu
+1991	91	Raw Nerve	Mystery	Nu
+1987	91	Firehouse	Comedy	Nu
+1987	91	Quick & The Dead, The	Western	Nu
+1977	91	Rabid	Horror	Nu
+1989	91	Penn & Teller Get Killed	Comedy	Nu
+1980	91	It's My Turn	Comedy	Nu
+1962	91	Road to Hong Kong	Comedy	Nu
+1945	91	Flame of Barbary Coast	Western	Nu
+1931	91	Mata Hari	Drama	Nu
+1975	91	Adventures of Sherlock Holmes' Smarter	Comedy	Nu
+1983	91	Outsiders, The	Drama	Nu
+1977	91	Angela	Drama	Nu
+1981	91	So Fine	Comedy	Nu
+1988	91	In a Shallow Grave	Drama	Nu
+1970	91	Man Who Haunted Himself, The	Drama	Nu
+1987	91	Young Love: Lemon Popsicle Seven	Comedy	Nu
+1988	91	Track Twenty-Nine	Drama	Nu
+1987	91	Big Shots	Action	Nu
+1983	91	All the Right Moves	Drama	Nu
+1986	91	Mr Love.	Comedy	Nu
+1970	91	Start the Revolution Without Me	Comedy	Nu
+1989	91	Young Einstein	Comedy	Nu
+1954	91	Apache	Western	Nu
+1989	91	Too Beautiful for You	Drama	Nu
+1986	91	Wise Guys	Comedy	Nu
+1987	91	Penitentiary III	Action	Nu
+1973	91	Executive Action	Drama	Nu
+1986	91	La Chevre, (The Goat)	Drama	Nu
+1983	91	Strange Brew	Comedy	Nu
+1953	91	Mummy's Revenge, The	Horror	Nu
+1991	91	Out for Justice	Action	Nu
+1960	91	Never Let Go	Action	Nu
+1932	92	Rich & Strange	Drama	Nu
+1982	92	Fast Times at Ridgemont High	Comedy	Nu
+1993	92	Naked Truth, The	Comedy	Nu
+1979	92	Brood, The	Horror	Nu
+1972	92	Napoleon & Samantha	Comedy	Nu
+1987	92	Back to the Beach	Comedy	Nu
+1930	92	Anna Christie	Drama	Nu
+1953	92	Two Nights with Cleo	Drama	Nu
+1955	92	Il Bidone	Drama	Nu
+1990	92	After the Shock	Drama	Nu
+1982	92	48 Hrs.	Action	Nu
+1980	92	Rodeo Girl	Drama	Nu
+1980	92	Final Countdown, The	Action	Nu
+1988	92	Permanent Record	Drama	Nu
+1972	92	Fuzz	Action	Nu
+1990	92	Sun Shines Bright, The	Action	Nu
+1990	92	Witches, The	Science Fiction	Nu
+1988	92	Bloodsport	Action	Nu
+1953	92	His Majesty O'Keefe	Action	Nu
+1976	92	Street People	Action	Nu
+1984	92	Crackers	Action	Nu
+1982	92	An Evening with Robin Williams	Comedy	Nu
+1988	92	A Month in the Country	Drama	Nu
+1988	92	Judgement in Berlin	Drama	Nu
+1985	92	What Comes Around	Drama	Nu
+1972	92	Culpepper Cattle Company, The	Western	Nu
+1982	92	Alone in the Dark	Horror	Nu
+1992	92	Dead Pool, The	Action	Nu
+1990	92	Primal Rage	Mystery	Nu
+1958	92	Tom Thumb	Science Fiction	Nu
+1991	92	Spencer Tracy Legacy, The	Comedy	Nu
+1946	93	Crisis	Drama	Nu
+1988	93	Lair of the White Worm, The	Horror	Nu
+1990	93	Court-Martial of Jackie Robinson, The	Drama	Nu
+1949	93	She Wore a Yellow Ribbon	Western	Nu
+1987	93	Hot Pursuit	Drama	Nu
+1984	93	Reckless	Drama	Nu
+1983	93	Tender Mercies	Drama	Da
+1987	93	Bodycount	Action	Nu
+1990	93	A Show of Force	Drama	Nu
+1989	93	Streets of Fire	Action	Nu
+1986	93	Golden Child, The	Comedy	Nu
+1950	93	To Joy	Drama	Nu
+1946	93	Crack-Up	Mystery	Nu
+1989	93	Seizure	Horror	Nu
+1990	93	Web of Deceit	Drama	Nu
+1987	93	Planes, Trains & Automobiles	Comedy	Nu
+1988	93	Diamond Trap, The	Drama	Nu
+1963	93	Lilies of the Field	Drama	Da
+1986	93	Ruthless People	Comedy	Nu
+1987	93	Some Kind of Wonderful	Drama	Nu
+1989	93	Cookie	Comedy	Nu
+1975	93	That Lucky Touch	Action	Nu
+1970	93	Powderkeg	Western	Nu
+1982	93	Class of 1984	Drama	Nu
+1973	93	Santee	Western	Nu
+1952	93	Othello, The Lost Masterpiece	Drama	Nu
+1980	93	Cry of the Innocent	Drama	Nu
+1978	94	Days of Heaven	Drama	Nu
+1970	94	Think Dirty	Comedy	Nu
+1969	94	Easy Rider	Drama	Nu
+1982	94	Eyes of the Amaryllis, The	Drama	Nu
+1984	94	Best Defense	Comedy	Nu
+1990	94	Snow Kill	Drama	Nu
+1981	94	Looker	Science Fiction	Nu
+1987	94	Kandyland	Drama	Nu
+1987	94	Campus Man	Drama	Nu
+1990	94	Rain Killer, The	Mystery	Nu
+1970	94	There's a Girl in My Soup	Comedy	Nu
+1987	94	Rita, Sue & Bob Too	Comedy	Nu
+1987	94	Raising Arizona	Comedy	Nu
+1977	94	Annie Hall	Comedy	Da
+1953	94	Ugetsu Monogatari	Drama	Nu
+1983	94	Rumble Fish	Drama	Nu
+1990	94	Priceless Beauty	Science Fiction	Nu
+1991	94	Shock 'em Dead	Horror	Nu
+1986	94	RAD	Action	Nu
+1980	94	Out of the Blue	Drama	Nu
+1991	94	Nothing But Trouble	Comedy	Nu
+1986	94	One Crazy Summer	Comedy	Nu
+1976	94	Front, The	Drama	Nu
+1939	94	Jamaica Inn	Drama	Nu
+1986	94	A Smoky Mountain Christmas	Music	Nu
+1979	94	Jerk, The	Comedy	Nu
+1988	94	Her Alibi	Comedy	Nu
+1988	94	Experts, The	Comedy	Nu
+1989	94	Naked Lie	Drama	Nu
+1985	94	Rumor Mill, The	Drama	Nu
+1941	94	Texas	Western	Nu
+1985	94	My Science Project	Comedy	Nu
+1953	94	Vera Cruz	Action	Nu
+1987	94	Wolf at the Door, The	Drama	Nu
+1990	94	Bellboy & the Playgirls, The	Drama	Nu
+1990	94	Final Alliance, The	Action	Nu
+1975	94	Posse	Western	Nu
+1979	94	Monty Python's Life of Brian	Comedy	Nu
+1945	94	Blood on the Sun	Drama	Nu
+1981	94	Deadline	Mystery	Nu
+1989	94	Wrong Arm of the Law, The	Comedy	Nu
+1955	95	Naked Night, The	Drama	Nu
+1992	95	Alan & Naomi	Drama	Nu
+1987	95	Blind Date	Comedy	Nu
+1984	95	Samson & Delilah	Drama	Nu
+1991	95	Night Gallery	Horror	Nu
+1989	95	Rape of the Sabines, The	Action	Nu
+1986	95	Between Two Women	Drama	Nu
+1988	95	Gor	Action	Nu
+1987	95	Surrender	Comedy	Nu
+1983	95	Valley Girl	Comedy	Nu
+1966	95	Masculine Feminine	Drama	Nu
+1931	95	Arrowsmith	Drama	Nu
+1985	95	Stark	Mystery	Nu
+1952	95	Pat & Mike	Comedy	Nu
+1992	95	Juice	Drama	Nu
+1987	95	Allnighter, The	Comedy	Nu
+1987	95	Bullseye!	Comedy	Nu
+1987	95	Under Cover	Mystery	Nu
+1987	95	Kitchen Toto, THe	Drama	Nu
+1941	95	Mr. & Mrs. Smith	Comedy	Nu
+1988	95	Gator Bait II	Action	Nu
+1992	95	Riff Raff	Comedy	Nu
+1953	95	How to Marry a Millionaire	Comedy	Nu
+1993	95	Honeymoon in Vegas	Comedy	Nu
+1984	95	Getting Physical	Drama	Nu
+1990	95	Torn Apart	Drama	Nu
+1990	95	Dangerous Pursuit	Mystery	Nu
+1924	95	Kriemhild's Revenge, The Nibelungenlied	Drama	Nu
+1992	95	Until They Sail	Drama	Nu
+1992	95	Violent Men, The	Action	Nu
+1991	95	Dogfight	Action	Nu
+1963	95	Silence, The	Drama	Nu
+1940	95	Dark Command	Western	Nu
+1985	95	Teen Wolf	Drama	Nu
+1966	95	A Big Hand for the Little Lady	Comedy	Nu
+1979	95	Scum	Action	Nu
+1953	95	I Confess	Drama	Nu
+1930	95	Murder	Mystery	Nu
+1976	95	Creature from Black Lake	Horror	Nu
+1991	95	Fury	Drama	Nu
+1985	95	Code Name, Emerald	Drama	Nu
+1987	95	Hearts of Fire	Drama	Nu
+1975	95	Great McGonagall, The	Comedy	Nu
+1956	96	Seventh Seal, The	Drama	Nu
+1996	96	Island of Dr. Moreau, The	Horror	Nu
+1988	96	Split Decisions	Drama	Nu
+1988	96	Nightmare at Noon	Action	Nu
+1971	96	Carnal Knowledge	Drama	Nu
+1958	96	Torpedo Run	War	Nu
+1991	96	Hearts of Darkness, A Filmmaker's Apocalypse	Drama	Nu
+1954	96	A Lesson in Love	Comedy	Nu
+1939	96	Old Maid, The	Drama	Nu
+1986	96	Fly, The	Horror	Nu
+1985	96	Marbella	Action	Nu
+1981	96	Cannonball Run, The	Comedy	Nu
+1944	96	Jane Eyre	Drama	Nu
+1935	96	Anna Karenina	Drama	Da
+1928	96	Mysterious Lady, The	Drama	Nu
+1987	96	Nights in White Satin	Drama	Nu
+1991	96	Intimate Stranger	Mystery	Nu
+1979	96	Manhattan	Comedy	Da
+1989	96	Dead Calm	Mystery	Nu
+1984	96	Unfaithfully Yours	Comedy	Nu
+1938	96	Lady Vanishes	Mystery	Nu
+1988	96	Glitz	Mystery	Nu
+1986	96	Pretty in Pink	Drama	Nu
+1992	96	Shooting Elizabeth	Mystery	Nu
+1947	96	Angel & the Badman	Western	Nu
+1985	96	Out of the Darkness	Mystery	Nu
+1992	96	Defense of the Realm	Drama	Nu
+1986	96	Clockwise	Comedy	Nu
+1984	96	Dangerous Moves	Drama	Da
+1988	96	Baja Oklahoma	Comedy	Nu
+1984	96	Soggy Bottom U. S. A.	Comedy	Nu
+1973	96	Bang the Drum Slowly	Drama	Nu
+1953	96	Dangerous When Wet	Music	Nu
+1992	96	A Day in October	Drama	Nu
+1990	96	Chattahoochee	Drama	Nu
+1962	96	Sanjuro	Mystery	Nu
+1984	96	Roadhouse Sixty-Six	Action	Nu
+1990	96	My Blue Heaven	Comedy	Nu
+1938	96	Boys Town	Drama	Da
+1988	96	Salsa: The Motion Picture	Drama	Nu
+1990	97	Zandalee	Drama	Nu
+1992	97	Hunting	Mystery	Nu
+1985	97	After Hours	Comedy	Nu
+1987	97	Siesta	Drama	Nu
+1978	97	Autumn Sonata	Drama	Da
+1989	97	National Lampoon's Christmas Vacation	Comedy	Nu
+1990	97	Novice, The	Comedy	Nu
+1946	97	My Darling Clementine	Western	Nu
+1987	97	Barfly	Drama	Nu
+1992	97	Killer Image.	Mystery	Nu
+1965	97	Cat Ballou	Comedy	Da
+1933	97	Queen Christina	Drama	Nu
+1988	97	Crossing Delancey	Comedy	Nu
+1983	97	Yellowbeard	Comedy	Nu
+1983	97	Breathless	Action	Nu
+1991	97	New Jack City	Action	Nu
+1981	97	Arthur	Comedy	Da
+1976	97	A Matter of Time	Drama	Nu
+1987	97	Dreams Lost, Dreams Found	Drama	Nu
+1990	97	Cadillac Man	Comedy	Nu
+1988	97	Presidio, The	Action	Nu
+1989	97	A Dry White Season	Drama	Nu
+1986	97	Maximum Overdrive	Horror	Nu
+1987	97	Hard Ticket to Hawaii	Action	Nu
+1990	97	Fellow Traveller	Drama	Nu
+1980	97	Marathon	Comedy	Nu
+1970	97	Spider's Stratagem	Drama	Nu
+1985	97	One Woman or Two	Comedy	Nu
+1987	97	Lost Boys, The	Horror	Nu
+1986	97	Boy in Blue, The	Drama	Nu
+1991	97	Rhapsody in August	Drama	Nu
+1957	97	Sweet Smell of Success	Drama	Nu
+1990	97	Prom Night III, The Last Kiss	Horror	Nu
+1956	97	Somebody up There Likes Me	Drama	Nu
+1969	98	A Walk in the Spring Rain	Drama	Nu
+1956	98	Elena & Her Men	Drama	Nu
+1991	98	Five Easy Pieces	Drama	Nu
+1987	98	Under the Sun of Satan	Drama	Nu
+1971	98	Anderson Tapes, The	Mystery	Nu
+1988	98	Stealing Home	Drama	Nu
+1952	98	Affair in Trinidad	Drama	Nu
+1948	98	Loves of Carmen, The	Drama	Nu
+1972	98	Last of the Red Hot Lovers	Comedy	Nu
+1990	98	Almost an Angel	Comedy	Nu
+1986	98	Crocodile Dundee	Comedy	Nu
+1988	98	Plain Clothes	Comedy	Nu
+1992	98	Secret Admirer	Comedy	Nu
+1991	98	Cat Chaser	Drama	Nu
+1983	98	Lovesick	Comedy	Nu
+1988	98	Caddyshack 2	Comedy	Nu
+1986	98	Trick or Treat	Horror	Nu
+1983	98	Packin' It In	Comedy	Nu
+1986	98	Summer	Comedy	Nu
+1991	98	Another You	Comedy	Nu
+1990	98	Trapper County War	Action	Nu
+1990	98	Welcome Home, Roxy Carmichael	Comedy	Nu
+1958	98	Another Time, Another Place	Drama	Nu
+1961	98	Paris Blues	Drama	Nu
+1987	98	Russkies	Action	Nu
+1990	98	Hiroshima	Drama	Nu
+1991	98	L. A. Story	Comedy	Nu
+1990	98	Another Forty-Eight Hours	Action	Nu
+1989	99	American Angels: Baptism of Blood, The	Drama	Nu
+1957	99	Mademoiselle Striptease	Comedy	Nu
+1964	99	Ravishing Idiot, The	Comedy	Nu
+1948	99	Secret Beyond the Door	Mystery	Nu
+1984	99	Dreamscape	Science Fiction	Nu
+1943	99	Destroyer	Action	Nu
+1992	99	Party Girl	Comedy	Nu
+1966	99	Appaloosa, The	Western	Nu
+1983	99	Risky Business	Comedy	Nu
+1991	99	Delicatessen	Comedy	Nu
+1956	99	Slightly Scarlet	Action	Nu
+1988	99	Tokyo Pop	Comedy	Nu
+1992	99	Memoirs of an Invisible Man	Comedy	Nu
+1976	99	Inserts	Drama	Nu
+1991	99	Paris Trout	Drama	Nu
+1980	99	Caddyshack	Comedy	Nu
+1963	99	Bedtime Story	Comedy	Nu
+1967	99	Woman Times Seven	Comedy	Nu
+1952	99	Come Back, Little Sheba	Drama	Da
+1970	99	Monte Walsh	Western	Nu
+1972	99	Cancel My Reservation	Comedy	Nu
+1987	99	River's Edge	Drama	Nu
+1989	99	Picasso Trigger	Action	Nu
+1989	99	She-Devil	Comedy	Nu
+1989	99	Driving Miss Daisy	Drama	Da
+1973	99	Ash Wednesday	Drama	Nu
+1986	99	Critical Condition	Comedy	Nu
+1980	99	Ffolkes	Action	Nu
+1991	99	What about Bob?	Comedy	Nu
+1988	100	Storm	Action	Nu
+1992	100	Eighty-Four Charing Cross Road	Drama	Nu
+1987	100	Sammy & Rosie Get Laid	Drama	Nu
+1967	100	A Coeur Joie, (Head Over Heels)	Action	Nu
+1965	100	Dear Brigitte	Comedy	Nu
+1962	100	Le Repos Du Guerrier, (Warrior's Rest)	War	Nu
+1972	100	Pocket Money	Comedy	Nu
+1958	100	Indiscreet	Drama	Nu
+1948	100	Joan of Arc	Drama	Nu
+1986	100	Morning After, The	Mystery	Nu
+1929	100	Wild Orchids	Drama	Nu
+1988	100	Clara's Heart	Drama	Nu
+1985	100	Clan of the Cave Bear, The	Drama	Nu
+1984	100	Swing Shift	Drama	Nu
+1984	100	Protocol	Comedy	Nu
+1986	100	Casino	Mystery	Nu
+1986	100	American Anthem	Drama	Nu
+1948	100	Port of Call	Drama	Nu
+1990	100	Hard To Kill	Action	Nu
+1961	100	Two Women	Drama	Da
+1988	100	Ciao Italia, Madonna Live from Italy	Music	Nu
+1989	100	Forgotten, The	Mystery	Nu
+1980	100	Fiendish Plot of Dr. Fu Manchu, The	Comedy	Nu
+1955	100	Mr. Arkadin	Drama	Nu
+1955	100	Trouble with Harry, The	Mystery	Nu
+1992	100	Class Act	Drama	Nu
+1970	100	Adam at 6 A.M.	Drama	Nu
+1949	100	Fighting Kentuckian, The	Action	Nu
+1977	100	Julia	Drama	Da
+1973	100	Mackintosh Man, The	Action	Nu
+1972	100	Le Charme Discret de la Bourgeoisie	Comedy	Da
+1987	100	Nuts	Drama	Nu
+1937	100	Wee Willie Winkie	Drama	Nu
+1959	100	Magician, The	Drama	Nu
+1968	100	Scalphunters, The	Western	Nu
+1987	100	Law of Desire	Drama	Nu
+1962	100	Grim Reaper, The	Drama	Nu
+1944	100	Fighting Seabees, The	War	Nu
+1988	100	Rocket Gibraltar	Drama	Nu
+1971	100	Willy Wonka & the Chocolate Factory	Music	Nu
+1984	101	Target Eagle	Action	Nu
+1988	101	Scrooged	Comedy	Nu
+1987	101	Running Man, The	Science Fiction	Nu
+1971	101	Goalie's Anxiety at the Penalty Kick, The	Drama	Nu
+1992	101	Cool World	Drama	Nu
+1982	101	Mother Lode	Action	Nu
+1990	101	Act of Piracy	Mystery	Nu
+1946	101	Notorious	Mystery	Nu
+1973	101	White Lightning	Action	Nu
+1958	101	Matchmaker, The	Comedy	Nu
+1986	101	Instant Justice	Drama	Nu
+1987	101	Like Father Like Son	Comedy	Nu
+1956	101	Jubal	Drama	Nu
+1989	101	Burbs, The	Comedy	Nu
+1991	101	Adam's Rib	Comedy	Nu
+1939	101	Stanley & Livingstone	Action	Nu
+1987	101	My Life As a Dog	Comedy	Nu
+1990	101	Funny about Love	Comedy	Nu
+1982	101	Losin' It	Comedy	Nu
+1960	101	Heller in Pink Tights	Drama	Nu
+1990	101	Postcards from the Edge	Comedy	Nu
+1992	101	White Sands	Drama	Nu
+1983	101	Reuben, Reuben	Comedy	Nu
+1969	101	Smith!	Western	Nu
+1951	101	Strangers on a Train	Mystery	Nu
+1988	101	Funny Farm	Comedy	Nu
+1964	101	A Shot in the Dark	Comedy	Nu
+1975	101	Driver's Seat, The	Drama	Nu
+1988	101	Mystic Pizza	Comedy	Nu
+1984	101	Crimes of Passion	Drama	Nu
+1969	101	Passion of Anna, The	Drama	Nu
+1966	101	Shoot Loud, Louder, I Don't Understand!	Mystery	Nu
+1987	101	Black Widow	Mystery	Nu
+1942	101	Flying Tigers	Action	Nu
+1982	101	Secret Policeman's Other Ball, The	Comedy	Nu
+1992	101	Romulus & the Sabines	Action	Nu
+1991	101	I'm All Right Jack	Comedy	Nu
+1991	101	Magic Christian, The	Comedy	Nu
+1991	101	Keeper of the Flame	Drama	Nu
+1971	102	A New Leaf	Comedy	Nu
+1987	102	Babette's Feast	Drama	Da
+1964	102	Contempt	Drama	Nu
+1977	102	Mary White	Drama	Nu
+1990	102	Nightbreed	Horror	Nu
+1990	102	End of Innocence, The	Drama	Nu
+1991	102	Hunchback	Drama	Nu
+1959	102	Horse Soldiers, The	Western	Nu
+1987	102	Burglar	Comedy	Nu
+1992	102	Housesitter	Comedy	Nu
+1980	102	Seems Like Old Times	Comedy	Nu
+1973	102	Tom Sawyer	Music	Nu
+1992	102	Addams Family, The	Comedy	Nu
+1988	102	Night Train to Katmandu, THe	Action	Nu
+1969	102	Rain People, The	Drama	Nu
+1991	102	Curly Sue	Comedy	Nu
+1987	102	Made in Heaven	Fantasy	Nu
+1989	102	Dead-Bang	Action	Nu
+1984	102	No Small Affair	Comedy	Nu
+1990	102	Wait Until Spring Bandini	Drama	Nu
+1984	102	Ratings Game, The	Comedy	Nu
+1991	102	Comfort of Strangers, The	Mystery	Nu
+1990	102	Joe Versus the Volcano	Comedy	Nu
+1971	102	Dirty Harry	Drama	Nu
+1966	102	Johnny Tiger	Drama	Nu
+1984	102	Sword of the Valiant	Action	Nu
+1971	102	Play Misty for Me	Mystery	Nu
+1973	102	Cahill, United States Marshal	Western	Nu
+1964	102	A Fistful of Dollars	Westerns	Nu
+1968	102	Rachel, Rachel	Drama	Nu
+1991	102	Freshman, The	Comedy	Nu
+1951	102	Flying Leathernecks	Action	Nu
+1983	102	Survivors, The	Comedy	Nu
+1991	102	Instant Karma	Comedy	Nu
+1993	102	Today We Kill....Tomorrow We Die	Western	Nu
+1992	102	Left Handed Gun, The	Western	Nu
+1966	103	A Man & a Woman	Drama	Da
+1966	103	Un Hombre y una Mujer	Drama	Da
+1954	103	Elephant Walk	Drama	Nu
+1988	103	Appointment with Death	Mystery	Nu
+1989	103	Miami Cops	Action	Nu
+1989	103	Vampire's Kiss	Comedy	Nu
+1945	103	Scarlet Street	Drama	Nu
+1969	103	Cactus Flower	Comedy	Da
+1968	103	Charly	Drama	Da
+1988	103	Year My Voice Broke, The	Drama	Nu
+1987	103	Moonstruck	Comedy	Da
+1968	103	Coogan's Bluff	Action	Nu
+1989	103	Pet Sematary	Horror	Nu
+1948	103	Three Godfathers	Western	Nu
+1980	103	I Love All of You (Je Vous Aime)	Drama	Nu
+1988	103	Stand & Deliver	Drama	Nu
+1966	103	After the Fox	Comedy	Nu
+1967	103	Bobo, The	Comedy	Nu
+1986	103	Hannah & Her Sisters	Comedy	Da
+1990	103	Meridian	Science Fiction	Nu
+1989	103	My Left Foot	Drama	Da
+1974	103	Girl from Petrovka, The	Drama	Nu
+1973	103	A Touch of Class	Comedy	Da
+1973	103	Paper Moon	Comedy	Da
+1988	103	Deceivers, The	Action	Nu
+1955	103	To Catch a Thief	Mystery	Nu
+1986	103	Fire with Fire	Drama	Nu
+1975	103	Sunshine Boys, The	Comedy	Da
+1960	103	Time Machine, The	Science Fiction	Nu
+1987	103	Beverly Hills Cop II	Comedy	Nu
+1987	103	Au Revoir les Enfants	Drama	Nu
+1986	103	Ferris Bueller's Day Off	Comedy	Nu
+1988	103	Cocktail	Drama	Nu
+1978	103	California Suite	Comedy	Da
+1993	103	Romantic Comedy	Comedy	Nu
+1992	103	Death Becomes Her	Drama	Nu
+1986	103	Peggy Sue Got Married	Drama	Nu
+1947	103	Magic Town	Drama	Nu
+1987	103	Heat	Mystery	Nu
+1966	103	Quiller Memorandum, The	Mystery	Nu
+1990	103	Altered States	Science Fiction	Nu
+1989	103	Blood & Guns	Action	Nu
+1983	104	Dead Zone, The	Horror	Nu
+1985	104	Subway	Drama	Nu
+1958	104	Barbarian & the Geisha, The	Action	Nu
+1988	104	A New Life	Comedy	Nu
+1985	104	Desperately Seeking Susan	Comedy	Nu
+1987	104	Lionheart	Action	Nu
+1938	104	A Woman's Face	Drama	Nu
+1980	104	From the Life of the Marionettes	Drama	Nu
+1977	104	Island of Dr. Moreau, The	Horror	Nu
+1983	104	Beyond the Limit	Drama	Nu
+1989	104	Rainbow, The	Drama	Nu
+1990	104	Wait Until Spring, Bandini	Drama	Nu
+1991	104	Hear My Song	Drama	Nu
+1989	104	Tango & Cash	Action	Nu
+1950	104	Harvey	Comedy	Nu
+1989	104	Erik the Viking	Action	Nu
+1981	104	Hand, The	Horror	Nu
+1981	104	Scanners	Horror	Nu
+1989	104	Married to the Mob	Comedy	Nu
+1974	104	Zardoz	Science Fiction	Nu
+1986	104	Best of Times, The	Comedy	Nu
+1993	104	It Started with a Kiss	Drama	Nu
+1992	104	Unnamable II, The Statement of Randolph Carter, The	Drama	Nu
+1991	104	Doc Hollywood	Comedy	Nu
+1966	104	A Fine Madness	Comedy	Nu
+1971	104	French Connection, The	Drama	Da
+1985	104	Santa Claus, The Movie	Comedy	Nu
+1991	105	Predator 2	Action	Nu
+1990	105	Guilty by Suspicion	Drama	Nu
+1989	105	Hideaways	Comedy	Nu
+1973	105	High Plains Drifter	Western	Nu
+1985	105	Vagabond	Drama	Nu
+1946	105	Tomorrow Is Forever	Drama	Nu
+1984	105	Beverly Hills Cop	Comedy	Nu
+1962	105	A Child Is Waiting	Drama	Nu
+1986	105	King Kong Lives!	Action	Nu
+1990	105	Dick Tracy	Comedy	Nu
+1987	105	Prettykill	Drama	Nu
+1986	105	Crimes of the Heart	Comedy	Nu
+1986	105	Ratboy	Drama	Nu
+1977	105	A Special Day	Drama	Da
+1970	105	Two Mules for Sister Sara	Western	Nu
+1989	105	Hawks	Drama	Nu
+1940	105	Long Voyage Home, The	Drama	Nu
+1950	105	Rio Grande	Western	Nu
+1972	105	Hideaways, The	Comedy	Nu
+1974	105	Steppenwolf	Drama	Nu
+1968	105	Partner	Drama	Nu
+1975	105	Rocky Horror Picture Show, The	Music	Nu
+1977	105	Madame Rosa	Drama	Da
+1983	105	Between Friends	Drama	Nu
+1979	105	Meteor	Action	Nu
+1991	105	Fire, Ice & Dynamite	Action	Nu
+1964	105	Ensign Pulver	Comedy	Nu
+1973	105	Deadly Trackers	Western	Nu
+1992	105	Crimson Pirate, The	Action	Nu
+1967	105	Chuka	Western	Nu
+1978	106	Magic	Mystery	Nu
+1981	106	Woman Next Door, The	Drama	Nu
+1956	106	Anastasia	Drama	Da
+1992	106	Medicine Man	Action	Nu
+1984	106	Beat Street	Drama	Nu
+1990	106	Alice	Comedy	Nu
+1991	106	Not Without My Daughter	Drama	Nu
+1986	106	Wildcats	Comedy	Nu
+1976	106	Robin & Marian	Action	Nu
+1980	106	Virus	Science Fiction	Nu
+1984	106	A Year of the Quiet Sun	Drama	Nu
+1988	106	She's Having a Baby	Comedy	Nu
+1973	106	Dillinger	Drama	Nu
+1990	106	In Too Deep	Drama	Nu
+1990	106	Desperate Hours	Mystery	Nu
+1984	106	Falling in Love	Drama	Nu
+1985	106	Jewel of the Nile, The	Action	Nu
+1984	106	Romancing the Stone	Action	Nu
+1968	106	Bandolero!	Western	Nu
+1987	106	Squeeze, The	Action	Nu
+1965	106	A Patch of Blue	Drama	Nu
+1956	106	D-Day, The Sixth of June	War	Nu
+1946	106	Cloak & Dagger	Mystery	Nu
+1986	107	Duet for One	Drama	Nu
+1950	107	Stromboli	Drama	Nu
+1952	107	Secrets of Women	Comedy	Nu
+1990	107	Gremlins 2: The New Batch	Comedy	Nu
+1977	107	March or Die	War	Nu
+1987	107	Roxanne	Comedy	Nu
+1975	107	Rooster Cogburn	Western	Nu
+1990	107	Days of Thunder	Action	Nu
+1954	107	Gold of Naples, The	Drama	Nu
+1990	107	Green Card	Comedy	Nu
+1982	107	Six Weeks	Drama	Nu
+1989	107	Star Trek V: The Final Frontier	Action	Nu
+1957	107	Wings of Eagles, The	Drama	Nu
+1986	107	Sweet Liberty	Comedy	Nu
+1988	107	Twins	Comedy	Nu
+1970	107	Conformist, The	Drama	Nu
+1967	107	Bedazzled	Comedy	Nu
+1989	107	Major League	Comedy	Nu
+1966	107	Wrong Box, The	Comedy	Nu
+1986	107	Down by Law	Comedy	Nu
+1983	107	Monty Python's the Meaning of Life	Comedy	Nu
+1988	108	Miles from Home	Drama	Nu
+1978	108	Big Fix, The	Mystery	Nu
+1986	108	Nobody's Fool	Comedy	Nu
+1986	108	No Mercy	Drama	Nu
+1982	108	King of Comedy	Drama	Nu
+1989	108	Shirley Valentine	Comedy	Nu
+1988	108	A Fish Called Wanda	Comedy	Da
+1986	108	Love Songs	Drama	Nu
+1992	108	Husbands & Wives	Comedy	Nu
+1939	108	Ninotchka	Comedy	Nu
+1954	108	Long John Silver	Action	Nu
+1984	108	Terminator, The	Action	Nu
+1967	108	Guess Who's Coming to Dinner	Drama	Da
+1991	108	Necessary Roughness	Comedy	Nu
+1955	108	Smiles of a Summer Night	Comedy	Nu
+1990	108	Flashback	Comedy	Nu
+1991	108	Prisoner of Honor.	Drama	Nu
+1985	108	Trip to Bountiful, The	Drama	Da
+1971	108	Last Movie, The	Drama	Nu
+1965	108	What's New Pussycat?	Comedy	Nu
+1986	108	Heartburn	Comedy	Nu
+1972	108	Hammersmith Is Out	Drama	Nu
+1990	108	Bright Lights, Big City	Drama	Nu
+1943	108	Shadow of a Doubt	Drama	Nu
+1979	108	Prisoner of Zenda, The	Comedy	Nu
+1993	108	Offence, The	Mystery	Nu
+1991	108	Edison the Man	Drama	Nu
+1963	109	Donovan's Reef	Comedy	Nu
+1952	109	What Price Glory?	War	Nu
+1975	109	Shampoo	Comedy	Da
+1987	109	O. C. & Stiggs	Comedy	Nu
+1926	109	Flesh & the Devil, The	Drama	Nu
+1983	109	Star Chamber, The	Drama	Nu
+1982	109	Best Friends	Comedy	Nu
+1972	109	Butterflies Are Free	Drama	Da
+1974	109	Sugarland Express, The	Drama	Nu
+1961	109	Children's Hour, The	Drama	Nu
+1981	109	On Golden Pond	Drama	Da
+1976	109	I Will, I Will...For Now	Comedy	Nu
+1987	109	Big Town, The	Drama	Nu
+1978	109	Get Out Your Handkerchiefs	Comedy	Da
+1960	109	Psycho	Horror	Nu
+1977	109	Gauntlet, The	Action	Nu
+1957	109	Legend of the Lost	Action	Nu
+1988	109	Unsettled Land	Drama	Nu
+1989	109	Winter People	Drama	Nu
+1986	109	Top Gun	Action	Nu
+1984	109	Racing with the Moon	Drama	Nu
+1987	109	Wisdom	Action	Nu
+1980	109	Wholly Moses!	Comedy	Nu
+1990	109	Impulse	Mystery	Nu
+1939	109	John Wayne Matinee Double Feature, No. 1	Western	Nu
+1967	109	Reflections in a Golden Eye	Drama	Nu
+1968	109	Secret Ceremony	Drama	Nu
+1989	109	Lean on Me	Drama	Nu
+1986	109	Young Sherlock Holmes	Mystery	Nu
+1997	109	Alien: resurrection	Science Fiction	Nu
+1955	109	I Died a Thousand Times	Drama	Nu
+1989	109	Next of Kin	Mystery	Nu
+1974	109	Juggernaut	Action	Nu
+1971	109	Beguiled, The	Drama	Nu
+1985	109	Les Comperes	Comedy	Nu
+1988	110	Tucker: The Man & His Dream	Drama	Nu
+1979	110	Quintet	Drama	Nu
+1924	110	Siegfried, The Nibelungenlied	Drama	Nu
+1952	110	Europa Fifty-One	Drama	Nu
+1948	110	Border Street	Drama	Nu
+1931	110	Big Trail, The	Western	Nu
+1990	110	White Hunter, Black Heart	Adventure	Nu
+1962	110	Sundays & Cybele	Drama	Da
+1946	110	A Stolen Life	Drama	Nu
+1979	110	Great Train Robbery, The	Mystery	Nu
+1991	110	Hanover Street	Drama	Nu
+1979	110	Norma Rae	Drama	Da
+1936	110	Camille	Drama	Nu
+1986	110	Highlander	Science Fiction	Nu
+1980	110	Private Benjamin	Comedy	Nu
+1946	110	Gilda	Drama	Nu
+1980	110	Loulou	Drama	Nu
+1990	110	Mystery Train	Comedy	Nu
+1949	110	Sands of Iwo Jima	War	Nu
+1977	110	Goodbye Girl, The	Comedy	Da
+1990	110	Modern Love	Comedy	Nu
+1988	110	Accused, The	Drama	Da
+1989	110	We're No Angels	Comedy	Nu
+1991	110	Star Trek VI: The Undiscovered Country	Science Fiction	Nu
+1971	110	Big Jake	Action	Nu
+1969	110	Butch Cassidy & the Sundance Kid	Western	Da
+1989	110	Cousins	Comedy	Nu
+1991	110	Freejack	Action	Nu
+1984	110	Buddy System, The	Drama	Nu
+1954	110	Desiree	Drama	Nu
+1987	110	Secret of My Success, The	Comedy	Nu
+1972	110	X, Y & Zee	Drama	Nu
+1977	110	A Little Night Music	Music	Nu
+1990	110	Border Shootout	Action	Nu
+1969	110	One Hundred Rifles	Western	Nu
+1970	110	Trash	Comedy	Nu
+1950	110	Stage Fright	Mystery	Nu
+1946	110	No Regrets for Our Youth	Drama	Nu
+1957	110	Throne of Blood	Drama	Nu
+1961	110	Yojimbo	Action	Nu
+1939	110	John Wayne Matinee Double Feature, No. 3	Western	Nu
+1938	110	John Wayne Matinee Double Feature, No. 4	Western	Nu
+1990	111	Tie Me Up! Tie Me Down!	Comedy	Nu
+1985	111	Power	Drama	Nu
+1967	111	Hombre	Western	Nu
+1990	111	Reversal of Fortune	Drama	Da
+1975	111	Brannigan	Drama	Nu
+1992	111	Pope of Greenwich Village	Drama	Nu
+1978	111	Brass Target	Action	Nu
+1988	111	House on Carroll Street, The	Mystery	Nu
+1974	111	Mc Q	Action	Nu
+1951	111	Operation Pacific	War	Nu
+1971	111	Devils, The	Drama	Nu
+1991	111	Flatliners	Drama	Nu
+1986	111	Gung Ho	Comedy	Nu
+1981	111	Outland	Science Fiction	Nu
+1991	111	Seventh Cross, The	Drama	Nu
+1980	111	Stir Crazy	Comedy	Nu
+1955	111	Rebel Without a Cause	Drama	Nu
+1982	111	Yol	Drama	Nu
+1970	111	Chisum	Western	Nu
+1982	111	Return of Martin Guerre, The	Drama	Nu
+1986	112	A Man & a Woman: Twenty Years Later	Drama	Nu
+1985	112	Official Story, The	Drama	Da
+1964	112	Goldfinger	Action	Nu
+1975	112	Alice Doesn't Live Here Anymore	Comedy	Da
+1984	112	Places in the Heart	Drama	Da
+1932	112	Grand Hotel	Drama	Da
+1978	112	Foul Play	Comedy	Nu
+1987	112	Overboard	Comedy	Nu
+1991	112	Without Love	Comedy	Nu
+1987	112	Tin Men	Comedy	Nu
+1987	112	Gardens of Stone	Drama	Nu
+1957	112	Jet Pilot	Action	Nu
+1979	112	Blood Feud	Action	Nu
+1985	112	Witness	Drama	Nu
+1950	112	Asphalt Jungle, The	Action	Nu
+1963	112	Hud	Drama	Da
+1992	112	Macbeth	Drama	Nu
+1986	112	From the Hip	Comedy	Nu
+1991	112	Defending Your Life	Comedy	Nu
+1973	112	American Graffiti	Comedy	Da
+1983	112	Local Hero	Comedy	Nu
+1952	112	Viva Zapata!	Drama	Da
+1975	112	Yakuza, The	Action	Nu
+1970	112	Burn!	Drama	Nu
+1976	112	Maitresse	Drama	Nu
+1979	112	Escape from Alcatraz	Drama	Nu
+1992	112	Conversation Piece	Drama	Nu
+1939	112	John Wayne Matinee Double Feature, No. 2	Western	Nu
+1992	112	McQ	Action	Nu
+1991	113	High Heels	Comedy	Nu
+1968	113	Shalako	Westerns	Nu
+1989	113	Twin Peaks	Mystery	Nu
+1989	113	Family Business	Action	Nu
+1977	113	Heroes	Drama	Nu
+1979	113	Electric Horseman, The	Comedy	Nu
+1991	113	Philadelphia Story, The	Comedy	Nu
+1991	113	Woman of the Year	Comedy	Nu
+1954	113	Rear Window	Mystery	Nu
+1989	113	Lethal Weapon 2	Action	Nu
+1991	113	Audrey Rose	Drama	Nu
+1986	113	About Last Night	Drama	Nu
+1990	113	Total Recall	Action	Nu
+1963	113	Heavens Above	Comedy	Nu
+1961	113	Ferry to Hong Kong	Drama	Nu
+1944	114	Gaslight	Drama	Da
+1978	114	Coma	Science Fiction	Nu
+1989	114	School Daze	Comedy	Nu
+1983	114	Le Choix des Armes	Mystery	Nu
+1971	114	Klute	Drama	Da
+1986	114	Hoosiers	Drama	Nu
+1989	114	Once Around	Comedy	Nu
+1978	114	Go Tell the Spartans	War	Nu
+1987	114	Into the Homeland	Action	Nu
+1958	114	Desire under the Elms	Drama	Nu
+1969	114	Hamlet	Drama	Nu
+1989	114	Fabulous Baker Boys, The	Drama	Nu
+1967	114	Hang 'em High	Western	Nu
+1991	114	After Dark My Sweet	Mystery	Nu
+1974	114	Conversation, The	Drama	Da
+1991	114	Thunderbolt & Lightfoot	Action	Nu
+1985	114	To Live & Die in L. A.	Action	Nu
+1991	115	Bataan	War	Nu
+1991	115	Flight of the Intruder	Drama	Nu
+1955	115	Blood Alley	War	Nu
+1982	115	E. T. The Extra-Terrestrial	Science Fiction	Da
+1949	115	Heiress, The	Drama	Da
+1979	115	Hurricane	Action	Nu
+1988	115	Working Girl	Comedy	Nu
+1991	115	Deceived	Mystery	Nu
+1991	115	Little Women	Drama	Nu
+1990	115	Men Don't Leave	Drama	Nu
+1982	115	Grease II	Music	Nu
+1985	115	Into the Night	Comedy	Nu
+1981	115	Endless Love	Drama	Nu
+1987	115	Stakeout	Comedy	Nu
+1992	115	Alien Three	Science Fiction	Nu
+1971	115	Sometimes a Great Notion	Drama	Nu
+1981	116	Raiders of the Lost Ark	Action	Nu
+1991	116	Marrying Man, The	Comedy	Nu
+1973	116	Day for Night	Drama	Da
+1976	116	Burnt Offerings	Horror	Nu
+1976	116	Network	Comedy	Da
+1981	116	Absence of Malice	Drama	Nu
+1982	116	Tootsie	Comedy	Da
+1991	116	Boom Town	Drama	Nu
+1953	116	Mogambo	Action	Nu
+1988	116	Running on Empty	Drama	Nu
+1989	116	In Country	Drama	Nu
+1980	116	Bronco Billy	Westerns	Nu
+1992	116	Operation Crossbow	Action	Nu
+1955	116	Mister Roberts	Comedy	Da
+1988	116	Tequila Sunrise	Mystery	Nu
+1988	116	Coming to America	Comedy	Nu
+1985	116	Pale Rider	Western	Nu
+1985	116	Back to the Future	Comedy	Nu
+1986	116	Legal Eagles	Comedy	Nu
+1987	116	Orphans	Drama	Nu
+1972	116	Jeremiah Johnson	Drama	Nu
+1989	116	Back to the Future II	Comedy	Nu
+1982	117	Tragedy of a Ridiculous Man	Drama	Nu
+1992	117	Patriot Games	Action	Nu
+1986	117	Nine & a Half Weeks	Drama	Nu
+1949	117	Under Capricorn	Drama	Nu
+1977	117	Exorcist II, The Heretic	Horror	Nu
+1988	117	Dead Ringers	Drama	Nu
+1975	117	Three Days of the Condor	Drama	Nu
+1974	117	Stavisky	Drama	Nu
+1981	117	Time Bandits	Comedy	Nu
+1978	117	Bloodbrothers	Drama	Nu
+1982	117	Blade Runner	Action	Nu
+1991	117	Courtship of Eddie's Father, The	Comedy	Nu
+1980	117	Formula, The	Mystery	Nu
+1990	117	Internal Affairs	Drama	Nu
+1974	117	Going Places	Drama	Nu
+1991	117	La Femme Nikita	Drama	Nu
+1985	117	Cocoon	Science Fiction	Da
+1941	117	So Ends Our Night	Drama	Nu
+1991	117	Last Time I Saw Paris, The	Drama	Nu
+1955	117	Sea Chase, The	War	Nu
+1979	117	Alien	Science Fiction	Nu
+1989	117	Harry & Son	Drama	Nu
+1981	117	Victory	Drama	Nu
+1991	117	Full Metal Jacket	War	Nu
+1970	117	Catch Twenty-Two	Comedy	Nu
+1983	118	Man Who Loved Women, The	Comedy	Nu
+1988	118	Big Blue, The	Drama	Nu
+1989	118	Vincent, Francois, Paul & the Others	Drama	Nu
+1987	118	Shy People	Drama	Nu
+1987	118	Castaway	Drama	Nu
+1947	118	Life with Father	Comedy	Nu
+1989	118	Steel Magnolias	Drama	Nu
+1991	118	Silence of the Lambs, The	Mystery	Da
+1985	118	A Chorus Line, The Movie	Music	Nu
+1963	118	Yesterday, Today & Tomorrow	Comedy	Da
+1991	118	Test Pilot	Drama	Nu
+1991	118	Madonna, Truth or Dare	Music	Nu
+1987	118	Hope & Glory	War	Nu
+1975	118	Passenger, The	Drama	Nu
+1971	118	Last Picture Show, The	Drama	Da
+1981	118	Taps	Drama	Nu
+1989	118	Harlem Nights	Comedy	Nu
+1992	118	Tightrope	Mystery	Nu
+1985	119	Kiss of the Spider Woman	Drama	Da
+1987	119	Fourth Protocol, The	Mystery	Nu
+1987	119	Witches of Eastwick, The	Comedy	Nu
+1988	119	Dangerous Liaisons	Drama	Nu
+1991	119	Meeting Venus	Comedy	Nu
+1989	119	See You in the Morning	Drama	Nu
+1981	119	Whose Life Is It, Anyway?	Drama	Nu
+1986	119	Color of Money, The	Drama	Da
+1986	119	Children of a Lesser God	Drama	Da
+1962	119	Rome Adventure	Drama	Nu
+1991	119	New York Stories	Comedy	Nu
+1990	119	Pretty Woman	Comedy	Nu
+1973	119	Last of Sheila, The	Mystery	Nu
+1956	119	Searchers, The	Western	Nu
+1979	119	Frisco Kid, The	Comedy	Nu
+1987	119	Untouchables, The	Drama	Da
+1949	119	Battleground, The	War	Nu
+1986	119	Mosquito Coast, The	Drama	Nu
+1987	120	Fatal Attraction	Mystery	Nu
+1982	120	Creepshow	Horror	Nu
+1975	120	Wind & the Lion, The	Action	Nu
+1961	120	Goodbye Again	Drama	Nu
+1988	120	Frantic	Mystery	Nu
+1963	120	Ugly American, The	Drama	Nu
+1986	120	Betty Blue	Drama	Nu
+1956	120	Man Who Knew Too Much, The	Mystery	Nu
+1940	120	Foreign Correspondent	Mystery	Nu
+1986	120	Boy Who Could Fly, The	Drama	Nu
+1989	120	Do the Right Thing	Drama	Nu
+1986	120	Jean de Florette	Drama	Da
+1957	120	Gunfight at the OK Corral	Western	Nu
+1953	120	Julius Caesar	Drama	Nu
+1979	120	Nineteen Forty-One	Comedy	Nu
+1989	120	Triumph of the Spirit	Drama	Nu
+1986	120	Comic Relief	Comedy	Nu
+1986	120	Manhunter	Drama	Nu
+1966	120	A Man for All Seasons	Drama	Da
+1982	120	State of Things, The	Drama	Nu
+1991	120	Awakenings	Drama	Nu
+1990	120	Hot Spot	Drama	Nu
+1988	120	Mississippi Burning	Drama	Da
+1964	120	Tom Jones	Drama	Da
+1986	120	Blue Velvet	Mystery	Nu
+1987	120	Innerspace	Science Fiction	Nu
+1988	120	Lonely Passion of Judith Hearne, The	Drama	Nu
+1977	120	Prince & the Pauper, The	Action	Nu
+1933	120	Testament of Dr. Mabuse, The	Drama	Nu
+1987	120	Good Morning, Vietnam	Comedy	Nu
+1986	120	Platoon	Drama	Da
+1953	120	Tales of Tomorrow	Horror	Nu
+1979	121	Ten	Comedy	Nu
+1990	121	Rookie, THe	Action	Nu
+1977	121	Star Wars	Science Fiction	Nu
+1956	121	Rainmaker, The	Drama	Nu
+1989	121	Enemies, a Love Story	Drama	Nu
+1992	121	Postman Always Rings Twice, The	Mystery	Nu
+1985	121	Ladyhawke	Adventure	Nu
+1992	121	Drowning by Numbers	Mystery	Nu
+1968	121	Hellfighters	Action	Nu
+1988	121	Accidental Tourist, The	Comedy	Da
+1992	121	Christopher Columbus: The Discovery	Adventure	Nu
+1971	121	Red Tent, The	Action	Nu
+1974	121	Apprenticeship of Duddy Kravitz, The	Drama	Da
+1992	121	Harper	Mystery	Nu
+1991	121	Pink Panther, The	Comedy	Nu
+1979	122	Cuba	Action	Nu
+1973	122	Exorcist, The	Horror	Da
+1965	122	Darling	Drama	Da
+1979	122	Hair	Music	Nu
+1979	122	China Syndrome, The	Drama	Nu
+1986	122	Salvador	Drama	Nu
+1951	122	A Streetcar Named Desire	Drama	Da
+1989	122	Pink Cadillac	Comedy	Nu
+1989	122	Quo Vadis	Drama	Nu
+1982	122	Missing	Drama	Nu
+1988	122	A Cry in the Dark	Drama	Nu
+1960	122	North to Alaska	Western	Nu
+1973	122	Magnum Force	Action	Nu
+1990	123	Misery	Horror	Da
+1942	123	Reap the Wild Wind	Drama	Nu
+1982	123	Honkytonk Man	Drama	Nu
+1965	123	Morituri	Drama	Nu
+1977	123	Slap Shot	Comedy	Nu
+1970	123	Molly Maguires, The	Action	Nu
+1960	123	Unforgiven, The	Drama	Nu
+1962	123	Man Who Shot Liberty Valance, The	Western	Nu
+1962	123	Experiment in Terror	Mystery	Nu
+1983	123	Bad Boys	Drama	Nu
+1992	123	Basic Instinct	Mystery	Nu
+1954	123	Dial M for Murder	Mystery	Nu
+1966	123	Closely Watched Trains	Drama	Da
+1980	123	Mon Oncle D'Amerique	Comedy	Nu
+1969	123	Midnight Cowboy	Drama	Da
+1924	123	Gosta Berling's Saga	Drama	Nu
+1980	124	Elephant Man, The	Drama	Da
+1972	124	Life & Times of Judge Roy Bean, The	Western	Nu
+1974	124	Dersu Uzala, (The Hunter)	Adventure	Da
+1980	124	Empire Strikes Back, The	Science Fiction	Nu
+1975	124	Jaws	Action	Nu
+1977	124	Bobby Deerfield	Drama	Nu
+1974	124	Amarcord	Drama	Da
+1956	124	Teahouse of the August Moon	Drama	Nu
+1991	124	Russia House, The	Drama	Nu
+1985	124	Plenty	Drama	Nu
+1981	124	Chariots of Fire	Drama	Da
+1966	125	Torn Curtain	Mystery	Nu
+1992	125	Final Analysis	Drama	Nu
+1989	125	Black Rain	Action	Nu
+1990	125	Wild at Heart	Drama	Nu
+1925	125	Joyless Street	Drama	Nu
+1969	125	Those Daring Young Men in Their Jaunty	Comedy	Nu
+1986	125	Mission, The	Drama	Nu
+1931	125	Cimarron	Western	Da
+1982	125	An Officer & a Gentleman	Drama	Da
+1991	125	Last Hurrah, The	Drama	Nu
+1926	126	Don Juan	Action	Nu
+1989	126	Batman	Action	Nu
+1970	126	Getting Straight	Comedy	Nu
+1945	126	Bells of St. Mary's, The	Drama	Nu
+1990	126	Bonfire of the Vanities, The	Drama	Nu
+1987	126	Wall Street	Drama	Da
+1978	126	International Velvet	Drama	Nu
+1966	126	Fortune Cookie, The	Comedy	Da
+1969	126	Topaz	Mystery	Nu
+1990	126	Indiana Jones & the Last Crusade	Action	Nu
+1988	127	Colors	Drama	Nu
+1990	127	Presumed Innocent	Mystery	Nu
+1989	127	Fat Man & Little Boy	Drama	Nu
+1974	127	Man with the Golden Gun, The	Action	Nu
+1940	127	Northwest Passage	Action	Nu
+1977	127	American Friend, The	Mystery	Nu
+1988	127	Everybody's All American	Romance	Nu
+1973	127	Man Who Loved Cat Dancing, The	Western	Nu
+1990	127	Ghost	Science Fiction	Da
+1969	127	Z	Drama	Da
+1966	127	Russians Are Coming, the Russians Are, The	Comedy	Da
+1973	127	Last Tango in Paris	Drama	Nu
+1981	127	French Lieutenant's Woman, The	Drama	Nu
+1948	127	Fort Apache	Western	Nu
+1967	127	Cool Hand Luke	Drama	Da
+1981	127	Taming of the Shrew, The	Drama	Nu
+1974	128	Murder on the Orient Express	Mystery	Da
+1982	128	Conan the Barbarian	Action	Nu
+1979	128	Moonraker	Action	Nu
+1969	128	True Grit	Western	Da
+1992	128	Cape Fear	Mystery	Nu
+1985	128	Christopher Columbus	Drama	Nu
+1972	128	Cabaret	Drama	Da
+1958	128	Vertigo	Drama	Nu
+1976	128	Shout at the Devil	Action	Nu
+1992	128	Night on Earth	Drama	Nu
+1982	128	Ballad of Narayama, The	Drama	Nu
+1965	128	Shop on Main Street, The	Drama	Da
+1986	128	Name of the Rose, The	Drama	Nu
+1972	128	Cowboys, The	Western	Nu
+1990	128	Dead Poets Society	Drama	Da
+1991	128	Inherit the Wind	Drama	Nu
+1981	129	For Your Eyes Only	Action	Nu
+1973	129	Sting, The	Drama	Da
+1972	129	Roma	Drama	Nu
+1980	129	Competition, The	Drama	Nu
+1970	129	Women in Love.	Drama	Nu
+1956	129	Bad Seed, The	Horror	Nu
+1979	129	Being There	Comedy	Da
+1929	129	Manxman, The	Drama	Nu
+1970	129	On a Clear Day You Can See Forever	Music	Nu
+1975	129	Man Who Would Be King, The	Drama	Nu
+1990	129	Mo' Better Blues	Drama	Nu
+1967	130	Casino Royale	Comedy	Nu
+1987	130	Wings of Desire	Drama	Nu
+1940	130	Rebecca	Drama	Da
+1964	130	Marnie	Drama	Nu
+1970	130	Fellini Satyricon	Drama	Nu
+1991	130	Man of La Mancha	Music	Nu
+1986	130	El Guerrero Solitario	Drama	Nu
+1986	130	Heartbreak Ridge	War	Nu
+1987	130	Matewan	Drama	Nu
+1975	130	Eiger Sanction, The	Action	Nu
+1992	130	Who's Afraid of Virginia Woolf?	Drama	Da
+1985	130	Prizzi's Honor	Comedy	Da
+1984	130	Bounty, The	Drama	Nu
+1928	130	Spies	Drama	Nu
+1991	130	For a Few Dollars More	Westerns	Nu
+1974	131	Chinatown	Drama	Da
+1990	131	A View to a Kill	Action	Nu
+1983	131	Silkwood	Drama	Nu
+1985	131	Falcon & the Snowman, The	Drama	Nu
+1983	132	Return of the Jedi	Science Fiction	Nu
+1964	132	Circus World	Drama	Nu
+1991	132	Sea of Grass, The	Western	Nu
+1981	132	Mephisto	Drama	Da
+1978	132	Wild Geese, The	Action	Nu
+1986	132	Alrededor de Medianoche	Drama	Nu
+1983	132	Terms of Endearment	Drama	Da
+1976	132	Midway	War	Nu
+1965	133	Hush, Hush, Sweet Charlotte	Mystery	Nu
+1992	133	Shining Through	Mystery	Nu
+1968	133	Green Berets, The	War	Nu
+1992	133	Train, The	Action	Nu
+1962	134	A Very Private Affair	Drama	Nu
+1983	134	Never Say Never Again	Action	Nu
+1977	134	Voyage of the Damned	Drama	Nu
+1961	134	Hustler, The	Drama	Da
+1988	134	Rain Man	Drama	Da
+1968	134	Lion in Winter, THe	Drama	Da
+1983	134	Yentl	Music	Nu
+1987	134	Glass Menagerie, The	Drama	Nu
+1952	134	Ikiru	Drama	Nu
+1992	134	Red River	Western	Nu
+1990	135	Cyrano de Bergerac	Drama	Nu
+1992	135	City of Joy	Drama	Nu
+1981	135	Choice of Arms	Action	Nu
+1980	135	Last Metro, The	Drama	Nu
+1985	135	Death of a Salesman	Drama	Nu
+1969	135	On Her Majesty's Secret Service	Action	Nu
+1991	135	Doors, The	Drama	Nu
+1991	135	North by Northwest	Mystery	Nu
+1987	135	Ironweed	Drama	Nu
+1960	135	Fugitive Kind, The	Drama	Nu
+1945	135	They Were Expendable	War	Nu
+1990	135	Hunt for Red October, The	Drama	Nu
+1977	136	Spy Who Loved Me, The	Action	Nu
+1991	136	Terminator 2	Action	Nu
+1982	136	World According to Garp, The	Drama	Nu
+1977	136	Looking for Mr. Goodbar	Drama	Nu
+1982	136	Firefox	Action	Nu
+1982	136	Danton	Drama	Nu
+1992	136	Prize, The	Drama	Nu
+1970	137	Airport	Drama	Da
+1971	137	Boy Friend, THe	Music	Nu
+1977	137	New York, New York	Drama	Nu
+1992	137	Long Gray Line, The	Drama	Nu
+1986	137	Aliens	Science Fiction	Nu
+1920	137	Spiders	Drama	Nu
+1950	138	All about Eve	Drama	Da
+1992	138	Fisher King, The	Drama	Da
+1988	138	Pelle the Conqueror	Drama	Da
+1971	138	A Clockwork Orange	Science Fiction	Da
+1928	139	Wings	War	Da
+1987	139	Maurice	Drama	Nu
+1968	139	2001: A Space Odyssey	Science Fiction	Nu
+1992	139	Sheltering Sky, The	Drama	Nu
+1926	139	Metropolis	Science Fiction	Nu
+1944	139	Thirty Seconds over Tokyo	War	Nu
+1976	139	All the President's Men	Drama	Da
+1984	140	Tartuffe	Comedy	Nu
+1961	140	La Dolce Vita	Drama	Nu
+1970	140	Dodesukaden	Drama	Nu
+1986	140	Assault, The	Drama	Da
+1988	141	Thunderball	Action	Nu
+1986	141	Courage	Drama	Nu
+1961	141	One Eyed Jacks	Western	Nu
+1984	141	Killing Fields, The	Drama	Da
+1991	142	Hook	Action	Nu
+1977	143	Black Sunday	Drama	Nu
+1974	144	Day of the Locust, The	Drama	Nu
+1980	144	Shining, The	Horror	Nu
+1991	144	Robin Hood: Prince of Thieves	Action	Nu
+1991	144	State of Grace	Drama	Nu
+1969	144	Wild Bunch, The	Western	Nu
+1991	145	Dragon Seed	Drama	Nu
+1989	145	Born on the Fourth of July	Drama	Da
+1978	145	Superman, The Movie	Action	Nu
+1991	145	Sophia Loren, Her Own Story	Drama	Nu
+1977	146	Twilight's Last Gleaming	Drama	Nu
+1970	146	Kelly's Heroes	War	Nu
+1957	147	Sayonara	Drama	Da
+1928	148	Tempest	Drama	Nu
+1990	149	Camille Claudel	Drama	Nu
+1976	150	Lindbergh Kidnapping Case, The	Drama	Nu
+1984	150	Paris, Texas	Drama	Nu
+1962	150	Lolita	Drama	Nu
+1955	150	Guys & Dolls	Comedy	Da
+1989	150	Sara Dane	Drama	Nu
+1982	150	A Question of Honor	Drama	Nu
+1982	151	Sophie's Choice	Drama	Da
+1968	151	Funny Girl	Music	Da
+1960	152	Bad Sleep Well, The	Drama	Nu
+1957	153	Desk Set	Comedy	Nu
+1992	153	Quiet Man, The	Drama	Nu
+1987	153	Empire of the Sun	Drama	Nu
+1961	153	West Side Story	Music	Da
+1979	153	Apocalypse Now	Drama	Nu
+1961	154	Four Horsemen of the Apocalypse, The	Drama	Nu
+1987	155	Indigo Autumn & Lilac Dream	Drama	Nu
+1984	158	Amadeus	Drama	Da
+1991	158	Until the End of the World	Drama	Nu
+1968	159	Where Eagles Dare	War	Nu
+1991	160	Great Race, The	Comedy	Nu
+1985	161	Out of Africa	Drama	Da
+1988	161	Bird	Drama	Nu
+1980	161	Kagemusha	Drama	Da
+1969	161	Paint Your Wagon	Music	Nu
+1988	163	Last Temptation of Christ, The	Drama	Nu
+1992	163	Good, the Bad & the Ugly, The	Westerns	Nu
+1987	164	Last Emperor, The	Drama	Da
+1960	164	Alamo, The	Action	Nu
+1992	165	How the West Was Won	Western	Nu
+1965	165	In Harm's Way	War	Nu
+1951	166	Idiot, The	Drama	Nu
+1992	166	Hallelujah Trail, The	Drama	Nu
+1958	167	Young Lions, The	Drama	Nu
+1964	170	My Fair Lady	Music	Da
+1970	170	Patton	War	Da
+1965	172	Sound of Music, The	Music	Da
+1988	172	Unbearable Lightness of Being, The	Drama	Da
+1961	172	El Cid	Drama	Nu
+1957	173	Raintree County	Drama	Nu
+1966	175	Is Paris Burning?	War	Nu
+1972	175	Godfather, The	Drama	Da
+1976	176	Kings of the Road (In the Course of Time)	Drama	Nu
+1979	180	Last Ride of the Dalton Gang, The	Western	Nu
+1990	181	Dances with Wolves	Western	Da
+1962	182	Mutiny on the Bounty	Action	Nu
+1978	183	Deer Hunter, The	Drama	Da
+1962	183	Longest Day, The	War	Nu
+1960	185	Spartacus	Drama	Da
+1991	186	At Play in the Fields of the Lord	Drama	Nu
+1982	188	Fanny and Alexander	Drama	Da
+1982	188	Gandhi	Drama	Da
+1964	188	Fall of the Roman Empire, The	Drama	Nu
+1966	190	Hawaii	Drama	Nu
+1961	190	Judgment at Nuremberg	Drama	Da
+1991	193	Separate but Equal	Drama	Nu
+1970	194	Ryan's Daughter	Drama	Da
+1982	195	A Woman Called Golda	Drama	Da
+1981	195	Reds	Drama	Da
+1979	198	Sacketts, The	Western	Nu
+1965	199	Greatest Story Ever Told, The	Drama	Nu
+1955	200	Seven Samurai	Drama	Nu
+1974	201	Godfather, Pt 2., The	Drama	Da
+1956	201	Giant	Drama	Da
+1991	206	JFK	Drama	Nu
+1982	208	Othello	Drama	Nu
+1932	210	Hurricane Express, The	Action	Nu
+1992	213	Exodus	Drama	Nu
+1986	221	On Wings of Eagles	Drama	Nu
+1932	226	Shadow of the Eagle, The	Action	Nu
+1935	234	Adventures of Rex & Rinty, The	Western	Nu
+1991	240	Four American Composers	Music	Nu
+1963	243	Cleopatra	Drama	Nu
+1942	253	Gangbusters	Drama	Nu
+1977	255	Nineteen Hundred	Drama	Nu
+1943	265	Adventures of Smilin' Jack, The	Mystery	Nu
+1992	286	Tommy	Music	Nu
+1938	298	Flaming Frontiers	Western	Nu
+1974	313	QB VII	Drama	Da
+1988	360	Little Dorrit	Drama	Nu
+1968	360	War & Peace	Drama	Da
+1978	450	Holocaust	Drama	Nu

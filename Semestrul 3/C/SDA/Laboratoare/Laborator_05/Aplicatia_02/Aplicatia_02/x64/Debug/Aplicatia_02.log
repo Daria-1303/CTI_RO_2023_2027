@@ -1,0 +1,5 @@
+﻿  Student.c
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Structuri-de-date-si-algoritmi-SDA-\Laboratoare\Laborator_05\Aplicatia_02\Student.c(89,12): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1250)
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Structuri-de-date-si-algoritmi-SDA-\Laboratoare\Laborator_05\Aplicatia_02\Student.c(96,12): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1250)
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Structuri-de-date-si-algoritmi-SDA-\Laboratoare\Laborator_05\Aplicatia_02\Student.c(103,12): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1250)
+  Aplicatia_02.vcxproj -> C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Structuri-de-date-si-algoritmi-SDA-\Laboratoare\Laborator_05\Aplicatia_02\x64\Debug\Aplicatia_02.exe
