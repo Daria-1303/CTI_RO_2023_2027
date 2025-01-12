@@ -1,0 +1,166 @@
+module rgst #(
+	parameter width = 8;
+)(
+	input clk, rst_b, ld, clr, 
+	input [width - 1 : 0] d, 
+	output reg [width - 1 : 0] q
+);
+
+always @ (posedge clk, negedge rst_b)
+        if (!rst_b)                 
+		q <= 0;
+        else if (clr)               
+		q <= 0;
+        else if (ld)                
+		q <= d;
+endmodule
+
+module dec_2_4(
+	input wire[1:0] sel,
+	output reg[3:0] out
+);
+
+always @(*) begin
+	case (sel)
+        	2'd0: out = 4'd1;
+        	2'd1: out = 4'd2;
+        	2'd2: out = 4'd4;
+        	2'd3: out = 4'd8;
+        default: out = 4'd0;
+    endcase
+end
+
+endmodule
+
+
+module regfl_4x8 (
+	input clk,
+	input rst_b,               // Reset asincron
+	input [7:0] wr_data,       // Datele de scriere
+	input [1:0] wr_addr,       // Adresa de scriere
+	input wr_e,                // Semnal de activare a scrierii
+	output [7:0] rd_data,      // Datele de citire
+	input [1:0] rd_addr        // Adresa de citire
+);
+
+//registrele de 8 biti
+wire [7 : 0] q0, q1, q2, q3;
+wire [3:0] load_signals;
+
+dec_2_4 decoder (
+        .sel(wr_addr),
+        .out(load_signals)
+);
+
+
+rgst #() reg0 (.clk(clk), .rst_b(rst_b), .ld(wr_e && load_signals[0]), .clr(1'b0), .d(wr_data), .q(q0));
+rgst #() reg1 (.clk(clk), .rst_b(rst_b), .ld(wr_e && load_signals[1]), .clr(1'b0), .d(wr_data), .q(q1));
+rgst #() reg2 (.clk(clk), .rst_b(rst_b), .ld(wr_e && load_signals[2]), .clr(1'b0), .d(wr_data), .q(q2));
+rgst #() reg3 (.clk(clk), .rst_b(rst_b), .ld(wr_e && load_signals[3]), .clr(1'b0), .d(wr_data), .q(q3));
+
+mux_2s #(.width(8)) mux_rd (
+        .d0(q0),
+        .d1(q1),
+        .d2(q2),
+        .d3(q3),
+        .s(rd_addr),
+        .o(rd_data)
+);
+
+
+endmodule
+
+module regfl4x8_tb;
+	reg clk, rst_b;
+	reg [7:0] wr_data;
+	reg [1:0] wr_addr;
+	reg wr_e;
+	wire [7:0] rd_data;
+	reg [1:0] rd_addr;
+
+	regfl_4x8 dut(
+		.clk(clk),
+		.rst_b(rst_b),
+		.wr_data(wr_data),
+		.wr_addr(wr_addr),
+		.wr_e(wr_e),
+		.rd_data(rd_data),
+		.rd_addr(rd_addr)
+	);
+
+	localparam CLK_PERIOD = 100;
+	localparam RUNNING_CYCLES = 9;
+	initial begin
+		clk = 1'b0;
+		repeat (2 * RUNNING_CYCLES) #(CLK_PERIOD / 2) clk = ~clk;
+	end
+
+	localparam RST_DURATION = 5;
+	initial begin
+		rst_b =  1'b0;
+		#RST_DURATION rst_b = 1'b1;
+	end
+
+	initial begin
+		$display("Time\tclk\trst_b\twr_e\twr_addr\t\twr_data\t\trd_addr\t\trd_data");
+		$monitor("%0t\t%b\t%b\t%b\t%b\t\t%b\t\t%b\t\t%b", $time, clk, rst_b, wr_e, wr_addr, wr_data, rd_addr, rd_data);
+		
+		wr_addr = 2'h0;
+		wr_data = 8'ha2;
+		wr_e = 1'b1;
+		rd_addr = 2'h3;
+		
+		#100
+
+		wr_addr = 2'h2;
+		wr_data = 8'h2e;
+		rd_addr = 2'h0;
+
+		#100
+
+		wr_addr = 2'h1;
+		wr_data = 8'h98;
+		wr_e = 1'b0;
+		rd_addr = 2'h1;
+
+		#100
+
+		wr_addr = 2'h3;
+		wr_data = 8'h55;
+		wr_e = 1'b1;
+		rd_addr = 2'h2;
+
+		#100
+
+		wr_addr = 2'h0;
+		wr_data = 8'h20;
+		rd_addr = 2'h0;
+
+		#100
+		
+		wr_addr = 2'h1;
+		wr_data = 8'hff;
+		rd_addr = 2'h3;
+
+		#100
+		
+		wr_addr = 2'h3;
+		wr_data = 8'hc7;
+		rd_addr = 2'h1;
+
+		#100
+
+		wr_addr = 2'h2;
+		wr_data = 8'hb5;
+		wr_e = 1'b0;
+		rd_addr = 2'h2;
+
+		#100
+		
+		wr_addr = 2'h3;
+		wr_data = 8'h91;
+		wr_e = 1'b1;
+		rd_addr = 2'h3;
+
+	end
+endmodule

@@ -33,4 +33,4 @@ initial begin
 	//$finish;
 end
 
-endmodulea
+endmodule

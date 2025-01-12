@@ -1,0 +1,3064 @@
+-EX 1-
+
+1)
+/* Construiti un modul ce inmulteste doua cifre reprezentate in Exces de 3 si returneaza rezultatul intr-o singura iesire, reprezentata tot in Exces de 3 */
+
+module e3_mult(input [3:0] in_0, in_1, output reg [7:0] out);
+
+    reg [3:0] aux0;
+    reg [3:0] aux1;
+    reg [3:0] aux3;
+    reg [3:0] aux2;
+    reg [7:0] intermediate_result;
+
+    always @* begin
+
+        out = 0;
+        aux0 = in_0 - 4'b0011;
+        aux1 = in_1 - 4'b0011;
+
+        intermediate_result = aux0 * aux1;
+
+        aux2 = intermediate_result%10 + 4'b0011;
+        aux3 = intermediate_result/10 + 4'b0011;
+
+        out = (aux3 << 4) | aux2;
+
+    end
+
+endmodule
+
+
+
+module e3_mult_tb;
+    reg[3:0] in_0, in_1;
+    wire[7:0] act_out;
+    reg[7:0] exp_out;
+    wire verdict;
+
+    e3_mult uut(.in_0(in_0), .in_1(in_1), .out(act_out));
+    integer tests_total, tests_passed, nota;
+    integer data_file, random_int;
+
+    assign verdict = exp_out === act_out;
+
+    initial begin
+        $display("in_0\tin_1\t\texpected_out\tactual_out\tPassed(1)/Failed(0)");
+        $monitor("%4b\t%4b\t\t%12b\t%10b\t%18d", in_0, in_1, exp_out, act_out, verdict);
+
+        tests_total = 0;
+        tests_passed = 0;
+        data_file = 0;
+        data_file = $fopen("ex1_tests.dat", "r");
+        if (data_file == 0) begin
+            $display("Adauga fisierul ex1_tests.dat in acelasi folder");
+            $finish;
+        end
+        while(!$feof(data_file)) begin
+            random_int = $fscanf(data_file, "%b %b %b\n", in_0, in_1, exp_out);
+            tests_total = tests_total + 1;
+            #1;
+            tests_passed = tests_passed + verdict;
+        end
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 1000 / tests_total * 2;
+        $display("Nota: %1d.%03d", nota / 1000, nota % 1000);
+    end
+endmodule
+
+
+2)
+/* Proiectati un modul e3_mult_9 ce primeste o intrare reprezentand o cifra in exces de 3 si retuneaza rezultatul inmultirii intrarii cu 9 in 2 iesiri, fiecare cu cate 4 biti: cifra zecilor si cifra unitatilor, ambele reprezentate in exces de 3 */
+
+module e3_mult_9(input[3:0] e3_digit, output reg [3:0] e3_u, e3_d);
+
+    reg[7:0] aux;
+
+    always @(*) begin
+
+        aux = e3_digit - 4'b0011;
+        aux = aux * 9;
+        e3_u = aux%10 + 4'b0011;
+        e3_d = aux/10%10 + 4'b0011;
+
+    end
+
+endmodule
+
+module e3_mult_9_tb;
+
+    reg[3:0] e3_digit;
+    wire[3:0] act_e3_u, act_e3_d;
+    reg[3:0] exp_e3_u, exp_e3_d;
+    wire verdict_u, verdict_d;
+
+    e3_mult_9 uut(.e3_digit(e3_digit), .e3_u(act_e3_u), .e3_d(act_e3_d));
+    integer tests_total, tests_passed, nota;
+
+    assign verdict_u = exp_e3_u === act_e3_u;
+    assign verdict_d = exp_e3_d === act_e3_d;
+
+    initial begin
+        $display("e3_digit\t\texpected_e3_u\tactual_e3_u\tPassed(1)/Failed(0)\texpected_e3_d\tactual_e3_d\tPassed(1)/Failed(0)");
+        $monitor("%8b\t\t%13b\t%11b\t%18d\t%13b\t%11b\t%18d", e3_digit, exp_e3_u, act_e3_u, verdict_u, exp_e3_d, act_e3_d, verdict_d);
+
+        tests_total = 0;
+        tests_passed = 0;
+
+        e3_digit = 4'b0011;
+        exp_e3_d = 4'b0011;
+        exp_e3_u = 4'b0011;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b0100;
+        exp_e3_d = 4'b0011;
+        exp_e3_u = 4'b1100;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b0101;
+        exp_e3_d = 4'b0100;
+        exp_e3_u = 4'b1011;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b0110;
+        exp_e3_d = 4'b0101;
+        exp_e3_u = 4'b1010;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b0111;
+        exp_e3_d = 4'b0110;
+        exp_e3_u = 4'b1001;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b1000;
+        exp_e3_d = 4'b0111;
+        exp_e3_u = 4'b1000;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b1001;
+        exp_e3_d = 4'b1000;
+        exp_e3_u = 4'b0111;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b1010;
+        exp_e3_d = 4'b1001;
+        exp_e3_u = 4'b0110;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b1011;
+        exp_e3_d = 4'b1010;
+        exp_e3_u = 4'b0101;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        e3_digit = 4'b1100;
+        exp_e3_d = 4'b1011;
+        exp_e3_u = 4'b0100;
+        tests_total = tests_total + 2;
+        #1;
+        tests_passed = tests_passed + verdict_u + verdict_d;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 100 / tests_total * 2;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule
+
+
+3)
+/* Construiti un modul ce realizeaza conversia unei cifre BCD in corespondentul ei in formatul 2-din-5 74210. */
+
+module bcd_to_2outof5(input [3:0] bcd_in, output reg [4:0] _2outof5);
+
+    always @(*)
+    begin
+        case(bcd_in)
+            4'b0000: _2outof5 = 5'b11000;
+            4'b0001: _2outof5 = 5'b00011;
+            4'b0010: _2outof5 = 5'b00101;
+            4'b0011: _2outof5 = 5'b00110;
+            4'b0100: _2outof5 = 5'b01001;
+            4'b0101: _2outof5 = 5'b01010;
+            4'b0110: _2outof5 = 5'b01100;
+            4'b0111: _2outof5 = 5'b10001;
+            4'b1000: _2outof5 = 5'b10010;
+            4'b1001: _2outof5 = 5'b10100;
+            default: _2outof5 = 5'b00000;
+        endcase
+    end
+
+endmodule
+
+
+module bcd_to_2outof5_tb;
+
+    reg[3:0] bcd_in;
+    reg[4:0] exp_2outof5;
+    wire[4:0] act_2outof5;
+    wire verdict;
+
+    bcd_to_2outof5 uut(.bcd_in(bcd_in), ._2outof5(act_2outof5));
+    integer tests_total, tests_passed, nota;
+
+    assign verdict = exp_2outof5 === act_2outof5;
+
+    initial begin
+        $display("bcd_in\t\texpected_2outof5\tactual_2outof5\tPassed(1)/Failed(0)");
+        $monitor("%6b\t\t%16b\t%14b\t%18b", bcd_in, exp_2outof5, act_2outof5, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+
+        bcd_in = 4'd0;
+        exp_2outof5 = 5'b11000;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd1;
+        exp_2outof5 = 5'b00011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd2;
+        exp_2outof5 = 5'b00101;
+        tests_total = tests_total + 1; 
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd3;
+        exp_2outof5 = 5'b00110;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd4;
+        exp_2outof5 = 5'b01001;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd5;
+        exp_2outof5 = 5'b01010;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd6;
+        exp_2outof5 = 5'b01100;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd7;
+        exp_2outof5 = 5'b10001;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd8;
+        exp_2outof5 = 5'b10010;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        bcd_in = 4'd9;
+        exp_2outof5 = 5'b10100;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 100 / tests_total * 2;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule
+
+
+-EX2-
+
+1)
+/* Proiectati un codificator binar de prioritati 8-la-3, unde iesirea va reprezenta indexul intrarii active cu prioritatea cea mai mare.
+Prioritatea bitilor este: in[7] > in[6] > in[5] > in[4] > in[3] > in[2] > in[1] > in[0]. */
+
+module prioirty_enc(input[7:0] prio_in, output reg [2:0] prio_out);
+    
+    always @(*)
+    begin
+        case (1'b1)
+            prio_in[7]: prio_out = 3'b111;
+            prio_in[6]: prio_out = 3'b110;
+            prio_in[5]: prio_out = 3'b101;
+            prio_in[4]: prio_out = 3'b100;
+            prio_in[3]: prio_out = 3'b011;
+            prio_in[2]: prio_out = 3'b010;
+            prio_in[1]: prio_out = 3'b001;
+            prio_in[0]: prio_out = 3'b000;
+            default:    prio_out = 3'b000;
+        endcase
+    end
+
+endmodule
+
+module priority_enc_tb;
+
+    reg[7:0] prio_in;
+    wire[2:0] act_prio_out;
+    reg[2:0] exp_prio_out;
+    wire verdict;
+
+    prioirty_enc uut(.prio_in(prio_in), .prio_out(act_prio_out));
+    integer tests_total, tests_passed, nota;
+
+    integer data_file, random_int;
+
+    assign verdict = exp_prio_out === act_prio_out;
+
+    initial begin
+        $display("prio_in\t\texpected_prio_out\tactual_prio_out\tPassed(1)/Failed(0)");
+        $monitor("%8b\t\t%16b\t%15b\t%18d", prio_in, exp_prio_out, act_prio_out, verdict);
+
+        tests_total = 0;
+        tests_passed = 0;
+        data_file = 0;
+        data_file = $fopen("ex2_tests.dat", "r");
+        if (data_file == 0) begin
+            $display("Adauga fisierul ex2_tests.dat in acelasi folder");
+            $finish;
+        end
+        while(!$feof(data_file)) begin
+            random_int = $fscanf(data_file, "%b %b\n", prio_in, exp_prio_out);
+            tests_total = tests_total +1;
+            #1;
+            tests_passed = tests_passed + verdict;
+        end
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 1000 / tests_total * 2;
+        $display("Nota: %1d.%03d", nota / 1000, nota % 1000);
+    end
+endmodule
+
+
+2)
+/* Construiti un modul numit sum_last4, avand 2 intrari pe 1 bit (clk si reset), o intrare pe 8 biti in si o iesire out.
+Modulul va insuma ultimele 4 valori ale lui in, receptionate pe frontul crescator al semnalului de clk,
+considerand la inceput ultimele 3 valori primite ca fiind 0.
+Pe nivelul ridicat a semnalului de reset, modulul va reseta suma, inclusiv ultimele valori primite pe 0.*/
+
+module sum_last4(
+    input [7:0] in,
+    input reset,
+    input clk,
+    output reg [7:0] out
+);
+
+    reg [7:0] last_values [0:2];
+    reg [7:0] sum;
+    
+    always @(posedge clk or posedge reset)
+    begin
+        if (reset)
+        begin
+            sum <= 8'b00000000;
+            last_values[0] = 8'b00000000;
+            last_values[1] = 8'b00000000;
+            last_values[2] = 8'b00000000;
+            
+            out = 8'b00000000;
+        end
+        else if(clk)
+        begin
+            sum = last_values[0] + last_values[1] + last_values[2] + in;
+
+            last_values[0] = last_values[1];
+            last_values[1] = last_values[2];
+            last_values[2] = in;
+            
+            out = sum;
+        end
+    end
+
+endmodule
+
+
+
+module sum_last4_tb;
+
+    reg[7:0] in;
+    reg reset, clk;
+    
+    wire[7:0] act_out;
+    reg[7:0] exp_out;
+
+    wire verdict;
+    sum_last4 uut(.in(in), .reset(reset), .clk(clk), .out(act_out));
+
+    integer tests_total, tests_passed, nota;
+
+    assign verdict = exp_out === act_out;
+
+    initial begin
+        clk = 1;
+        repeat(66) #1 clk = ~clk;
+    end
+
+    initial begin
+        $display("in\treset\t\texpected_out\tactual_out\tPassed(1)/Failed(0)");
+        $monitor("%3d\t%5b\t\t%d\t\t%d\t%18b", in, reset, exp_out, act_out, verdict);
+        
+        tests_total = 0;
+        tests_passed = 0;
+    
+        in = 8'd0;
+        reset = 0;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        in = 8'd100;
+        exp_out = 100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+    
+        in = 8'd100;
+        exp_out = 200;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        exp_out = 200;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd50;
+        exp_out = 250;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd50;
+        exp_out = 200;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd250;
+        exp_out = 350;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd100;
+        reset = 1;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd10;
+        reset = 0;
+        exp_out = 10;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd11;
+        exp_out = 21;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd12;
+        exp_out = 33;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd13;
+        reset = 1;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd20;
+        reset = 0;
+        exp_out = 20;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd10;
+        reset = 0;
+        exp_out = 30;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd40;
+        reset = 1;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        reset = 0;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        reset = 0;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        reset = 0;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd255;
+        reset = 0;
+        exp_out = 255;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd255;
+        exp_out = 510;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd255;
+        exp_out = 765;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd255;
+        exp_out = 1020;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        exp_out = 765;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        exp_out = 510;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        exp_out = 255;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd1;
+        exp_out = 1;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd2;
+        reset = 1;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd3;
+        reset = 1;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd4;
+        reset = 1;
+        exp_out = 0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd100;
+        reset = 0;
+        exp_out = 100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+    
+        in = 8'd100;
+        exp_out = 200;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd0;
+        exp_out = 200;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        in = 8'd50;
+        exp_out = 250;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 100 / tests_total * 2;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule
+
+
+3)
+/* Construiti un modul ce insumeaza 2 cifre BCD si returneaza rezultatul in 2 iesiri, fiecare cu cate 4 biti: cifra zecilor si cifra unitatilor. */
+
+module sum_bcd(input[3:0] nr_1, nr_2, output reg [3:0] out_u, out_d);
+    
+    reg[4:0] aux;
+
+    always @(*)
+    begin
+        aux = nr_1 + nr_2;
+    end
+
+    always @(*)
+    begin
+        out_u = aux % 10;
+        out_d = aux / 10;
+    end
+
+endmodule
+
+module sum_bcd_tb;
+
+    reg[3:0] nr_1, nr_2;
+    wire[3:0] act_out_u, act_out_d;
+    reg[3:0] exp_out_u, exp_out_d;
+    wire verdict_u, verdict_d;
+
+    sum_bcd uut(.nr_1(nr_1), .nr_2(nr_2), .out_u(act_out_u), .out_d(act_out_d));
+    integer tests_total, tests_passed, nota;
+
+    integer data_file, random_int;
+
+    assign verdict_u = exp_out_u === act_out_u;
+    assign verdict_d = exp_out_d === act_out_d;
+
+    initial begin
+        $display("nr_1\tnr_2\t\texpected_out_u\tactual_out_u\tPassed(1)/Failed(0)\texpected_out_d\tactual_out_d\tPassed(1)/Failed(0)");
+        $monitor("%4d\t%4d\t\t%14d\t%12d\t%18d\t%14d\t%12d\t%18d", nr_1, nr_2, exp_out_u, act_out_u, verdict_u, exp_out_d, act_out_d, verdict_d);
+
+        tests_total = 0;
+        tests_passed = 0;
+        data_file = 0;
+        data_file = $fopen("ex22_tests.dat", "r");
+        if (data_file == 0) begin
+            $display("Adauga fisierul ex2_tests.dat in acelasi folder");
+            $finish;
+        end
+        while(!$feof(data_file)) begin
+            random_int = $fscanf(data_file, "%d %d %d %d\n", nr_1, nr_2, exp_out_d, exp_out_u);
+            tests_total = tests_total + 2;
+            #1;
+            tests_passed = tests_passed + verdict_d + verdict_u;
+        end
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 100 / tests_total * 2;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule 
+
+
+-EX3-
+
+1)
+/* Construiti un modul ce inmulteste ultimele 2 valori primite la intrarea pe w biti (parametru, implicit 4), sincron, la fiecare front crescator al semnalului de clk.
+Modulul va ignora valori, initial specificat prin parametrul ign, implicit 0. 
+Modulul va avea incarcare asincrona, prin intermediul intrarii ld, activa la 1, moment in care, valoarea de la intrare va fi noua valoare de ignorat.
+Modulul va avea reset asincron, prin intermediul intrarii rst_b, activa la 0. 
+La reset, modulul va reseta valoarea de la iesire si ultima valoare primita pe 0, iar valoare de ignorat inapoi la valoarea parametrului ign. */
+
+module mult_last2#(parameter w=4, parameter ign=0)(input [w-1:0] in, input clk, ld, rst_b, output reg[2*w-1:0] out = 0);
+    
+    reg[w-1:0] prev = 0;
+    integer k = ign;
+
+    always@(posedge clk, negedge rst_b, posedge ld) 
+    begin
+        if(!rst_b) 
+        begin
+            out <= 0;
+            prev <= 0;
+            k <= ign;
+        end 
+        else if(ld) k <= in;
+        else if(in != k) 
+        begin
+            out <= in * prev;
+            prev <= in;
+        end
+    end
+
+endmodule
+
+
+module mult_last2_tb0(output reg[31:0] tests_total, tests_passed);
+    reg[3:0] in;
+    reg clk, ld, rst_b;
+    wire[7:0] act_out;
+    reg[7:0] exp_out;
+    wire verdict;
+
+    mult_last2 uut(.in(in), .clk(clk), .ld(ld), .rst_b(rst_b), .out(act_out));
+
+    assign verdict = exp_out === act_out;
+    initial begin
+        clk = 0;
+        repeat(34) #2 clk = ~clk;
+    end
+
+    initial begin
+        $display("TESTBENCH 0: Valori implicite ale parametrilor");
+        $display("Time\tclk\tld\trst_b\tin\t\texpected_out\tactual_out\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%2b\t%5b\t%2d\t\t%12d\t%10d\t%18b", $time, clk, ld, rst_b, in, exp_out, act_out, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        ld = 0;
+        rst_b = 1;
+        in = 4'd5;
+        exp_out = 8'd0;
+
+        #1;
+        tests_total = tests_total + 1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 4'd10;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        #2;
+        in = 4'd5;
+        exp_out = 8'd50;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        #3;
+
+        in = 4'd0;
+        exp_out = 8'd50;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd5;
+        exp_out = 8'd25;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd2;
+        exp_out = 8'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+
+        in = 4'd10;
+        ld = 1;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+
+        in = 4'd5;
+        ld = 0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 4'd10;
+        exp_out = 8'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 4'd13;
+        exp_out = 8'd65;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd13;
+        exp_out = 8'd169;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd15;
+        exp_out = 8'd195;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd15;
+        exp_out = 8'd225;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd0;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd10;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd3;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+
+        in = 4'd10;
+        rst_b = 0;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        rst_b = 1;
+        in = 4'd1;
+        exp_out = 8'd0;
+        tests_total = tests_total  + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        in = 4'd10;
+        exp_out = 4'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        in = 4'd0;
+        exp_out = 4'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+    end
+endmodule
+
+
+module mult_last2_tb1(output reg[31:0] tests_total, tests_passed);
+    reg[3:0] in;
+    reg clk, ld, rst_b;
+    wire[7:0] act_out;
+    reg[7:0] exp_out;
+    wire verdict;
+
+    mult_last2 #(.ign(4'd8)) uut(.in(in), .clk(clk), .ld(ld), .rst_b(rst_b), .out(act_out));
+
+    assign verdict = exp_out === act_out;
+    initial begin
+        #100;
+        clk = 0;
+        repeat(34) #2 clk = ~clk;
+    end
+
+    initial begin
+        #100;
+        $display("TESTBENCH 1: Modificat valoarea de ignore");
+        $display("Time\tclk\tld\trst_b\tin\t\texpected_out\tactual_out\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%2b\t%5b\t%2d\t\t%12d\t%10d\t%18b", $time, clk, ld, rst_b, in, exp_out, act_out, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        ld = 0;
+        rst_b = 1;
+        in = 4'd5;
+        exp_out = 8'd0;
+
+        #1;
+        tests_total = tests_total + 1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 4'd10;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        #2;
+        in = 4'd5;
+        exp_out = 8'd50;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        #3;
+
+        in = 4'd8;
+        exp_out = 8'd50;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd5;
+        exp_out = 8'd25;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd2;
+        exp_out = 8'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+
+        in = 4'd10;
+        ld = 1;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+
+        in = 4'd5;
+        ld = 0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 4'd10;
+        exp_out = 8'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 4'd13;
+        exp_out = 8'd65;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd13;
+        exp_out = 8'd169;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd15;
+        exp_out = 8'd195;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd15;
+        exp_out = 8'd225;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd0;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd10;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 4'd3;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+
+        in = 4'd10;
+        rst_b = 0;
+        exp_out = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        rst_b = 1;
+        in = 4'd1;
+        exp_out = 8'd0;
+        tests_total = tests_total  + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        in = 4'd10;
+        exp_out = 4'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        in = 4'd8;
+        exp_out = 4'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+    end
+endmodule
+
+module mult_last2_tb2(output reg[31:0] tests_total, tests_passed);
+    reg[5:0] in;
+    reg clk, ld, rst_b;
+    wire[11:0] act_out;
+    reg[11:0] exp_out;
+    wire verdict;
+
+    mult_last2#(.w(6)) uut(.in(in), .clk(clk), .ld(ld), .rst_b(rst_b), .out(act_out));
+
+    assign verdict = exp_out === act_out;
+    initial begin
+        #200;
+        clk = 0;
+        repeat(34) #2 clk = ~clk;
+    end
+
+    initial begin
+        #200;
+        $display("TESTBENCH 2: Modificat numarul de biti");
+        $display("Time\tclk\tld\trst_b\tin\t\texpected_out\tactual_out\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%2b\t%5b\t%2d\t\t%12d\t%10d\t%18b", $time, clk, ld, rst_b, in, exp_out, act_out, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        ld = 0;
+        rst_b = 1;
+        in = 6'd5;
+        exp_out = 12'd0;
+
+        #1;
+        tests_total = tests_total + 1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 6'd10;
+        exp_out = 12'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        #2;
+        in = 6'd5;
+        exp_out = 12'd50;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        #3;
+
+        in = 6'd0;
+        exp_out = 12'd50;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd5;
+        exp_out = 12'd25;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd2;
+        exp_out = 12'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+
+        in = 6'd10;
+        ld = 1;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+
+        in = 6'd5;
+        ld = 0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 6'd10;
+        exp_out = 12'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        in = 6'd13;
+        exp_out = 12'd65;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd13;
+        exp_out = 12'd169;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd63;
+        exp_out = 12'd819;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd63;
+        exp_out = 12'd3969;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd0;
+        exp_out = 12'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd10;
+        exp_out = 12'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        in = 6'd3;
+        exp_out = 12'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+
+        in = 6'd10;
+        rst_b = 0;
+        exp_out = 12'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+        rst_b = 1;
+        in = 6'd1;
+        exp_out = 12'd0;
+        tests_total = tests_total  + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        in = 6'd10;
+        exp_out = 6'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        in = 6'd0;
+        exp_out = 6'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+    end
+endmodule
+
+module mult_last_2_tb;
+    wire[31:0] tests_total_0, tests_total_1, tests_total_2, tests_passed_0, tests_passed_1, tests_passed_2;
+    integer nota;
+
+    mult_last2_tb0 tb_0(.tests_total(tests_total_0), .tests_passed(tests_passed_0));
+    mult_last2_tb1 tb_1(.tests_total(tests_total_1), .tests_passed(tests_passed_1));
+    mult_last2_tb2 tb_2(.tests_total(tests_total_2), .tests_passed(tests_passed_2));
+    wire[31:0] tests_total_tb;
+    wire[31:0] tests_passed_tb;
+    assign tests_total_tb = tests_total_0 + tests_total_1  + tests_total_2;
+    assign tests_passed_tb = tests_passed_0 + tests_passed_1 + tests_passed_2;
+    initial begin
+        #300;
+        $display("All Passed / All Total: %3d / %3d", tests_passed_tb, tests_total_tb);
+        nota = tests_passed_tb * 250 / tests_total_tb;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule
+
+
+2)
+/* Sa se construiasca un registru de deplasare pe w biti (implicit 4) si valoare de reset rst_val (implicit 0)(parametrii).
+Modulul va avea functionalitati de shiftare (prin intrarea sh) si incarcare sincrone (prin intrare ld), active la 1, si reset asincron (prin intrarea rst_b), activ la 0.
+Daca intrarea sh este activa, atunci modulul va face shiftare cu o pozitie la dreapta a valorii inregistrate. Intrarea sh_type specifica tipul shiftarii:
+* 0 - shiftare logica
+* 1 - shiftare aritmetica (valoarea inregistrata este considerata ca fiind in complement de 2)*/
+
+module shift_rgst #(parameter w = 4, rst_val = 0)
+                   (input [w-1:0] d, 
+                    input clk, ld, rst_b, sh, sh_type,
+                    output reg [w-1:0] q);
+
+    always @(posedge clk or negedge rst_b) 
+    begin
+        if (~rst_b) 
+        begin
+            q <= rst_val;
+        end
+        else 
+        begin
+            if (ld) 
+            begin
+                q <= d;
+            end
+            else if (sh) 
+            begin
+                if (sh_type) 
+                begin
+                    q <= {q[w-2], q[w-1], q[w-1:1]};
+                end
+                else
+                begin
+                    q <= {1'b0, q[w-1:1]};
+                end
+            end
+        end
+    end
+endmodule
+
+
+module shift_rgst_tb_0(output reg[31:0] tests_total, tests_passed);
+
+    reg signed [3:0] d;
+    reg clk, ld, rst_b, sh, sh_type;
+    wire [3:0] act_q;
+    reg [3:0] exp_q;
+    wire verdict;
+
+    shift_rgst uut (.d(d), .clk(clk), .ld(ld), .rst_b(rst_b), .sh(sh), .sh_type(sh_type), .q(act_q));
+    
+    assign verdict = exp_q === act_q;
+    initial begin
+        clk = 0;
+        repeat(20) #2 clk = ~clk;
+    end
+
+    initial begin
+        $display("TESTBENCH 0: Valori implicite ale parameterilor");
+        $display("Time\tclk\tld\trst_b\tsh\tsh_type\td\t\texpected_q\tactual_q\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%2b\t%5b\t%2b\t%7b\t%4b\t\t%10b\t%8b\t%18b", $time, clk, ld, rst_b, sh, sh_type, d, exp_q, act_q, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        ld = 0;
+        rst_b = 1;
+        sh = 0;
+        sh_type = 0;
+        exp_q = 4'dX;
+        
+        #1;
+
+        rst_b = 0;
+        d = 4'd2;
+        exp_q = 4'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        #1;
+        rst_b = 1;
+        d = 4'd7;
+        ld = 1;
+        exp_q = 4'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+        rst_b = 1;
+        d = 4'd7;
+        ld = 1;
+        exp_q = 4'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        ld = 0;
+        sh = 1;
+        sh_type = 0;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh = 1;
+        sh_type = 0;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+
+        sh = 1;
+        sh_type = 1;
+        exp_q = 4'b0001;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 0;
+        ld = 1;
+        d = 4'b1100;
+        exp_q = 4'b1100;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 1;
+        d = 4'b0011;
+        exp_q = 4'b1110;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 4'b1100;
+        exp_q = 4'b0111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 0;
+        ld = 1;
+        sh_type = 1;
+        d = 4'b1111;
+        exp_q = 4'b1111;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 4'b0000;
+        exp_q = 4'b1111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 1;
+        d = 4'b1010;
+        exp_q = 4'b1111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 4'b0101;
+        exp_q = 4'b0111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        #3;
+
+        sh = 1;
+        sh_type = 1;
+        d = 4'b1010;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh =0;
+        sh_type = 0;
+        ld = 1;
+        d = 4'b1010;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+    end
+endmodule
+
+module shift_rgst_tb_1(output reg[31:0] tests_total, tests_passed);
+
+    reg signed [3:0] d;
+    reg clk, ld, rst_b, sh, sh_type;
+    wire [3:0] act_q;
+    reg [3:0] exp_q;
+    wire verdict;
+
+    shift_rgst #(.rst_val(4'd5)) uut (.d(d), .clk(clk), .ld(ld), .rst_b(rst_b), .sh(sh), .sh_type(sh_type), .q(act_q));
+
+    assign verdict = exp_q === act_q;
+    initial begin
+        #50;
+        clk = 0;
+        repeat(20) #2 clk = ~clk;
+    end
+
+    initial begin
+        #50;
+        $display("TESTBENCH 1: Modificat valoarea de reset");
+        $display("Time\tclk\tld\trst_b\tsh\tsh_type\td\t\texpected_q\tactual_q\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%2b\t%5b\t%2b\t%7b\t%4b\t\t%10b\t%8b\t%18b", $time, clk, ld, rst_b, sh, sh_type, d, exp_q, act_q, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        ld = 0;
+        rst_b = 1;
+        sh = 0;
+        sh_type = 0;
+        exp_q = 4'dX;
+        
+        #1;
+
+        rst_b = 0;
+        d = 4'd2;
+        exp_q = 4'd5;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        #1;
+
+        rst_b = 1;
+        d = 4'd7;
+        ld = 1;
+        exp_q = 4'd5;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+        rst_b = 1;
+        d = 4'd7;
+        ld = 1;
+        exp_q = 4'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        ld = 0;
+        sh = 1;
+        sh_type = 0;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh = 1;
+        sh_type = 0;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+
+        sh = 1;
+        sh_type = 1;
+        exp_q = 4'b0001;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 0;
+        ld = 1;
+        d = 4'b1100;
+        exp_q = 4'b1100;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 1;
+        d = 4'b0011;
+        exp_q = 4'b1110;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 4'b1100;
+        exp_q = 4'b0111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 0;
+        ld = 1;
+        sh_type = 1;
+        d = 4'b1111;
+        exp_q = 4'b1111;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 4'b0000;
+        exp_q = 4'b1111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 1;
+        d = 4'b1010;
+        exp_q = 4'b1111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 4'b0101;
+        exp_q = 4'b0111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        #3;
+
+        sh = 1;
+        sh_type = 1;
+        d = 4'b1010;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh =0;
+        sh_type = 0;
+        ld = 1;
+        d = 4'b1010;
+        exp_q = 4'b0011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+    end
+endmodule
+
+
+module shift_rgst_tb_2(output reg[31:0] tests_total, tests_passed);
+
+    reg signed [7:0] d;
+    reg clk, ld, rst_b, sh, sh_type;
+    wire [7:0] act_q;
+    reg [7:0] exp_q;
+    wire verdict;
+
+    shift_rgst #(.w(8)) uut (.d(d), .clk(clk), .ld(ld), .rst_b(rst_b), .sh(sh), .sh_type(sh_type), .q(act_q));
+    
+    assign verdict = exp_q === act_q;
+    initial begin
+        #100;
+        clk = 0;
+        repeat(20) #2 clk = ~clk;
+    end
+
+    initial begin
+        #100;
+        $display("TESTBENCH 2: Modificat numarul de biti");
+        $display("Time\tclk\tld\trst_b\tsh\tsh_type\td\t\texpected_q\tactual_q\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%2b\t%5b\t%2b\t%7b\t%4b\t\t%10b\t%8b\t%18b", $time, clk, ld, rst_b, sh, sh_type, d, exp_q, act_q, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        ld = 0;
+        rst_b = 1;
+        sh = 0;
+        sh_type = 0;
+        exp_q = 8'dX;
+        
+        #1;
+
+        rst_b = 0;
+        d = 8'd2;
+        exp_q = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        #1;
+
+        rst_b = 1;
+        d = 8'd7;
+        ld = 1;
+        exp_q = 8'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+        rst_b = 1;
+        d = 8'd7;
+        ld = 1;
+        exp_q = 8'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        ld = 0;
+        sh = 1;
+        sh_type = 0;
+        exp_q = 8'b00000011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh = 1;
+        sh_type = 0;
+        exp_q = 8'b00000011;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #2;
+
+        sh = 1;
+        sh_type = 1;
+        exp_q = 8'b00000001;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 0;
+        ld = 1;
+        d = 8'b11111100;
+        exp_q = 8'b11111100;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 1;
+        d = 8'b11000011;
+        exp_q = 8'b11111110;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 8'b00111100;
+        exp_q = 8'b01111111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        sh = 0;
+        ld = 1;
+        sh_type = 1;
+        d = 8'b11111111;
+        exp_q = 8'b11111111;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 8'b00000000;
+        exp_q = 8'b11111111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        sh = 1;
+        ld = 0;
+        sh_type = 1;
+        d = 8'b10101010;
+        exp_q = 8'b11111111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh = 1;
+        ld = 0;
+        sh_type = 0;
+        d = 8'b01010101;
+        exp_q = 8'b01111111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        #3;
+
+        sh = 1;
+        sh_type = 1;
+        d = 8'b10101010;
+        exp_q = 8'b00111111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        sh =0;
+        sh_type = 0;
+        ld = 1;
+        d = 8'b00001010;
+        exp_q = 8'b00111111;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #1;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+    end
+endmodule
+
+module shift_rgst_tb;
+
+    wire[31:0] tests_total_0, tests_total_1, tests_total_2, tests_passed_0, tests_passed_1, tests_passed_2;
+    integer nota;
+
+    shift_rgst_tb_0 tb_0(.tests_total(tests_total_0), .tests_passed(tests_passed_0));
+    shift_rgst_tb_1 tb_1(.tests_total(tests_total_1), .tests_passed(tests_passed_1));
+    shift_rgst_tb_2 tb_2(.tests_total(tests_total_2), .tests_passed(tests_passed_2));
+    wire[31:0] tests_total_tb;
+    wire[31:0] tests_passed_tb;
+    assign tests_total_tb = tests_total_0 + tests_total_1  + tests_total_2;
+    assign tests_passed_tb = tests_passed_0 + tests_passed_1 + tests_passed_2;
+    initial begin
+        #150;
+        $display("All Passed / All Total: %3d / %3d", tests_passed_tb, tests_total_tb);
+        nota = tests_passed_tb * 250 / tests_total_tb;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule
+
+
+3)
+/* Construiti un modul parametrizabil (w - nr de biti ai intrarii, implicit 4, ign - valoare de ignorat, implicit 0). 
+Modulul va face suma ultimelor 2 valori de la intrare "valide" (sincron, pe frontul crescator al semnalului de clk). 
+O valoare la intrare este considerata "valida" daca este diferita de paramaetrul ign. 
+Modulul are si functionalitate de reset sincron (prin intrarea rst_b), 
+ce reseteaza atat iesirea cat si "valoarea precedenta de la intrare" pe 0. */
+
+module sum_ignore #(parameter w = 4, parameter ign = 0)
+                    (input [w-1:0] d,
+                     input clk, rst_b,
+                     output reg[w:0] q);
+    
+    reg[w-1:0] n1 = 0, n2 = 0;
+    always@(posedge clk) begin
+      if(!rst_b) begin
+        q <= 0;
+        n1 <= 0;
+      end else if(d != ign) begin
+        q <= d+n1;
+        n1 <= d;
+      end
+    end
+        
+endmodule
+
+
+
+module sum_ignore_tb_0(output reg[31:0] tests_total, tests_passed);
+
+    reg[3:0] d;
+    reg clk, rst_b;
+    wire[4:0] act_q;
+    reg[4:0] exp_q;
+    wire verdict;
+
+    sum_ignore uut (.d(d), .clk(clk), .rst_b(rst_b), .q(act_q));
+
+    assign verdict = exp_q === act_q;
+    initial begin
+        clk = 0;
+        repeat(31) #2 clk = ~clk;
+    end
+
+    initial begin
+        $display("TESTBENCH 0: Valori implicite ale parametrilor");
+        $display("Time\tclk\trst_b\td\t\texpected_q\tactual_q\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%5b\t%2d\t\t%10d\t%8d\t%18d", $time, clk, rst_b, d, exp_q, act_q, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        rst_b = 1;
+        exp_q = 5'dX;
+
+        #1;
+        rst_b = 0;
+        d = 4'd10;
+        exp_q = 5'dX;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        rst_b = 0;
+        d = 4'd1;
+        exp_q = 5'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        rst_b = 1;
+        d = 4'd7;
+        exp_q = 5'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd0;
+        exp_q = 5'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd3;
+        exp_q = 5'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd0;
+        exp_q = 5'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd2;
+        exp_q = 5'd5;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd9;
+        exp_q = 5'd11;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd0;
+        rst_b = 0;
+        exp_q = 5'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        
+        d = 4'd15;
+        rst_b = 1;
+        exp_q = 5'd15;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3; 
+
+        d = 4'd15;
+        exp_q = 5'd30;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd0;
+        exp_q = 5'd30;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd1;
+        exp_q = 5'd16;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        #3;
+
+        d = 4'd3;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd4;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd5;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd6;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd7;
+        exp_q = 5'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        #3;
+
+        d = 4'd10;
+        exp_q = 5'd17;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd10;
+        exp_q = 5'd20;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+    end
+endmodule
+
+module sum_ignore_tb_1(output reg[31:0] tests_total, tests_passed);
+
+    reg[3:0] d;
+    reg clk, rst_b;
+    wire[4:0] act_q;
+    reg[4:0] exp_q;
+    wire verdict;
+
+    sum_ignore #(.ign(4'd14)) uut (.d(d), .clk(clk), .rst_b(rst_b), .q(act_q));
+
+    assign verdict = exp_q === act_q;
+    initial begin
+        #100;
+        clk = 0;
+        repeat(31) #2 clk = ~clk;
+    end
+
+    initial begin
+        #100;
+        $display("TESTBENCH 1: Valoarea de ignorat modificata");
+        $display("Time\tclk\trst_b\td\t\texpected_q\tactual_q\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%5b\t%2d\t\t%10d\t%8d\t%18d", $time, clk, rst_b, d, exp_q, act_q, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        rst_b = 1;
+        exp_q = 5'dX;
+
+        #1;
+        rst_b = 0;
+        d = 4'd10;
+        exp_q = 5'dX;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        rst_b = 0;
+        d = 4'd1;
+        exp_q = 5'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        rst_b = 1;
+        d = 4'd7;
+        exp_q = 5'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd14;
+        exp_q = 5'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd3;
+        exp_q = 5'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd14;
+        exp_q = 5'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd0;
+        exp_q = 5'd3;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd9;
+        exp_q = 5'd9;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd14;
+        rst_b = 0;
+        exp_q = 5'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        
+        d = 4'd15;
+        rst_b = 1;
+        exp_q = 5'd15;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3; 
+
+        d = 4'd15;
+        exp_q = 5'd30;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd14;
+        exp_q = 5'd30;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd1;
+        exp_q = 5'd16;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        #3;
+
+        d = 4'd3;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd4;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd5;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd6;
+        exp_q = 5'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 4'd7;
+        exp_q = 5'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        #3;
+
+        d = 4'd0;
+        exp_q = 5'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 4'd0;
+        exp_q = 5'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+    end
+endmodule
+
+module sum_ignore_tb_2(output reg[31:0] tests_total, tests_passed);
+
+    reg[7:0] d;
+    reg clk, rst_b;
+    wire[8:0] act_q;
+    reg[8:0] exp_q;
+    wire verdict;
+
+    sum_ignore #(.w(8)) uut (.d(d), .clk(clk), .rst_b(rst_b), .q(act_q));
+
+    assign verdict = exp_q === act_q;
+    initial begin
+        #200;
+        clk = 0;
+        repeat(31) #2 clk = ~clk;
+    end
+
+    initial begin
+        #200;
+        $display("TESTBENCH 2: Modificat numarul de biti");
+        $display("Time\tclk\trst_b\td\t\texpected_q\tactual_q\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%5b\t%3d\t\t%10d\t%8d\t%18d", $time, clk, rst_b, d, exp_q, act_q, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        rst_b = 1;
+        exp_q = 9'dX;
+
+        #1;
+        rst_b = 0;
+        d = 8'd10;
+        exp_q = 9'dX;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        rst_b = 0;
+        d = 8'd1;
+        exp_q = 9'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        rst_b = 1;
+        d = 8'd7;
+        exp_q = 9'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd0;
+        exp_q = 9'd7;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd3;
+        exp_q = 9'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd0;
+        exp_q = 9'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd2;
+        exp_q = 9'd5;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd9;
+        exp_q = 9'd11;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd0;
+        rst_b = 0;
+        exp_q = 9'd0;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+        
+        d = 8'd255;
+        rst_b = 1;
+        exp_q = 9'd255;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3; 
+
+        d = 8'd255;
+        exp_q = 9'd510;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd0;
+        exp_q = 9'd510;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd1;
+        exp_q = 9'd256;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+        
+        #3;
+
+        d = 8'd3;
+        exp_q = 9'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 8'd4;
+        exp_q = 9'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 8'd5;
+        exp_q = 9'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 8'd6;
+        exp_q = 9'd4;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        d = 8'd7;
+        exp_q = 9'd10;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+    
+        #3;
+
+        d = 8'd10;
+        exp_q = 9'd17;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        d = 8'd10;
+        exp_q = 9'd20;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        #3;
+
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+    end
+endmodule
+
+module sum_ignore_tb;
+    wire[31:0] tests_total_0, tests_total_1, tests_total_2, tests_passed_0, tests_passed_1, tests_passed_2;
+    integer nota;
+
+    sum_ignore_tb_0 tb_0(.tests_total(tests_total_0), .tests_passed(tests_passed_0));
+    sum_ignore_tb_1 tb_1(.tests_total(tests_total_1), .tests_passed(tests_passed_1));
+    sum_ignore_tb_2 tb_2(.tests_total(tests_total_2), .tests_passed(tests_passed_2));
+    wire[31:0] tests_total_tb;
+    wire[31:0] tests_passed_tb;
+    assign tests_total_tb = tests_total_0 + tests_total_1  + tests_total_2;
+    assign tests_passed_tb = tests_passed_0 + tests_passed_1 + tests_passed_2;
+    initial begin
+        #300;
+        $display("All Passed / All Total: %3d / %3d", tests_passed_tb, tests_total_tb);
+        nota = tests_passed_tb * 250 / tests_total_tb;
+        $display("Nota: %1d.%02d", nota / 100, nota % 100);
+    end
+endmodule
+
+
+-EX4-
+
+1)
+/* Proiectati un modul ce citeste bit cu bit pe front-ul crescator al semnalului de clk in maniera LIFO (primul bit primit este cel mai putin semnificativ bit). 
+Odata ce a citit 8 biti, modulul ii va inregistra in iesirea byte. 
+Iesirea byte va ramane pe valoarea precedenta (initial 0) cat modulul citeste biti si se va schimba doar cand modulul a citit alti 8 biti. 
+Intrarea flush a modulului (activa pe nivel 1) va provoca eliminarea tutoror bitilor cititi pana in momentul respectiv de modul 
+si reluarea citirii a altor 8 biti (iesirea byte inca isi pastreaza valoarea chiar si in cazul asta). */
+
+module spi_rx(input bit, clk, flush, output reg[7:0] byte);
+    
+    integer k = 0, init = 0;
+    reg [7:0] n;
+    always@(posedge clk) begin
+      if(init == 0) begin
+        byte = 0;
+        init = 1;
+      end
+      n[k] = bit;
+      k = k+1;
+      if(k == 8) begin
+        k = 0;
+        byte = n;
+      end
+      if(flush)
+        k = 0;
+    end
+
+endmodule
+
+
+module spi_rx_tb;
+
+    reg bit, clk, flush;
+    wire[7:0] act_byte;
+    reg[7:0] exp_byte;
+    
+    wire verdict;
+
+    spi_rx uut(.bit(bit), .clk(clk), .flush(flush), .byte(act_byte));
+    integer tests_total, tests_passed, nota;
+
+    assign verdict = exp_byte === act_byte;
+
+    initial begin
+        clk = 0;
+        repeat(80) #1 clk = ~clk;
+    end
+    initial begin
+        $display("Time\tclk\tflush\tbit\t\tactual_byte\texpected_byte\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%5b\t%3b\t\t%11b\t%9b\t%18d", $time, clk, flush, bit, act_byte, exp_byte, verdict);
+        tests_total = 0;
+        tests_passed = 0;
+        exp_byte = 8'd0;
+        #1;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'd0;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b01010011;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        flush = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 1;
+        flush = 1;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        flush = 0;
+        #1;
+        bit = 1;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #1;
+        tests_passed = tests_passed + verdict;
+
+        bit = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+
+        bit = 1;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 0;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 1;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 1;
+        exp_byte = 8'b11111100;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        bit = 1;
+        exp_byte = 8'b11100101;
+        tests_total = tests_total + 1;
+        #2;
+        tests_passed = tests_passed + verdict;
+        
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 100 / tests_total * 25;
+        $display("Nota: %1d.%03d", nota / 1000, nota % 1000);
+    end
+endmodule
+
+
+2)
+
+/* Construiti un modul de transmitere a unei valori de la intrare bit cu bit la iesire (iesirea se va numi bit).
+Intrarea modulului va avea 8 biti,
+iar modulul va trimite bitii de la intrare in maniera FIFO (cel mai semnificativ bit va fi trimis primul) la fiecare front crescator de clk.
+Dupa ce a terminat transmitarea, modulul va seta iesirea finish pe valoarea 1, altfel va fi 0. 
+Iesirea finish va ramane pe 1 pana cand valoarea de la intrare se schimba. 
+Daca valoarea de la intrare se schimba inainte de terminarea transmisiei,
+modulul va reincepe transmiterea noi intrari. 
+Initial, iesirea stop e 1.*/
+
+module spi_tx(input[7:0] in, input clk, output reg bit, stop);
+    
+    integer k = 8;
+    initial begin
+      stop = 1;
+    end
+    
+    always@(posedge clk) begin
+      if(k) begin
+        bit = in[k];
+        k = k-1;
+      end
+      else stop = 1;
+    end
+    
+    always@(in) begin
+      stop = 0;
+      k = 7;
+    end
+
+endmodule
+
+
+module spi_tx_tb;
+    reg[7:0] in;
+    reg clk;
+    wire act_bit, act_stop;
+
+    reg exp_bit, exp_stop;
+
+    wire verdict_bit, verdict_stop;
+
+    spi_tx uut(.in(in), .clk(clk), .bit(act_bit), .stop(act_stop));
+    integer tests_total, tests_passed, nota;
+    assign verdict_bit = exp_bit === act_bit;
+    assign verdict_stop = exp_stop === act_stop;
+    
+    initial begin
+        clk = 1;
+        repeat(64) #1 clk = ~clk;
+    end
+
+    initial begin
+        $display("Time\tclk\tin\t\texpected_bit\tactual_bit\tPassed(1)/Failed(0)\texpected_stop\tactual_stop\tPassed(1)/Failed(0)");
+        $monitor("%4t\t%3b\t%8b %12b\t%10b\t%18b\t%13b\t%11b\t%18b", $time, clk, in, exp_bit, act_bit, verdict_bit, exp_stop, act_stop, verdict_stop);
+        tests_total = 0;
+        tests_passed = 0;
+        
+        exp_stop = 1'b1;
+        exp_bit = 1'bx;
+
+        #1;
+
+        tests_total = tests_total + 2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        in = 8'b00110101;
+        exp_bit = 1'b0;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b0;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        exp_stop = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        in = 8'b11001100;
+        exp_bit = 1'b1;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        exp_stop = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        in = 8'b00110101;
+        exp_bit = 1'b0;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b1;
+        exp_stop = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        in = 8'b00101001;
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b0;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        exp_bit = 1'b1;
+        exp_stop = 1'b1;
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        tests_total = tests_total + 2;
+        #2;
+        tests_passed = tests_passed + verdict_bit + verdict_stop;
+        
+        $display("Passed / Total: %2d / %2d", tests_passed, tests_total);
+        nota = tests_passed * 100 / tests_total * 25;
+        $display("Nota: %1d.%03d", nota / 1000, nota % 1000);
+    end
+endmodule

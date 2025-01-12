@@ -1,0 +1,74 @@
+module sha2indpath #(
+	parameter reg_w=64,
+	parameter reg_cnt=8,
+	parameter dec_w=3
+)(
+	input clk,
+	input rst_b,
+	input [reg_w-1:0] pkt,	
+	input st_pkt,
+	input clr,
+	input pad_pkt,
+	input zero_pkt,
+	input mgln_pkt,
+	output [dec_w-1:0] idx,
+	output [reg_cnt*reg_w-1:0] blk
+);
+
+wire [reg_w-1:0] msg_len_temp;
+wire [reg_w-1:0] o_d;
+wire [reg_w-1:0] sumator_aux;
+
+sumator #(
+	.w(reg_w)
+) sumator0(
+	.i(msg_len_temp),
+	.o(sumator_aux)
+);
+
+rgst64 #(
+	.w(reg_w)
+) rgst0 (
+	.clk(clk),
+	.rst_b(rst_b),
+	.clr(clr),
+	.ld(st_pkt & ~(pad_pkt | zero_pkt | mgln_pkt)),
+	.d(sumator_aux),
+	.q(msg_len_temp)
+);
+
+pktmux #(
+	.w(reg_w)
+) pktmux0(
+	.msg_len(msg_len_temp),
+	.pkt(pkt),
+	.pad_pkt(pad_pkt),
+	.zero_pkt(zero_pkt),
+	.mgln_pkt(mgln_pkt),
+	.o(o_d)
+);
+
+cntr #(
+	.w(dec_w)
+) cntr0 (
+	.clk(clk),
+	.rst_b(rst_b),
+	.c_up(st_pkt),
+	.clr(clr),
+	.q(idx)
+);
+
+regfl64 #(
+	.reg_w(reg_w),
+	.reg_cnt(reg_cnt),
+	.dec_w(dec_w)
+)regfl0(
+	.clk(clk),
+	.rst_b(rst_b),
+	.we(st_pkt),
+	.s(idx),
+	.d(o_d),
+	.q(blk)
+);
+
+endmodule

@@ -35,6 +35,7 @@ module cmp2b_tb;
 
 	reg [1:0] x, y;
 	wire eq, lt, gt;
+
 cmp2b uut (
     .x(x), 
     .y(y), 
@@ -44,7 +45,7 @@ cmp2b uut (
 );
 
 	
-integer i;
+integer [3:0]i;
 
 initial begin
     $display("x  y | eq lt gt");

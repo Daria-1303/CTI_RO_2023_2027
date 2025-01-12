@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Teste/Rezolvari/T2P2
+vE3Digit_to_7seg
+Z1 !s110 1733694641
+!i10b 1
+!s100 1He?0IFQZVWYk4jag>N:j2
+I983Fcbaa?H:a3aZ;hF>@>3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1733693985
+Z4 8E3Digit_to_7seg.v
+Z5 FE3Digit_to_7seg.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1733694641.000000
+Z8 !s107 n_conv.v|E3Digit_to_7seg.v|
+Z9 !s90 -reportprogress|300|E3Digit_to_7seg.v|n_conv.v|
+!i113 1
+Z10 tCvgOpt 0
+n@e3@digit_to_7seg
+vex2_tb
+R1
+!i10b 1
+!s100 <GkFV`S]Aa_Ccc_3nV=k60
+I=n@J^M0T@Xod1KGT:^HHW0
+R2
+R0
+Z11 w1733694638
+Z12 8n_conv.v
+Z13 Fn_conv.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vn_conv
+R1
+!i10b 1
+!s100 ]K1?5ZDMjfB=8lX2<Rnoe3
+IVZL9WOZXV;@lUO:bEDOhg0
+R2
+R0
+R11
+R12
+R13
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtb_E3Digit_to_7seg
+R1
+!i10b 1
+!s100 WdIc5Lgd4moAUa7Yb68Hn2
+IVc<:meh]Kc9@iH5C?BeM@0
+R2
+R0
+R3
+R4
+R5
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+ntb_@e3@digit_to_7seg

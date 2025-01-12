@@ -1,0 +1,23 @@
+module rgst64 #(
+    parameter w=64
+)(
+    input clk, rst_b, ld, clr, input [w-1:0] d, output reg [w-1:0] q
+);
+    always @ (posedge clk, negedge rst_b)
+        if (!rst_b)                 q <= 0;
+        else if (clr)               q <= 0;
+        else if (ld)                q <= d;
+endmodule
+
+module regfl#(
+	parameter reg_w=64,
+	parameter reg_cnt=8,
+	parameter dec_w=3
+)(
+	input clk,
+	input rst_b,
+	input we,
+	input [dec_w-1:0] s,
+	input [reg_w-1:0] d,
+	output [reg_cnt*reg_w-1:0] q
+);

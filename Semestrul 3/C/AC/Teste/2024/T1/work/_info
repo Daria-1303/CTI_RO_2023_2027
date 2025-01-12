@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Teste/2024/T1
+vd_ff
+Z1 !s110 1733840225
+!i10b 1
+!s100 7lFI]lAcUXz`5ofVRMOaf1
+IH<:=GO^Ll4ff=2W:QmM9_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1733830647
+8d_ff.v
+Fd_ff.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1733840225.000000
+Z5 !s107 lss5b.v|d_ff.v|
+Z6 !s90 -reportprogress|300|d_ff.v|lss5b.v|
+!i113 1
+Z7 tCvgOpt 0
+vlss5b
+R1
+!i10b 1
+!s100 BXCe:zcGDD6Joic_nO@^h3
+ITYc^Bh>cJeWYhe5o:4FSZ0
+R2
+R0
+Z8 w1733840221
+Z9 8lss5b.v
+Z10 Flss5b.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vlss5b_tb
+R1
+!i10b 1
+!s100 `=U[UBYN7H>nCKEm1aOdf1
+IE>]X2J[b]ZCo^>meb<7fW1
+R2
+R0
+R8
+R9
+R10
+L0 104
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

@@ -1,0 +1,105 @@
+module ex4(
+    input clk,
+    input bit,      // Semnal pentru citirea unui bit
+    input flush,    // Semnal pentru golire, activa pe 1 -> vom citi alt nr byte, desi cel anterior isi pastreaza valoarea
+    output reg [7:0] byte
+);
+
+reg [7:0] buffer;   // Buffer pentru citirea unui byte
+reg [2:0] cnt;      // Contor pentru citirea unui byte -> cand ajunge la 8, am citit un byte
+
+// Initialize registers to known values
+initial begin
+    byte = 8'b0;
+    buffer = 8'b0;
+    cnt = 3'b0;
+end
+
+always @(posedge clk) begin
+    if (flush) begin
+        // Reset buffer and counter on flush
+        buffer <= 8'b0;
+        cnt <= 3'b0;
+    end else begin
+        if (cnt == 3'b111) begin
+            // Update byte with buffer value after 8 bits are read
+            byte <= {buffer[6:0], bit};
+            cnt <= 3'b0; // Reset counter
+        end else begin
+            // Shift buffer and increment counter
+            buffer <= {buffer[6:0], bit};
+            cnt <= cnt + 1;
+        end
+    end
+end
+
+endmodule
+
+
+
+
+module ex4_tb;
+
+reg clk;
+reg flush;
+reg bit;
+wire [7:0] byte;
+
+// Instanțierea modulului ex4
+ex4 uut (
+    .clk(clk),
+    .flush(flush),
+    .bit(bit),
+    .byte(byte)
+);
+
+// Generarea semnalului de ceas
+localparam CLK_PERIOD = 10;
+localparam CLK_CYCLES = 30;
+initial begin
+    clk = 0;
+    repeat (2 * CLK_CYCLES) # (CLK_PERIOD / 2) clk = ~clk;
+end
+
+initial begin
+    bit = 0;
+    #(CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(2 * CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;  
+    #(CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(2 * CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(2 * CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(2 * CLK_PERIOD) bit = 1;
+    #(CLK_PERIOD) bit = 0;
+    #(CLK_PERIOD) bit = 1;
+    #(2 * CLK_PERIOD) bit = 0;
+    #(2 * CLK_PERIOD)bit=1;
+end
+
+initial begin
+    flush = 0;
+    #(13 * CLK_PERIOD) flush = 1;
+    #(8 * CLK_PERIOD) flush = 0;
+end
+
+initial begin
+    $display("Time       |   flush      | bit_in      | byte");
+    $display("------------------------------------------------");
+    $monitor("%d          |   %b          | %b          | %b", $time, flush, bit, byte);
+end
+
+
+
+endmodule

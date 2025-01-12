@@ -1,0 +1,3706 @@
+do run_ex2.txt
+# ex2.v
+# sum_digits_BCD_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:37 on Jan 05,2024
+# vlog -reportprogress 300 ex2.v 
+# -- Compiling module sum_1digit_BCD
+# -- Compiling module sum_digits_BCD
+# -- Compiling module sum_digits_BCD_tb
+# 
+# Top level modules:
+# 	sum_digits_BCD_tb
+# End time: 16:41:37 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" sum_digits_BCD_tb 
+# Start time: 16:41:37 on Jan 05,2024
+# Loading work.sum_digits_BCD_tb
+# Loading work.sum_digits_BCD
+# Loading work.sum_1digit_BCD
+# ** Warning: (vsim-3015) ex2.v(45): [PCDPC] - Port size (2) does not match connection size (8) for port 'x'. The port definition is at: ex2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /sum_digits_BCD_tb/uut File: ex2.v
+# ** Warning: (vsim-3015) ex2.v(45): [PCDPC] - Port size (2) does not match connection size (8) for port 'y'. The port definition is at: ex2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /sum_digits_BCD_tb/uut File: ex2.v
+# ** Warning: (vsim-3015) ex2.v(45): [PCDPC] - Port size (2) does not match connection size (8) for port 'z'. The port definition is at: ex2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /sum_digits_BCD_tb/uut File: ex2.v
+# ** Fatal: (vsim-3374) ex2.v(23): MSB of part-select into 'x' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /sum_digits_BCD_tb/uut/vect[0]/genblk1 File: ex2.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_ex2.txt PAUSED at line 25
+do run_ex2.txt
+# ex2.v
+# sum_digits_BCD_tb
+# End time: 16:44:15 on Jan 05,2024, Elapsed time: 0:02:38
+# Errors: 1, Warnings: 3
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:44:15 on Jan 05,2024
+# vlog -reportprogress 300 ex2.v 
+# -- Compiling module sum_1digit_BCD
+# -- Compiling module sum_digits_BCD
+# -- Compiling module sum_digits_BCD_tb
+# 
+# Top level modules:
+# 	sum_digits_BCD_tb
+# End time: 16:44:15 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" sum_digits_BCD_tb 
+# Start time: 16:44:15 on Jan 05,2024
+# Loading work.sum_digits_BCD_tb
+# Loading work.sum_digits_BCD
+# Loading work.sum_1digit_BCD
+# ** Fatal: (vsim-3373) ex2.v(29): Range of part-select [3:4] into 'x' [7:0] is reversed.
+#    Time: 0 ps  Iteration: 0  Region: /sum_digits_BCD_tb/uut/vect[1]/genblk1/genblk1 File: ex2.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_ex2.txt PAUSED at line 25
+do run_ex2.txt
+# ex2.v
+# sum_digits_BCD_tb
+# End time: 16:45:07 on Jan 05,2024, Elapsed time: 0:00:52
+# Errors: 1, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:45:07 on Jan 05,2024
+# vlog -reportprogress 300 ex2.v 
+# -- Compiling module sum_1digit_BCD
+# -- Compiling module sum_digits_BCD
+# -- Compiling module sum_digits_BCD_tb
+# 
+# Top level modules:
+# 	sum_digits_BCD_tb
+# End time: 16:45:07 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" sum_digits_BCD_tb 
+# Start time: 16:45:07 on Jan 05,2024
+# Loading work.sum_digits_BCD_tb
+# Loading work.sum_digits_BCD
+# Loading work.sum_1digit_BCD
+# X	Y		Z	c_out
+# xx	xx		xx	z
+# 00	00		x0	z
+# 00	03		x3	z
+# 00	06		x6	z
+# 00	09		x9	z
+# 00	10		x0	z
+# 00	13		x3	z
+# 00	16		x6	z
+# 00	19		x9	z
+# 00	20		x0	z
+# 00	23		x3	z
+# 00	26		x6	z
+# 00	29		x9	z
+# 00	30		x0	z
+# 00	33		x3	z
+# 00	36		x6	z
+# 00	39		x9	z
+# 00	40		x0	z
+# 00	43		x3	z
+# 00	46		x6	z
+# 00	49		x9	z
+# 00	50		x0	z
+# 00	53		x3	z
+# 00	56		x6	z
+# 00	59		x9	z
+# 00	60		x0	z
+# 00	63		x3	z
+# 00	66		x6	z
+# 00	69		x9	z
+# 00	70		x0	z
+# 00	73		x3	z
+# 00	76		x6	z
+# 00	79		x9	z
+# 00	80		x0	z
+# 00	83		x3	z
+# 00	86		x6	z
+# 00	89		x9	z
+# 00	90		x0	z
+# 00	93		x3	z
+# 00	96		x6	z
+# 00	99		x9	z
+# 02	00		x2	z
+# 02	03		x5	z
+# 02	06		x8	z
+# 02	09		x1	z
+# 02	10		x2	z
+# 02	13		x5	z
+# 02	16		x8	z
+# 02	19		x1	z
+# 02	20		x2	z
+# 02	23		x5	z
+# 02	26		x8	z
+# 02	29		x1	z
+# 02	30		x2	z
+# 02	33		x5	z
+# 02	36		x8	z
+# 02	39		x1	z
+# 02	40		x2	z
+# 02	43		x5	z
+# 02	46		x8	z
+# 02	49		x1	z
+# 02	50		x2	z
+# 02	53		x5	z
+# 02	56		x8	z
+# 02	59		x1	z
+# 02	60		x2	z
+# 02	63		x5	z
+# 02	66		x8	z
+# 02	69		x1	z
+# 02	70		x2	z
+# 02	73		x5	z
+# 02	76		x8	z
+# 02	79		x1	z
+# 02	80		x2	z
+# 02	83		x5	z
+# 02	86		x8	z
+# 02	89		x1	z
+# 02	90		x2	z
+# 02	93		x5	z
+# 02	96		x8	z
+# 02	99		x1	z
+# 04	00		x4	z
+# 04	03		x7	z
+# 04	06		x0	z
+# 04	09		x3	z
+# 04	10		x4	z
+# 04	13		x7	z
+# 04	16		x0	z
+# 04	19		x3	z
+# 04	20		x4	z
+# 04	23		x7	z
+# 04	26		x0	z
+# 04	29		x3	z
+# 04	30		x4	z
+# 04	33		x7	z
+# 04	36		x0	z
+# 04	39		x3	z
+# 04	40		x4	z
+# 04	43		x7	z
+# 04	46		x0	z
+# 04	49		x3	z
+# 04	50		x4	z
+# 04	53		x7	z
+# 04	56		x0	z
+# 04	59		x3	z
+# 04	60		x4	z
+# 04	63		x7	z
+# 04	66		x0	z
+# 04	69		x3	z
+# 04	70		x4	z
+# 04	73		x7	z
+# 04	76		x0	z
+# 04	79		x3	z
+# 04	80		x4	z
+# 04	83		x7	z
+# 04	86		x0	z
+# 04	89		x3	z
+# 04	90		x4	z
+# 04	93		x7	z
+# 04	96		x0	z
+# 04	99		x3	z
+# 06	00		x6	z
+# 06	03		x9	z
+# 06	06		x2	z
+# 06	09		x5	z
+# 06	10		x6	z
+# 06	13		x9	z
+# 06	16		x2	z
+# 06	19		x5	z
+# 06	20		x6	z
+# 06	23		x9	z
+# 06	26		x2	z
+# 06	29		x5	z
+# 06	30		x6	z
+# 06	33		x9	z
+# 06	36		x2	z
+# 06	39		x5	z
+# 06	40		x6	z
+# 06	43		x9	z
+# 06	46		x2	z
+# 06	49		x5	z
+# 06	50		x6	z
+# 06	53		x9	z
+# 06	56		x2	z
+# 06	59		x5	z
+# 06	60		x6	z
+# 06	63		x9	z
+# 06	66		x2	z
+# 06	69		x5	z
+# 06	70		x6	z
+# 06	73		x9	z
+# 06	76		x2	z
+# 06	79		x5	z
+# 06	80		x6	z
+# 06	83		x9	z
+# 06	86		x2	z
+# 06	89		x5	z
+# 06	90		x6	z
+# 06	93		x9	z
+# 06	96		x2	z
+# 06	99		x5	z
+# 08	00		x8	z
+# 08	03		x1	z
+# 08	06		x4	z
+# 08	09		x7	z
+# 08	10		x8	z
+# 08	13		x1	z
+# 08	16		x4	z
+# 08	19		x7	z
+# 08	20		x8	z
+# 08	23		x1	z
+# 08	26		x4	z
+# 08	29		x7	z
+# 08	30		x8	z
+# 08	33		x1	z
+# 08	36		x4	z
+# 08	39		x7	z
+# 08	40		x8	z
+# 08	43		x1	z
+# 08	46		x4	z
+# 08	49		x7	z
+# 08	50		x8	z
+# 08	53		x1	z
+# 08	56		x4	z
+# 08	59		x7	z
+# 08	60		x8	z
+# 08	63		x1	z
+# 08	66		x4	z
+# 08	69		x7	z
+# 08	70		x8	z
+# 08	73		x1	z
+# 08	76		x4	z
+# 08	79		x7	z
+# 08	80		x8	z
+# 08	83		x1	z
+# 08	86		x4	z
+# 08	89		x7	z
+# 08	90		x8	z
+# 08	93		x1	z
+# 08	96		x4	z
+# 08	99		x7	z
+# 30	00		x0	z
+# 30	03		x3	z
+# 30	06		x6	z
+# 30	09		x9	z
+# 30	10		x0	z
+# 30	13		x3	z
+# 30	16		x6	z
+# 30	19		x9	z
+# 30	20		x0	z
+# 30	23		x3	z
+# 30	26		x6	z
+# 30	29		x9	z
+# 30	30		x0	z
+# 30	33		x3	z
+# 30	36		x6	z
+# 30	39		x9	z
+# 30	40		x0	z
+# 30	43		x3	z
+# 30	46		x6	z
+# 30	49		x9	z
+# 30	50		x0	z
+# 30	53		x3	z
+# 30	56		x6	z
+# 30	59		x9	z
+# 30	60		x0	z
+# 30	63		x3	z
+# 30	66		x6	z
+# 30	69		x9	z
+# 30	70		x0	z
+# 30	73		x3	z
+# 30	76		x6	z
+# 30	79		x9	z
+# 30	80		x0	z
+# 30	83		x3	z
+# 30	86		x6	z
+# 30	89		x9	z
+# 30	90		x0	z
+# 30	93		x3	z
+# 30	96		x6	z
+# 30	99		x9	z
+# 32	00		x2	z
+# 32	03		x5	z
+# 32	06		x8	z
+# 32	09		x1	z
+# 32	10		x2	z
+# 32	13		x5	z
+# 32	16		x8	z
+# 32	19		x1	z
+# 32	20		x2	z
+# 32	23		x5	z
+# 32	26		x8	z
+# 32	29		x1	z
+# 32	30		x2	z
+# 32	33		x5	z
+# 32	36		x8	z
+# 32	39		x1	z
+# 32	40		x2	z
+# 32	43		x5	z
+# 32	46		x8	z
+# 32	49		x1	z
+# 32	50		x2	z
+# 32	53		x5	z
+# 32	56		x8	z
+# 32	59		x1	z
+# 32	60		x2	z
+# 32	63		x5	z
+# 32	66		x8	z
+# 32	69		x1	z
+# 32	70		x2	z
+# 32	73		x5	z
+# 32	76		x8	z
+# 32	79		x1	z
+# 32	80		x2	z
+# 32	83		x5	z
+# 32	86		x8	z
+# 32	89		x1	z
+# 32	90		x2	z
+# 32	93		x5	z
+# 32	96		x8	z
+# 32	99		x1	z
+# 34	00		x4	z
+# 34	03		x7	z
+# 34	06		x0	z
+# 34	09		x3	z
+# 34	10		x4	z
+# 34	13		x7	z
+# 34	16		x0	z
+# 34	19		x3	z
+# 34	20		x4	z
+# 34	23		x7	z
+# 34	26		x0	z
+# 34	29		x3	z
+# 34	30		x4	z
+# 34	33		x7	z
+# 34	36		x0	z
+# 34	39		x3	z
+# 34	40		x4	z
+# 34	43		x7	z
+# 34	46		x0	z
+# 34	49		x3	z
+# 34	50		x4	z
+# 34	53		x7	z
+# 34	56		x0	z
+# 34	59		x3	z
+# 34	60		x4	z
+# 34	63		x7	z
+# 34	66		x0	z
+# 34	69		x3	z
+# 34	70		x4	z
+# 34	73		x7	z
+# 34	76		x0	z
+# 34	79		x3	z
+# 34	80		x4	z
+# 34	83		x7	z
+# 34	86		x0	z
+# 34	89		x3	z
+# 34	90		x4	z
+# 34	93		x7	z
+# 34	96		x0	z
+# 34	99		x3	z
+# 36	00		x6	z
+# 36	03		x9	z
+# 36	06		x2	z
+# 36	09		x5	z
+# 36	10		x6	z
+# 36	13		x9	z
+# 36	16		x2	z
+# 36	19		x5	z
+# 36	20		x6	z
+# 36	23		x9	z
+# 36	26		x2	z
+# 36	29		x5	z
+# 36	30		x6	z
+# 36	33		x9	z
+# 36	36		x2	z
+# 36	39		x5	z
+# 36	40		x6	z
+# 36	43		x9	z
+# 36	46		x2	z
+# 36	49		x5	z
+# 36	50		x6	z
+# 36	53		x9	z
+# 36	56		x2	z
+# 36	59		x5	z
+# 36	60		x6	z
+# 36	63		x9	z
+# 36	66		x2	z
+# 36	69		x5	z
+# 36	70		x6	z
+# 36	73		x9	z
+# 36	76		x2	z
+# 36	79		x5	z
+# 36	80		x6	z
+# 36	83		x9	z
+# 36	86		x2	z
+# 36	89		x5	z
+# 36	90		x6	z
+# 36	93		x9	z
+# 36	96		x2	z
+# 36	99		x5	z
+# 38	00		x8	z
+# 38	03		x1	z
+# 38	06		x4	z
+# 38	09		x7	z
+# 38	10		x8	z
+# 38	13		x1	z
+# 38	16		x4	z
+# 38	19		x7	z
+# 38	20		x8	z
+# 38	23		x1	z
+# 38	26		x4	z
+# 38	29		x7	z
+# 38	30		x8	z
+# 38	33		x1	z
+# 38	36		x4	z
+# 38	39		x7	z
+# 38	40		x8	z
+# 38	43		x1	z
+# 38	46		x4	z
+# 38	49		x7	z
+# 38	50		x8	z
+# 38	53		x1	z
+# 38	56		x4	z
+# 38	59		x7	z
+# 38	60		x8	z
+# 38	63		x1	z
+# 38	66		x4	z
+# 38	69		x7	z
+# 38	70		x8	z
+# 38	73		x1	z
+# 38	76		x4	z
+# 38	79		x7	z
+# 38	80		x8	z
+# 38	83		x1	z
+# 38	86		x4	z
+# 38	89		x7	z
+# 38	90		x8	z
+# 38	93		x1	z
+# 38	96		x4	z
+# 38	99		x7	z
+# 60	00		x0	z
+# 60	03		x3	z
+# 60	06		x6	z
+# 60	09		x9	z
+# 60	10		x0	z
+# 60	13		x3	z
+# 60	16		x6	z
+# 60	19		x9	z
+# 60	20		x0	z
+# 60	23		x3	z
+# 60	26		x6	z
+# 60	29		x9	z
+# 60	30		x0	z
+# 60	33		x3	z
+# 60	36		x6	z
+# 60	39		x9	z
+# 60	40		x0	z
+# 60	43		x3	z
+# 60	46		x6	z
+# 60	49		x9	z
+# 60	50		x0	z
+# 60	53		x3	z
+# 60	56		x6	z
+# 60	59		x9	z
+# 60	60		x0	z
+# 60	63		x3	z
+# 60	66		x6	z
+# 60	69		x9	z
+# 60	70		x0	z
+# 60	73		x3	z
+# 60	76		x6	z
+# 60	79		x9	z
+# 60	80		x0	z
+# 60	83		x3	z
+# 60	86		x6	z
+# 60	89		x9	z
+# 60	90		x0	z
+# 60	93		x3	z
+# 60	96		x6	z
+# 60	99		x9	z
+# 62	00		x2	z
+# 62	03		x5	z
+# 62	06		x8	z
+# 62	09		x1	z
+# 62	10		x2	z
+# 62	13		x5	z
+# 62	16		x8	z
+# 62	19		x1	z
+# 62	20		x2	z
+# 62	23		x5	z
+# 62	26		x8	z
+# 62	29		x1	z
+# 62	30		x2	z
+# 62	33		x5	z
+# 62	36		x8	z
+# 62	39		x1	z
+# 62	40		x2	z
+# 62	43		x5	z
+# 62	46		x8	z
+# 62	49		x1	z
+# 62	50		x2	z
+# 62	53		x5	z
+# 62	56		x8	z
+# 62	59		x1	z
+# 62	60		x2	z
+# 62	63		x5	z
+# 62	66		x8	z
+# 62	69		x1	z
+# 62	70		x2	z
+# 62	73		x5	z
+# 62	76		x8	z
+# 62	79		x1	z
+# 62	80		x2	z
+# 62	83		x5	z
+# 62	86		x8	z
+# 62	89		x1	z
+# 62	90		x2	z
+# 62	93		x5	z
+# 62	96		x8	z
+# 62	99		x1	z
+# 64	00		x4	z
+# 64	03		x7	z
+# 64	06		x0	z
+# 64	09		x3	z
+# 64	10		x4	z
+# 64	13		x7	z
+# 64	16		x0	z
+# 64	19		x3	z
+# 64	20		x4	z
+# 64	23		x7	z
+# 64	26		x0	z
+# 64	29		x3	z
+# 64	30		x4	z
+# 64	33		x7	z
+# 64	36		x0	z
+# 64	39		x3	z
+# 64	40		x4	z
+# 64	43		x7	z
+# 64	46		x0	z
+# 64	49		x3	z
+# 64	50		x4	z
+# 64	53		x7	z
+# 64	56		x0	z
+# 64	59		x3	z
+# 64	60		x4	z
+# 64	63		x7	z
+# 64	66		x0	z
+# 64	69		x3	z
+# 64	70		x4	z
+# 64	73		x7	z
+# 64	76		x0	z
+# 64	79		x3	z
+# 64	80		x4	z
+# 64	83		x7	z
+# 64	86		x0	z
+# 64	89		x3	z
+# 64	90		x4	z
+# 64	93		x7	z
+# 64	96		x0	z
+# 64	99		x3	z
+# 66	00		x6	z
+# 66	03		x9	z
+# 66	06		x2	z
+# 66	09		x5	z
+# 66	10		x6	z
+# 66	13		x9	z
+# 66	16		x2	z
+# 66	19		x5	z
+# 66	20		x6	z
+# 66	23		x9	z
+# 66	26		x2	z
+# 66	29		x5	z
+# 66	30		x6	z
+# 66	33		x9	z
+# 66	36		x2	z
+# 66	39		x5	z
+# 66	40		x6	z
+# 66	43		x9	z
+# 66	46		x2	z
+# 66	49		x5	z
+# 66	50		x6	z
+# 66	53		x9	z
+# 66	56		x2	z
+# 66	59		x5	z
+# 66	60		x6	z
+# 66	63		x9	z
+# 66	66		x2	z
+# 66	69		x5	z
+# 66	70		x6	z
+# 66	73		x9	z
+# 66	76		x2	z
+# 66	79		x5	z
+# 66	80		x6	z
+# 66	83		x9	z
+# 66	86		x2	z
+# 66	89		x5	z
+# 66	90		x6	z
+# 66	93		x9	z
+# 66	96		x2	z
+# 66	99		x5	z
+# 68	00		x8	z
+# 68	03		x1	z
+# 68	06		x4	z
+# 68	09		x7	z
+# 68	10		x8	z
+# 68	13		x1	z
+# 68	16		x4	z
+# 68	19		x7	z
+# 68	20		x8	z
+# 68	23		x1	z
+# 68	26		x4	z
+# 68	29		x7	z
+# 68	30		x8	z
+# 68	33		x1	z
+# 68	36		x4	z
+# 68	39		x7	z
+# 68	40		x8	z
+# 68	43		x1	z
+# 68	46		x4	z
+# 68	49		x7	z
+# 68	50		x8	z
+# 68	53		x1	z
+# 68	56		x4	z
+# 68	59		x7	z
+# 68	60		x8	z
+# 68	63		x1	z
+# 68	66		x4	z
+# 68	69		x7	z
+# 68	70		x8	z
+# 68	73		x1	z
+# 68	76		x4	z
+# 68	79		x7	z
+# 68	80		x8	z
+# 68	83		x1	z
+# 68	86		x4	z
+# 68	89		x7	z
+# 68	90		x8	z
+# 68	93		x1	z
+# 68	96		x4	z
+# 68	99		x7	z
+# 90	00		x0	z
+# 90	03		x3	z
+# 90	06		x6	z
+# 90	09		x9	z
+# 90	10		x0	z
+# 90	13		x3	z
+# 90	16		x6	z
+# 90	19		x9	z
+# 90	20		x0	z
+# 90	23		x3	z
+# 90	26		x6	z
+# 90	29		x9	z
+# 90	30		x0	z
+# 90	33		x3	z
+# 90	36		x6	z
+# 90	39		x9	z
+# 90	40		x0	z
+# 90	43		x3	z
+# 90	46		x6	z
+# 90	49		x9	z
+# 90	50		x0	z
+# 90	53		x3	z
+# 90	56		x6	z
+# 90	59		x9	z
+# 90	60		x0	z
+# 90	63		x3	z
+# 90	66		x6	z
+# 90	69		x9	z
+# 90	70		x0	z
+# 90	73		x3	z
+# 90	76		x6	z
+# 90	79		x9	z
+# 90	80		x0	z
+# 90	83		x3	z
+# 90	86		x6	z
+# 90	89		x9	z
+# 90	90		x0	z
+# 90	93		x3	z
+# 90	96		x6	z
+# 90	99		x9	z
+# 92	00		x2	z
+# 92	03		x5	z
+# 92	06		x8	z
+# 92	09		x1	z
+# 92	10		x2	z
+# 92	13		x5	z
+# 92	16		x8	z
+# 92	19		x1	z
+# 92	20		x2	z
+# 92	23		x5	z
+# 92	26		x8	z
+# 92	29		x1	z
+# 92	30		x2	z
+# 92	33		x5	z
+# 92	36		x8	z
+# 92	39		x1	z
+# 92	40		x2	z
+# 92	43		x5	z
+# 92	46		x8	z
+# 92	49		x1	z
+# 92	50		x2	z
+# 92	53		x5	z
+# 92	56		x8	z
+# 92	59		x1	z
+# 92	60		x2	z
+# 92	63		x5	z
+# 92	66		x8	z
+# 92	69		x1	z
+# 92	70		x2	z
+# 92	73		x5	z
+# 92	76		x8	z
+# 92	79		x1	z
+# 92	80		x2	z
+# 92	83		x5	z
+# 92	86		x8	z
+# 92	89		x1	z
+# 92	90		x2	z
+# 92	93		x5	z
+# 92	96		x8	z
+# 92	99		x1	z
+# 94	00		x4	z
+# 94	03		x7	z
+# 94	06		x0	z
+# 94	09		x3	z
+# 94	10		x4	z
+# 94	13		x7	z
+# 94	16		x0	z
+# 94	19		x3	z
+# 94	20		x4	z
+# 94	23		x7	z
+# 94	26		x0	z
+# 94	29		x3	z
+# 94	30		x4	z
+# 94	33		x7	z
+# 94	36		x0	z
+# 94	39		x3	z
+# 94	40		x4	z
+# 94	43		x7	z
+# 94	46		x0	z
+# 94	49		x3	z
+# 94	50		x4	z
+# 94	53		x7	z
+# 94	56		x0	z
+# 94	59		x3	z
+# 94	60		x4	z
+# 94	63		x7	z
+# 94	66		x0	z
+# 94	69		x3	z
+# 94	70		x4	z
+# 94	73		x7	z
+# 94	76		x0	z
+# 94	79		x3	z
+# 94	80		x4	z
+# 94	83		x7	z
+# 94	86		x0	z
+# 94	89		x3	z
+# 94	90		x4	z
+# 94	93		x7	z
+# 94	96		x0	z
+# 94	99		x3	z
+# 96	00		x6	z
+# 96	03		x9	z
+# 96	06		x2	z
+# 96	09		x5	z
+# 96	10		x6	z
+# 96	13		x9	z
+# 96	16		x2	z
+# 96	19		x5	z
+# 96	20		x6	z
+# 96	23		x9	z
+# 96	26		x2	z
+# 96	29		x5	z
+# 96	30		x6	z
+# 96	33		x9	z
+# 96	36		x2	z
+# 96	39		x5	z
+# 96	40		x6	z
+# 96	43		x9	z
+# 96	46		x2	z
+# 96	49		x5	z
+# 96	50		x6	z
+# 96	53		x9	z
+# 96	56		x2	z
+# 96	59		x5	z
+# 96	60		x6	z
+# 96	63		x9	z
+# 96	66		x2	z
+# 96	69		x5	z
+# 96	70		x6	z
+# 96	73		x9	z
+# 96	76		x2	z
+# 96	79		x5	z
+# 96	80		x6	z
+# 96	83		x9	z
+# 96	86		x2	z
+# 96	89		x5	z
+# 96	90		x6	z
+# 96	93		x9	z
+# 96	96		x2	z
+# 96	99		x5	z
+# 98	00		x8	z
+# 98	03		x1	z
+# 98	06		x4	z
+# 98	09		x7	z
+# 98	10		x8	z
+# 98	13		x1	z
+# 98	16		x4	z
+# 98	19		x7	z
+# 98	20		x8	z
+# 98	23		x1	z
+# 98	26		x4	z
+# 98	29		x7	z
+# 98	30		x8	z
+# 98	33		x1	z
+# 98	36		x4	z
+# 98	39		x7	z
+# 98	40		x8	z
+# 98	43		x1	z
+# 98	46		x4	z
+# 98	49		x7	z
+# 98	50		x8	z
+# 98	53		x1	z
+# 98	56		x4	z
+# 98	59		x7	z
+# 98	60		x8	z
+# 98	63		x1	z
+# 98	66		x4	z
+# 98	69		x7	z
+# 98	70		x8	z
+# 98	73		x1	z
+# 98	76		x4	z
+# 98	79		x7	z
+# 98	80		x8	z
+# 98	83		x1	z
+# 98	86		x4	z
+# 98	89		x7	z
+# 98	90		x8	z
+# 98	93		x1	z
+# 98	96		x4	z
+# 98	99		x7	z
+# End time: 16:45:14 on Jan 05,2024, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+do run_ex2.txt
+# ex2.v
+# sum_digits_BCD_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:45:52 on Jan 05,2024
+# vlog -reportprogress 300 ex2.v 
+# -- Compiling module sum_1digit_BCD
+# -- Compiling module sum_digits_BCD
+# -- Compiling module sum_digits_BCD_tb
+# 
+# Top level modules:
+# 	sum_digits_BCD_tb
+# End time: 16:45:52 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" sum_digits_BCD_tb 
+# Start time: 16:45:52 on Jan 05,2024
+# Loading work.sum_digits_BCD_tb
+# Loading work.sum_digits_BCD
+# Loading work.sum_1digit_BCD
+# X	Y		Z	c_out
+# xx	xx		xx	x
+# 00	00		00	0
+# 00	03		03	0
+# 00	06		06	0
+# 00	09		09	0
+# 00	10		10	0
+# 00	13		13	0
+# 00	16		16	0
+# 00	19		19	0
+# 00	20		20	0
+# 00	23		23	0
+# 00	26		26	0
+# 00	29		29	0
+# 00	30		30	0
+# 00	33		33	0
+# 00	36		36	0
+# 00	39		39	0
+# 00	40		40	0
+# 00	43		43	0
+# 00	46		46	0
+# 00	49		49	0
+# 00	50		50	0
+# 00	53		53	0
+# 00	56		56	0
+# 00	59		59	0
+# 00	60		60	0
+# 00	63		63	0
+# 00	66		66	0
+# 00	69		69	0
+# 00	70		70	0
+# 00	73		73	0
+# 00	76		76	0
+# 00	79		79	0
+# 00	80		80	0
+# 00	83		83	0
+# 00	86		86	0
+# 00	89		89	0
+# 00	90		90	0
+# 00	93		93	0
+# 00	96		96	0
+# 00	99		99	0
+# 02	00		02	0
+# 02	03		05	0
+# 02	06		08	0
+# 02	09		11	0
+# 02	10		12	0
+# 02	13		15	0
+# 02	16		18	0
+# 02	19		21	0
+# 02	20		22	0
+# 02	23		25	0
+# 02	26		28	0
+# 02	29		31	0
+# 02	30		32	0
+# 02	33		35	0
+# 02	36		38	0
+# 02	39		41	0
+# 02	40		42	0
+# 02	43		45	0
+# 02	46		48	0
+# 02	49		51	0
+# 02	50		52	0
+# 02	53		55	0
+# 02	56		58	0
+# 02	59		61	0
+# 02	60		62	0
+# 02	63		65	0
+# 02	66		68	0
+# 02	69		71	0
+# 02	70		72	0
+# 02	73		75	0
+# 02	76		78	0
+# 02	79		81	0
+# 02	80		82	0
+# 02	83		85	0
+# 02	86		88	0
+# 02	89		91	0
+# 02	90		92	0
+# 02	93		95	0
+# 02	96		98	0
+# 02	99		01	1
+# 04	00		04	0
+# 04	03		07	0
+# 04	06		10	0
+# 04	09		13	0
+# 04	10		14	0
+# 04	13		17	0
+# 04	16		20	0
+# 04	19		23	0
+# 04	20		24	0
+# 04	23		27	0
+# 04	26		30	0
+# 04	29		33	0
+# 04	30		34	0
+# 04	33		37	0
+# 04	36		40	0
+# 04	39		43	0
+# 04	40		44	0
+# 04	43		47	0
+# 04	46		50	0
+# 04	49		53	0
+# 04	50		54	0
+# 04	53		57	0
+# 04	56		60	0
+# 04	59		63	0
+# 04	60		64	0
+# 04	63		67	0
+# 04	66		70	0
+# 04	69		73	0
+# 04	70		74	0
+# 04	73		77	0
+# 04	76		80	0
+# 04	79		83	0
+# 04	80		84	0
+# 04	83		87	0
+# 04	86		90	0
+# 04	89		93	0
+# 04	90		94	0
+# 04	93		97	0
+# 04	96		00	1
+# 04	99		03	1
+# 06	00		06	0
+# 06	03		09	0
+# 06	06		12	0
+# 06	09		15	0
+# 06	10		16	0
+# 06	13		19	0
+# 06	16		22	0
+# 06	19		25	0
+# 06	20		26	0
+# 06	23		29	0
+# 06	26		32	0
+# 06	29		35	0
+# 06	30		36	0
+# 06	33		39	0
+# 06	36		42	0
+# 06	39		45	0
+# 06	40		46	0
+# 06	43		49	0
+# 06	46		52	0
+# 06	49		55	0
+# 06	50		56	0
+# 06	53		59	0
+# 06	56		62	0
+# 06	59		65	0
+# 06	60		66	0
+# 06	63		69	0
+# 06	66		72	0
+# 06	69		75	0
+# 06	70		76	0
+# 06	73		79	0
+# 06	76		82	0
+# 06	79		85	0
+# 06	80		86	0
+# 06	83		89	0
+# 06	86		92	0
+# 06	89		95	0
+# 06	90		96	0
+# 06	93		99	0
+# 06	96		02	1
+# 06	99		05	1
+# 08	00		08	0
+# 08	03		11	0
+# 08	06		14	0
+# 08	09		17	0
+# 08	10		18	0
+# 08	13		21	0
+# 08	16		24	0
+# 08	19		27	0
+# 08	20		28	0
+# 08	23		31	0
+# 08	26		34	0
+# 08	29		37	0
+# 08	30		38	0
+# 08	33		41	0
+# 08	36		44	0
+# 08	39		47	0
+# 08	40		48	0
+# 08	43		51	0
+# 08	46		54	0
+# 08	49		57	0
+# 08	50		58	0
+# 08	53		61	0
+# 08	56		64	0
+# 08	59		67	0
+# 08	60		68	0
+# 08	63		71	0
+# 08	66		74	0
+# 08	69		77	0
+# 08	70		78	0
+# 08	73		81	0
+# 08	76		84	0
+# 08	79		87	0
+# 08	80		88	0
+# 08	83		91	0
+# 08	86		94	0
+# 08	89		97	0
+# 08	90		98	0
+# 08	93		01	1
+# 08	96		04	1
+# 08	99		07	1
+# 30	00		30	0
+# 30	03		33	0
+# 30	06		36	0
+# 30	09		39	0
+# 30	10		40	0
+# 30	13		43	0
+# 30	16		46	0
+# 30	19		49	0
+# 30	20		50	0
+# 30	23		53	0
+# 30	26		56	0
+# 30	29		59	0
+# 30	30		60	0
+# 30	33		63	0
+# 30	36		66	0
+# 30	39		69	0
+# 30	40		70	0
+# 30	43		73	0
+# 30	46		76	0
+# 30	49		79	0
+# 30	50		80	0
+# 30	53		83	0
+# 30	56		86	0
+# 30	59		89	0
+# 30	60		90	0
+# 30	63		93	0
+# 30	66		96	0
+# 30	69		99	0
+# 30	70		00	1
+# 30	73		03	1
+# 30	76		06	1
+# 30	79		09	1
+# 30	80		10	1
+# 30	83		13	1
+# 30	86		16	1
+# 30	89		19	1
+# 30	90		20	1
+# 30	93		23	1
+# 30	96		26	1
+# 30	99		29	1
+# 32	00		32	0
+# 32	03		35	0
+# 32	06		38	0
+# 32	09		41	0
+# 32	10		42	0
+# 32	13		45	0
+# 32	16		48	0
+# 32	19		51	0
+# 32	20		52	0
+# 32	23		55	0
+# 32	26		58	0
+# 32	29		61	0
+# 32	30		62	0
+# 32	33		65	0
+# 32	36		68	0
+# 32	39		71	0
+# 32	40		72	0
+# 32	43		75	0
+# 32	46		78	0
+# 32	49		81	0
+# 32	50		82	0
+# 32	53		85	0
+# 32	56		88	0
+# 32	59		91	0
+# 32	60		92	0
+# 32	63		95	0
+# 32	66		98	0
+# 32	69		01	1
+# 32	70		02	1
+# 32	73		05	1
+# 32	76		08	1
+# 32	79		11	1
+# 32	80		12	1
+# 32	83		15	1
+# 32	86		18	1
+# 32	89		21	1
+# 32	90		22	1
+# 32	93		25	1
+# 32	96		28	1
+# 32	99		31	1
+# 34	00		34	0
+# 34	03		37	0
+# 34	06		40	0
+# 34	09		43	0
+# 34	10		44	0
+# 34	13		47	0
+# 34	16		50	0
+# 34	19		53	0
+# 34	20		54	0
+# 34	23		57	0
+# 34	26		60	0
+# 34	29		63	0
+# 34	30		64	0
+# 34	33		67	0
+# 34	36		70	0
+# 34	39		73	0
+# 34	40		74	0
+# 34	43		77	0
+# 34	46		80	0
+# 34	49		83	0
+# 34	50		84	0
+# 34	53		87	0
+# 34	56		90	0
+# 34	59		93	0
+# 34	60		94	0
+# 34	63		97	0
+# 34	66		00	1
+# 34	69		03	1
+# 34	70		04	1
+# 34	73		07	1
+# 34	76		10	1
+# 34	79		13	1
+# 34	80		14	1
+# 34	83		17	1
+# 34	86		20	1
+# 34	89		23	1
+# 34	90		24	1
+# 34	93		27	1
+# 34	96		30	1
+# 34	99		33	1
+# 36	00		36	0
+# 36	03		39	0
+# 36	06		42	0
+# 36	09		45	0
+# 36	10		46	0
+# 36	13		49	0
+# 36	16		52	0
+# 36	19		55	0
+# 36	20		56	0
+# 36	23		59	0
+# 36	26		62	0
+# 36	29		65	0
+# 36	30		66	0
+# 36	33		69	0
+# 36	36		72	0
+# 36	39		75	0
+# 36	40		76	0
+# 36	43		79	0
+# 36	46		82	0
+# 36	49		85	0
+# 36	50		86	0
+# 36	53		89	0
+# 36	56		92	0
+# 36	59		95	0
+# 36	60		96	0
+# 36	63		99	0
+# 36	66		02	1
+# 36	69		05	1
+# 36	70		06	1
+# 36	73		09	1
+# 36	76		12	1
+# 36	79		15	1
+# 36	80		16	1
+# 36	83		19	1
+# 36	86		22	1
+# 36	89		25	1
+# 36	90		26	1
+# 36	93		29	1
+# 36	96		32	1
+# 36	99		35	1
+# 38	00		38	0
+# 38	03		41	0
+# 38	06		44	0
+# 38	09		47	0
+# 38	10		48	0
+# 38	13		51	0
+# 38	16		54	0
+# 38	19		57	0
+# 38	20		58	0
+# 38	23		61	0
+# 38	26		64	0
+# 38	29		67	0
+# 38	30		68	0
+# 38	33		71	0
+# 38	36		74	0
+# 38	39		77	0
+# 38	40		78	0
+# 38	43		81	0
+# 38	46		84	0
+# 38	49		87	0
+# 38	50		88	0
+# 38	53		91	0
+# 38	56		94	0
+# 38	59		97	0
+# 38	60		98	0
+# 38	63		01	1
+# 38	66		04	1
+# 38	69		07	1
+# 38	70		08	1
+# 38	73		11	1
+# 38	76		14	1
+# 38	79		17	1
+# 38	80		18	1
+# 38	83		21	1
+# 38	86		24	1
+# 38	89		27	1
+# 38	90		28	1
+# 38	93		31	1
+# 38	96		34	1
+# 38	99		37	1
+# 60	00		60	0
+# 60	03		63	0
+# 60	06		66	0
+# 60	09		69	0
+# 60	10		70	0
+# 60	13		73	0
+# 60	16		76	0
+# 60	19		79	0
+# 60	20		80	0
+# 60	23		83	0
+# 60	26		86	0
+# 60	29		89	0
+# 60	30		90	0
+# 60	33		93	0
+# 60	36		96	0
+# 60	39		99	0
+# 60	40		00	1
+# 60	43		03	1
+# 60	46		06	1
+# 60	49		09	1
+# 60	50		10	1
+# 60	53		13	1
+# 60	56		16	1
+# 60	59		19	1
+# 60	60		20	1
+# 60	63		23	1
+# 60	66		26	1
+# 60	69		29	1
+# 60	70		30	1
+# 60	73		33	1
+# 60	76		36	1
+# 60	79		39	1
+# 60	80		40	1
+# 60	83		43	1
+# 60	86		46	1
+# 60	89		49	1
+# 60	90		50	1
+# 60	93		53	1
+# 60	96		56	1
+# 60	99		59	1
+# 62	00		62	0
+# 62	03		65	0
+# 62	06		68	0
+# 62	09		71	0
+# 62	10		72	0
+# 62	13		75	0
+# 62	16		78	0
+# 62	19		81	0
+# 62	20		82	0
+# 62	23		85	0
+# 62	26		88	0
+# 62	29		91	0
+# 62	30		92	0
+# 62	33		95	0
+# 62	36		98	0
+# 62	39		01	1
+# 62	40		02	1
+# 62	43		05	1
+# 62	46		08	1
+# 62	49		11	1
+# 62	50		12	1
+# 62	53		15	1
+# 62	56		18	1
+# 62	59		21	1
+# 62	60		22	1
+# 62	63		25	1
+# 62	66		28	1
+# 62	69		31	1
+# 62	70		32	1
+# 62	73		35	1
+# 62	76		38	1
+# 62	79		41	1
+# 62	80		42	1
+# 62	83		45	1
+# 62	86		48	1
+# 62	89		51	1
+# 62	90		52	1
+# 62	93		55	1
+# 62	96		58	1
+# 62	99		61	1
+# 64	00		64	0
+# 64	03		67	0
+# 64	06		70	0
+# 64	09		73	0
+# 64	10		74	0
+# 64	13		77	0
+# 64	16		80	0
+# 64	19		83	0
+# 64	20		84	0
+# 64	23		87	0
+# 64	26		90	0
+# 64	29		93	0
+# 64	30		94	0
+# 64	33		97	0
+# 64	36		00	1
+# 64	39		03	1
+# 64	40		04	1
+# 64	43		07	1
+# 64	46		10	1
+# 64	49		13	1
+# 64	50		14	1
+# 64	53		17	1
+# 64	56		20	1
+# 64	59		23	1
+# 64	60		24	1
+# 64	63		27	1
+# 64	66		30	1
+# 64	69		33	1
+# 64	70		34	1
+# 64	73		37	1
+# 64	76		40	1
+# 64	79		43	1
+# 64	80		44	1
+# 64	83		47	1
+# 64	86		50	1
+# 64	89		53	1
+# 64	90		54	1
+# 64	93		57	1
+# 64	96		60	1
+# 64	99		63	1
+# 66	00		66	0
+# 66	03		69	0
+# 66	06		72	0
+# 66	09		75	0
+# 66	10		76	0
+# 66	13		79	0
+# 66	16		82	0
+# 66	19		85	0
+# 66	20		86	0
+# 66	23		89	0
+# 66	26		92	0
+# 66	29		95	0
+# 66	30		96	0
+# 66	33		99	0
+# 66	36		02	1
+# 66	39		05	1
+# 66	40		06	1
+# 66	43		09	1
+# 66	46		12	1
+# 66	49		15	1
+# 66	50		16	1
+# 66	53		19	1
+# 66	56		22	1
+# 66	59		25	1
+# 66	60		26	1
+# 66	63		29	1
+# 66	66		32	1
+# 66	69		35	1
+# 66	70		36	1
+# 66	73		39	1
+# 66	76		42	1
+# 66	79		45	1
+# 66	80		46	1
+# 66	83		49	1
+# 66	86		52	1
+# 66	89		55	1
+# 66	90		56	1
+# 66	93		59	1
+# 66	96		62	1
+# 66	99		65	1
+# 68	00		68	0
+# 68	03		71	0
+# 68	06		74	0
+# 68	09		77	0
+# 68	10		78	0
+# 68	13		81	0
+# 68	16		84	0
+# 68	19		87	0
+# 68	20		88	0
+# 68	23		91	0
+# 68	26		94	0
+# 68	29		97	0
+# 68	30		98	0
+# 68	33		01	1
+# 68	36		04	1
+# 68	39		07	1
+# 68	40		08	1
+# 68	43		11	1
+# 68	46		14	1
+# 68	49		17	1
+# 68	50		18	1
+# 68	53		21	1
+# 68	56		24	1
+# 68	59		27	1
+# 68	60		28	1
+# 68	63		31	1
+# 68	66		34	1
+# 68	69		37	1
+# 68	70		38	1
+# 68	73		41	1
+# 68	76		44	1
+# 68	79		47	1
+# 68	80		48	1
+# 68	83		51	1
+# 68	86		54	1
+# 68	89		57	1
+# 68	90		58	1
+# 68	93		61	1
+# 68	96		64	1
+# 68	99		67	1
+# 90	00		90	0
+# 90	03		93	0
+# 90	06		96	0
+# 90	09		99	0
+# 90	10		00	1
+# 90	13		03	1
+# 90	16		06	1
+# 90	19		09	1
+# 90	20		10	1
+# 90	23		13	1
+# 90	26		16	1
+# 90	29		19	1
+# 90	30		20	1
+# 90	33		23	1
+# 90	36		26	1
+# 90	39		29	1
+# 90	40		30	1
+# 90	43		33	1
+# 90	46		36	1
+# 90	49		39	1
+# 90	50		40	1
+# 90	53		43	1
+# 90	56		46	1
+# 90	59		49	1
+# 90	60		50	1
+# 90	63		53	1
+# 90	66		56	1
+# 90	69		59	1
+# 90	70		60	1
+# 90	73		63	1
+# 90	76		66	1
+# 90	79		69	1
+# 90	80		70	1
+# 90	83		73	1
+# 90	86		76	1
+# 90	89		79	1
+# 90	90		80	1
+# 90	93		83	1
+# 90	96		86	1
+# 90	99		89	1
+# 92	00		92	0
+# 92	03		95	0
+# 92	06		98	0
+# 92	09		01	1
+# 92	10		02	1
+# 92	13		05	1
+# 92	16		08	1
+# 92	19		11	1
+# 92	20		12	1
+# 92	23		15	1
+# 92	26		18	1
+# 92	29		21	1
+# 92	30		22	1
+# 92	33		25	1
+# 92	36		28	1
+# 92	39		31	1
+# 92	40		32	1
+# 92	43		35	1
+# 92	46		38	1
+# 92	49		41	1
+# 92	50		42	1
+# 92	53		45	1
+# 92	56		48	1
+# 92	59		51	1
+# 92	60		52	1
+# 92	63		55	1
+# 92	66		58	1
+# 92	69		61	1
+# 92	70		62	1
+# 92	73		65	1
+# 92	76		68	1
+# 92	79		71	1
+# 92	80		72	1
+# 92	83		75	1
+# 92	86		78	1
+# 92	89		81	1
+# 92	90		82	1
+# 92	93		85	1
+# 92	96		88	1
+# 92	99		91	1
+# 94	00		94	0
+# 94	03		97	0
+# 94	06		00	1
+# 94	09		03	1
+# 94	10		04	1
+# 94	13		07	1
+# 94	16		10	1
+# 94	19		13	1
+# 94	20		14	1
+# 94	23		17	1
+# 94	26		20	1
+# 94	29		23	1
+# 94	30		24	1
+# 94	33		27	1
+# 94	36		30	1
+# 94	39		33	1
+# 94	40		34	1
+# 94	43		37	1
+# 94	46		40	1
+# 94	49		43	1
+# 94	50		44	1
+# 94	53		47	1
+# 94	56		50	1
+# 94	59		53	1
+# 94	60		54	1
+# 94	63		57	1
+# 94	66		60	1
+# 94	69		63	1
+# 94	70		64	1
+# 94	73		67	1
+# 94	76		70	1
+# 94	79		73	1
+# 94	80		74	1
+# 94	83		77	1
+# 94	86		80	1
+# 94	89		83	1
+# 94	90		84	1
+# 94	93		87	1
+# 94	96		90	1
+# 94	99		93	1
+# 96	00		96	0
+# 96	03		99	0
+# 96	06		02	1
+# 96	09		05	1
+# 96	10		06	1
+# 96	13		09	1
+# 96	16		12	1
+# 96	19		15	1
+# 96	20		16	1
+# 96	23		19	1
+# 96	26		22	1
+# 96	29		25	1
+# 96	30		26	1
+# 96	33		29	1
+# 96	36		32	1
+# 96	39		35	1
+# 96	40		36	1
+# 96	43		39	1
+# 96	46		42	1
+# 96	49		45	1
+# 96	50		46	1
+# 96	53		49	1
+# 96	56		52	1
+# 96	59		55	1
+# 96	60		56	1
+# 96	63		59	1
+# 96	66		62	1
+# 96	69		65	1
+# 96	70		66	1
+# 96	73		69	1
+# 96	76		72	1
+# 96	79		75	1
+# 96	80		76	1
+# 96	83		79	1
+# 96	86		82	1
+# 96	89		85	1
+# 96	90		86	1
+# 96	93		89	1
+# 96	96		92	1
+# 96	99		95	1
+# 98	00		98	0
+# 98	03		01	1
+# 98	06		04	1
+# 98	09		07	1
+# 98	10		08	1
+# 98	13		11	1
+# 98	16		14	1
+# 98	19		17	1
+# 98	20		18	1
+# 98	23		21	1
+# 98	26		24	1
+# 98	29		27	1
+# 98	30		28	1
+# 98	33		31	1
+# 98	36		34	1
+# 98	39		37	1
+# 98	40		38	1
+# 98	43		41	1
+# 98	46		44	1
+# 98	49		47	1
+# 98	50		48	1
+# 98	53		51	1
+# 98	56		54	1
+# 98	59		57	1
+# 98	60		58	1
+# 98	63		61	1
+# 98	66		64	1
+# 98	69		67	1
+# 98	70		68	1
+# 98	73		71	1
+# 98	76		74	1
+# 98	79		77	1
+# 98	80		78	1
+# 98	83		81	1
+# 98	86		84	1
+# 98	89		87	1
+# 98	90		88	1
+# 98	93		91	1
+# 98	96		94	1
+# 98	99		97	1
+# End time: 16:45:56 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:06 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# ** Error: ex3.v(4): (vlog-2110) Illegal reference to net "z".
+# ** Error: ex3.v(4): (vlog-2110) Illegal reference to net "c_out".
+# -- Compiling module adder_subtractor
+# ** Error: (vlog-13060) ex3.v(13): near "generate": Cannot nest generate regions.  Try removing inner generate/endgenerate keyword pair.
+# ** Error: ex3.v(15): (vlog-2730) Undefined variable: 'j'.
+# ** Error: ex3.v(15): 'j' is an invalid type in Generate loop. Must be a genvar.
+# ** Error: (vlog-13069) ex3.v(25): near "endgenerate": syntax error, unexpected endgenerate.
+# ** Error: (vlog-13069) ex3.v(49): near "endmodule": syntax error, unexpected endmodule.
+# End time: 17:05:06 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:26 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# ** Error: (vlog-13060) ex3.v(13): near "generate": Cannot nest generate regions.  Try removing inner generate/endgenerate keyword pair.
+# ** Error: ex3.v(15): (vlog-2730) Undefined variable: 'j'.
+# ** Error: ex3.v(15): 'j' is an invalid type in Generate loop. Must be a genvar.
+# ** Error: (vlog-13069) ex3.v(25): near "endgenerate": syntax error, unexpected endgenerate.
+# ** Error: (vlog-13069) ex3.v(49): near "endmodule": syntax error, unexpected endmodule.
+# End time: 17:05:26 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:07:33 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:07:33 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:07:34 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	0	4		X
+# 0	0	5		X
+# 0	0	6		X
+# 0	0	7		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	1	4		X
+# 0	1	5		X
+# 0	1	6		X
+# 0	1	7		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	2	4		X
+# 0	2	5		X
+# 0	2	6		X
+# 0	2	7		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 0	3	4		X
+# 0	3	5		X
+# 0	3	6		X
+# 0	3	7		X
+# 0	4	0		X
+# 0	4	1		X
+# 0	4	2		X
+# 0	4	3		X
+# 0	4	4		X
+# 0	4	5		X
+# 0	4	6		X
+# 0	4	7		X
+# 0	5	0		X
+# 0	5	1		X
+# 0	5	2		X
+# 0	5	3		X
+# 0	5	4		X
+# 0	5	5		X
+# 0	5	6		X
+# 0	5	7		X
+# 0	6	0		X
+# 0	6	1		X
+# 0	6	2		X
+# 0	6	3		X
+# 0	6	4		X
+# 0	6	5		X
+# 0	6	6		X
+# 0	6	7		X
+# 0	7	0		X
+# 0	7	1		X
+# 0	7	2		X
+# 0	7	3		X
+# 0	7	4		X
+# 0	7	5		X
+# 0	7	6		X
+# 0	7	7		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	0	4		X
+# 1	0	5		X
+# 1	0	6		X
+# 1	0	7		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	1	4		X
+# 1	1	5		X
+# 1	1	6		X
+# 1	1	7		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	2	4		X
+# 1	2	5		X
+# 1	2	6		X
+# 1	2	7		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# 1	3	4		X
+# 1	3	5		X
+# 1	3	6		X
+# 1	3	7		X
+# 1	4	0		X
+# 1	4	1		X
+# 1	4	2		X
+# 1	4	3		X
+# 1	4	4		X
+# 1	4	5		X
+# 1	4	6		X
+# 1	4	7		X
+# 1	5	0		X
+# 1	5	1		X
+# 1	5	2		X
+# 1	5	3		X
+# 1	5	4		X
+# 1	5	5		X
+# 1	5	6		X
+# 1	5	7		X
+# 1	6	0		X
+# 1	6	1		X
+# 1	6	2		X
+# 1	6	3		X
+# 1	6	4		X
+# 1	6	5		X
+# 1	6	6		X
+# 1	6	7		X
+# 1	7	0		X
+# 1	7	1		X
+# 1	7	2		X
+# 1	7	3		X
+# 1	7	4		X
+# 1	7	5		X
+# 1	7	6		X
+# 1	7	7		X
+# End time: 17:07:37 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:30 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# ** Error: ex3.v(14): The generate if condition must be a constant expression.
+# -- Compiling module adder_subtractor_tb
+# End time: 17:10:30 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:16 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# ** Error: ex3.v(14): The generate if condition must be a constant expression.
+# -- Compiling module adder_subtractor_tb
+# End time: 17:11:16 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:20 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# ** Error: (vlog-13069) ex3.v(38): near "end": syntax error, unexpected end.
+# ** Error (suppressible): ex3.v(44): (vlog-2388) 'x' already declared in this scope (adder_subtractor).
+# ** Error (suppressible): ex3.v(44): (vlog-2388) 'y' already declared in this scope (adder_subtractor).
+# ** Error (suppressible): ex3.v(45): (vlog-2388) 'sub' already declared in this scope (adder_subtractor).
+# ** Error (suppressible): ex3.v(46): (vlog-2388) 'z' already declared in this scope (adder_subtractor).
+# ** Error: (vlog-13069) ex3.v(59): near "endmodule": syntax error, unexpected endmodule.
+# End time: 17:12:20 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:32 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:12:32 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:12:32 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	0	4		X
+# 0	0	5		X
+# 0	0	6		X
+# 0	0	7		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	1	4		X
+# 0	1	5		X
+# 0	1	6		X
+# 0	1	7		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	2	4		X
+# 0	2	5		X
+# 0	2	6		X
+# 0	2	7		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 0	3	4		X
+# 0	3	5		X
+# 0	3	6		X
+# 0	3	7		X
+# 0	4	0		X
+# 0	4	1		X
+# 0	4	2		X
+# 0	4	3		X
+# 0	4	4		X
+# 0	4	5		X
+# 0	4	6		X
+# 0	4	7		X
+# 0	5	0		X
+# 0	5	1		X
+# 0	5	2		X
+# 0	5	3		X
+# 0	5	4		X
+# 0	5	5		X
+# 0	5	6		X
+# 0	5	7		X
+# 0	6	0		X
+# 0	6	1		X
+# 0	6	2		X
+# 0	6	3		X
+# 0	6	4		X
+# 0	6	5		X
+# 0	6	6		X
+# 0	6	7		X
+# 0	7	0		X
+# 0	7	1		X
+# 0	7	2		X
+# 0	7	3		X
+# 0	7	4		X
+# 0	7	5		X
+# 0	7	6		X
+# 0	7	7		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	0	4		X
+# 1	0	5		X
+# 1	0	6		X
+# 1	0	7		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	1	4		X
+# 1	1	5		X
+# 1	1	6		X
+# 1	1	7		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	2	4		X
+# 1	2	5		X
+# 1	2	6		X
+# 1	2	7		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# 1	3	4		X
+# 1	3	5		X
+# 1	3	6		X
+# 1	3	7		X
+# 1	4	0		X
+# 1	4	1		X
+# 1	4	2		X
+# 1	4	3		X
+# 1	4	4		X
+# 1	4	5		X
+# 1	4	6		X
+# 1	4	7		X
+# 1	5	0		X
+# 1	5	1		X
+# 1	5	2		X
+# 1	5	3		X
+# 1	5	4		X
+# 1	5	5		X
+# 1	5	6		X
+# 1	5	7		X
+# 1	6	0		X
+# 1	6	1		X
+# 1	6	2		X
+# 1	6	3		X
+# 1	6	4		X
+# 1	6	5		X
+# 1	6	6		X
+# 1	6	7		X
+# 1	7	0		X
+# 1	7	1		X
+# 1	7	2		X
+# 1	7	3		X
+# 1	7	4		X
+# 1	7	5		X
+# 1	7	6		X
+# 1	7	7		X
+# End time: 17:12:35 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:13:13 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:13:13 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:13:13 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	0	4		X
+# 0	0	5		X
+# 0	0	6		X
+# 0	0	7		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	1	4		X
+# 0	1	5		X
+# 0	1	6		X
+# 0	1	7		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	2	4		X
+# 0	2	5		X
+# 0	2	6		X
+# 0	2	7		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 0	3	4		X
+# 0	3	5		X
+# 0	3	6		X
+# 0	3	7		X
+# 0	4	0		X
+# 0	4	1		X
+# 0	4	2		X
+# 0	4	3		X
+# 0	4	4		X
+# 0	4	5		X
+# 0	4	6		X
+# 0	4	7		X
+# 0	5	0		X
+# 0	5	1		X
+# 0	5	2		X
+# 0	5	3		X
+# 0	5	4		X
+# 0	5	5		X
+# 0	5	6		X
+# 0	5	7		X
+# 0	6	0		X
+# 0	6	1		X
+# 0	6	2		X
+# 0	6	3		X
+# 0	6	4		X
+# 0	6	5		X
+# 0	6	6		X
+# 0	6	7		X
+# 0	7	0		X
+# 0	7	1		X
+# 0	7	2		X
+# 0	7	3		X
+# 0	7	4		X
+# 0	7	5		X
+# 0	7	6		X
+# 0	7	7		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	0	4		X
+# 1	0	5		X
+# 1	0	6		X
+# 1	0	7		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	1	4		X
+# 1	1	5		X
+# 1	1	6		X
+# 1	1	7		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	2	4		X
+# 1	2	5		X
+# 1	2	6		X
+# 1	2	7		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# 1	3	4		X
+# 1	3	5		X
+# 1	3	6		X
+# 1	3	7		X
+# 1	4	0		X
+# 1	4	1		X
+# 1	4	2		X
+# 1	4	3		X
+# 1	4	4		X
+# 1	4	5		X
+# 1	4	6		X
+# 1	4	7		X
+# 1	5	0		X
+# 1	5	1		X
+# 1	5	2		X
+# 1	5	3		X
+# 1	5	4		X
+# 1	5	5		X
+# 1	5	6		X
+# 1	5	7		X
+# 1	6	0		X
+# 1	6	1		X
+# 1	6	2		X
+# 1	6	3		X
+# 1	6	4		X
+# 1	6	5		X
+# 1	6	6		X
+# 1	6	7		X
+# 1	7	0		X
+# 1	7	1		X
+# 1	7	2		X
+# 1	7	3		X
+# 1	7	4		X
+# 1	7	5		X
+# 1	7	6		X
+# 1	7	7		X
+# End time: 17:13:17 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:15:14 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:15:14 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:15:14 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(18): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(22): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(22): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[2]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	0	4		X
+# 0	0	5		X
+# 0	0	6		X
+# 0	0	7		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	1	4		X
+# 0	1	5		X
+# 0	1	6		X
+# 0	1	7		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	2	4		X
+# 0	2	5		X
+# 0	2	6		X
+# 0	2	7		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 0	3	4		X
+# 0	3	5		X
+# 0	3	6		X
+# 0	3	7		X
+# 0	4	0		X
+# 0	4	1		X
+# 0	4	2		X
+# 0	4	3		X
+# 0	4	4		X
+# 0	4	5		X
+# 0	4	6		X
+# 0	4	7		X
+# 0	5	0		X
+# 0	5	1		X
+# 0	5	2		X
+# 0	5	3		X
+# 0	5	4		X
+# 0	5	5		X
+# 0	5	6		X
+# 0	5	7		X
+# 0	6	0		X
+# 0	6	1		X
+# 0	6	2		X
+# 0	6	3		X
+# 0	6	4		X
+# 0	6	5		X
+# 0	6	6		X
+# 0	6	7		X
+# 0	7	0		X
+# 0	7	1		X
+# 0	7	2		X
+# 0	7	3		X
+# 0	7	4		X
+# 0	7	5		X
+# 0	7	6		X
+# 0	7	7		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	0	4		X
+# 1	0	5		X
+# 1	0	6		X
+# 1	0	7		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	1	4		X
+# 1	1	5		X
+# 1	1	6		X
+# 1	1	7		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	2	4		X
+# 1	2	5		X
+# 1	2	6		X
+# 1	2	7		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# 1	3	4		X
+# 1	3	5		X
+# 1	3	6		X
+# 1	3	7		X
+# 1	4	0		X
+# 1	4	1		X
+# 1	4	2		X
+# 1	4	3		X
+# 1	4	4		X
+# 1	4	5		X
+# 1	4	6		X
+# 1	4	7		X
+# 1	5	0		X
+# 1	5	1		X
+# 1	5	2		X
+# 1	5	3		X
+# 1	5	4		X
+# 1	5	5		X
+# 1	5	6		X
+# 1	5	7		X
+# 1	6	0		X
+# 1	6	1		X
+# 1	6	2		X
+# 1	6	3		X
+# 1	6	4		X
+# 1	6	5		X
+# 1	6	6		X
+# 1	6	7		X
+# 1	7	0		X
+# 1	7	1		X
+# 1	7	2		X
+# 1	7	3		X
+# 1	7	4		X
+# 1	7	5		X
+# 1	7	6		X
+# 1	7	7		X
+# End time: 17:15:18 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 3
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:22:13 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:22:13 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:22:13 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	1	0		1
+# 0	1	1		0
+# 1	0	0		0
+# 1	0	1		1
+# 1	1	0		1
+# 1	1	1		0
+# End time: 17:22:17 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:20 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:23:20 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:23:20 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# End time: 17:23:23 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:24:19 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# ** Error: (vlog-13069) ex3.v(17): near "[": syntax error, unexpected '['.
+# ** Error: ex3.v(17): (vlog-13205) Syntax error found in the scope following 'z'. Is there a missing '::'?
+# End time: 17:24:20 on Jan 05,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:05 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:26:05 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:26:05 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		x
+# 0	1	0		X
+# 0	1	1		x
+# 0	1	2		x
+# 0	1	3		x
+# 0	2	0		X
+# 0	2	1		x
+# 0	2	2		X
+# 0	2	3		x
+# 0	3	0		x
+# 0	3	1		x
+# 0	3	2		x
+# 0	3	3		X
+# 1	0	0		0
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		x
+# 1	1	0		X
+# 1	1	1		x
+# 1	1	2		x
+# 1	1	3		x
+# 1	2	0		X
+# 1	2	1		x
+# 1	2	2		X
+# 1	2	3		x
+# 1	3	0		x
+# 1	3	1		x
+# 1	3	2		x
+# 1	3	3		X
+# End time: 17:26:09 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:39 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:26:39 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:26:40 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		x
+# 0	1	0		X
+# 0	1	1		x
+# 0	1	2		x
+# 0	1	3		x
+# 0	2	0		X
+# 0	2	1		x
+# 0	2	2		X
+# 0	2	3		x
+# 0	3	0		x
+# 0	3	1		x
+# 0	3	2		x
+# 0	3	3		X
+# 1	0	0		0
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		x
+# 1	1	0		X
+# 1	1	1		x
+# 1	1	2		x
+# 1	1	3		x
+# 1	2	0		X
+# 1	2	1		x
+# 1	2	2		X
+# 1	2	3		x
+# 1	3	0		x
+# 1	3	1		x
+# 1	3	2		x
+# 1	3	3		X
+# End time: 17:26:43 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:27:44 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:27:44 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:27:44 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		x
+# 0	1	0		X
+# 0	1	1		x
+# 0	1	2		x
+# 0	1	3		x
+# 0	2	0		X
+# 0	2	1		x
+# 0	2	2		X
+# 0	2	3		x
+# 0	3	0		x
+# 0	3	1		x
+# 0	3	2		x
+# 0	3	3		X
+# 1	0	0		0
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		x
+# 1	1	0		X
+# 1	1	1		x
+# 1	1	2		x
+# 1	1	3		x
+# 1	2	0		X
+# 1	2	1		x
+# 1	2	2		X
+# 1	2	3		x
+# 1	3	0		x
+# 1	3	1		x
+# 1	3	2		x
+# 1	3	3		X
+# End time: 17:27:47 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:09 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:28:09 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:28:10 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		x
+# 0	1	0		x
+# 0	1	1		x
+# 1	0	0		0
+# 1	0	1		x
+# 1	1	0		x
+# 1	1	1		x
+# End time: 17:28:13 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:31:45 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# ** Error: (vlog-13069) ex3.v(17): near "=": syntax error, unexpected '='.
+# ** Error: ex3.v(17): (vlog-13205) Syntax error found in the scope following 'c'. Is there a missing '::'?
+# End time: 17:31:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:32:04 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:32:04 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:32:04 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		x
+# 0	1	0		x
+# 0	1	1		x
+# 1	0	0		0
+# 1	0	1		x
+# 1	1	0		x
+# 1	1	1		x
+# End time: 17:32:08 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:03 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:33:03 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:33:04 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		x
+# 0	1	0		x
+# 0	1	1		x
+# 1	0	0		0
+# 1	0	1		x
+# 1	1	0		x
+# 1	1	1		x
+# End time: 17:33:07 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:33:33 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:33:33 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:33:33 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		x
+# 0	1	0		x
+# 0	1	1		x
+# 1	0	0		0
+# 1	0	1		x
+# 1	1	0		x
+# 1	1	1		x
+# End time: 17:33:37 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:34:18 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:34:18 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:34:19 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	1	0		1
+# 0	1	1		0
+# 1	0	0		0
+# 1	0	1		1
+# 1	1	0		1
+# 1	1	1		0
+# End time: 17:34:22 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:28 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:38:28 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:38:29 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	1	0		1
+# 0	1	1		0
+# 1	0	0		0
+# 1	0	1		1
+# 1	1	0		1
+# 1	1	1		0
+# End time: 17:38:32 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:37 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:38:38 on Jan 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:38:38 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# End time: 17:38:41 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:39:10 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:39:10 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:39:10 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	0	2		2
+# 0	0	3		3
+# 0	1	0		1
+# 0	1	1		0
+# 0	1	2		3
+# 0	1	3		2
+# 0	2	0		2
+# 0	2	1		3
+# 0	2	2		0
+# 0	2	3		1
+# 0	3	0		3
+# 0	3	1		2
+# 0	3	2		1
+# 0	3	3		0
+# 1	0	0		0
+# 1	0	1		1
+# 1	0	2		2
+# 1	0	3		3
+# 1	1	0		1
+# 1	1	1		0
+# 1	1	2		3
+# 1	1	3		2
+# 1	2	0		2
+# 1	2	1		3
+# 1	2	2		0
+# 1	2	3		1
+# 1	3	0		3
+# 1	3	1		2
+# 1	3	2		1
+# 1	3	3		0
+# End time: 17:39:14 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:40:24 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:40:24 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:40:24 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		X
+# 0	0	1		X
+# 0	0	2		X
+# 0	0	3		X
+# 0	1	0		X
+# 0	1	1		X
+# 0	1	2		X
+# 0	1	3		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		X
+# 0	2	3		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		X
+# 1	0	0		X
+# 1	0	1		X
+# 1	0	2		X
+# 1	0	3		X
+# 1	1	0		X
+# 1	1	1		X
+# 1	1	2		X
+# 1	1	3		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		X
+# 1	2	3		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		X
+# End time: 17:40:27 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:40:42 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:40:42 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:40:42 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	0	2		2
+# 0	0	3		3
+# 0	1	0		1
+# 0	1	1		0
+# 0	1	2		3
+# 0	1	3		2
+# 0	2	0		2
+# 0	2	1		3
+# 0	2	2		0
+# 0	2	3		1
+# 0	3	0		3
+# 0	3	1		2
+# 0	3	2		1
+# 0	3	3		0
+# 1	0	0		0
+# 1	0	1		1
+# 1	0	2		2
+# 1	0	3		3
+# 1	1	0		1
+# 1	1	1		0
+# 1	1	2		3
+# 1	1	3		2
+# 1	2	0		2
+# 1	2	1		3
+# 1	2	2		0
+# 1	2	3		1
+# 1	3	0		3
+# 1	3	1		2
+# 1	3	2		1
+# 1	3	3		0
+# End time: 17:40:45 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:41:09 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:41:09 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:41:09 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[2]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	0	2		2
+# 0	0	3		3
+# 0	0	4		4
+# 0	0	5		5
+# 0	0	6		6
+# 0	0	7		7
+# 0	1	0		1
+# 0	1	1		0
+# 0	1	2		3
+# 0	1	3		2
+# 0	1	4		5
+# 0	1	5		4
+# 0	1	6		7
+# 0	1	7		6
+# 0	2	0		2
+# 0	2	1		3
+# 0	2	2		0
+# 0	2	3		1
+# 0	2	4		6
+# 0	2	5		7
+# 0	2	6		4
+# 0	2	7		5
+# 0	3	0		3
+# 0	3	1		2
+# 0	3	2		1
+# 0	3	3		0
+# 0	3	4		7
+# 0	3	5		6
+# 0	3	6		5
+# 0	3	7		4
+# 0	4	0		4
+# 0	4	1		5
+# 0	4	2		6
+# 0	4	3		7
+# 0	4	4		0
+# 0	4	5		1
+# 0	4	6		2
+# 0	4	7		3
+# 0	5	0		5
+# 0	5	1		4
+# 0	5	2		7
+# 0	5	3		6
+# 0	5	4		1
+# 0	5	5		0
+# 0	5	6		3
+# 0	5	7		2
+# 0	6	0		6
+# 0	6	1		7
+# 0	6	2		4
+# 0	6	3		5
+# 0	6	4		2
+# 0	6	5		3
+# 0	6	6		0
+# 0	6	7		1
+# 0	7	0		7
+# 0	7	1		6
+# 0	7	2		5
+# 0	7	3		4
+# 0	7	4		3
+# 0	7	5		2
+# 0	7	6		1
+# 0	7	7		0
+# 1	0	0		0
+# 1	0	1		1
+# 1	0	2		2
+# 1	0	3		3
+# 1	0	4		4
+# 1	0	5		5
+# 1	0	6		6
+# 1	0	7		7
+# 1	1	0		1
+# 1	1	1		0
+# 1	1	2		3
+# 1	1	3		2
+# 1	1	4		5
+# 1	1	5		4
+# 1	1	6		7
+# 1	1	7		6
+# 1	2	0		2
+# 1	2	1		3
+# 1	2	2		0
+# 1	2	3		1
+# 1	2	4		6
+# 1	2	5		7
+# 1	2	6		4
+# 1	2	7		5
+# 1	3	0		3
+# 1	3	1		2
+# 1	3	2		1
+# 1	3	3		0
+# 1	3	4		7
+# 1	3	5		6
+# 1	3	6		5
+# 1	3	7		4
+# 1	4	0		4
+# 1	4	1		5
+# 1	4	2		6
+# 1	4	3		7
+# 1	4	4		0
+# 1	4	5		1
+# 1	4	6		2
+# 1	4	7		3
+# 1	5	0		5
+# 1	5	1		4
+# 1	5	2		7
+# 1	5	3		6
+# 1	5	4		1
+# 1	5	5		0
+# 1	5	6		3
+# 1	5	7		2
+# 1	6	0		6
+# 1	6	1		7
+# 1	6	2		4
+# 1	6	3		5
+# 1	6	4		2
+# 1	6	5		3
+# 1	6	6		0
+# 1	6	7		1
+# 1	7	0		7
+# 1	7	1		6
+# 1	7	2		5
+# 1	7	3		4
+# 1	7	4		3
+# 1	7	5		2
+# 1	7	6		1
+# 1	7	7		0
+# End time: 17:41:12 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 3
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:24 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:43:24 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:43:24 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[2]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	0	2		2
+# 0	0	3		3
+# 0	0	4		4
+# 0	0	5		5
+# 0	0	6		6
+# 0	0	7		7
+# 0	1	0		X
+# 0	1	1		2
+# 0	1	2		X
+# 0	1	3		X
+# 0	1	4		X
+# 0	1	5		6
+# 0	1	6		X
+# 0	1	7		X
+# 0	2	0		X
+# 0	2	1		X
+# 0	2	2		4
+# 0	2	3		X
+# 0	2	4		X
+# 0	2	5		X
+# 0	2	6		0
+# 0	2	7		X
+# 0	3	0		X
+# 0	3	1		X
+# 0	3	2		X
+# 0	3	3		6
+# 0	3	4		X
+# 0	3	5		X
+# 0	3	6		X
+# 0	3	7		2
+# 0	4	0		4
+# 0	4	1		5
+# 0	4	2		6
+# 0	4	3		7
+# 0	4	4		0
+# 0	4	5		X
+# 0	4	6		X
+# 0	4	7		X
+# 0	5	0		X
+# 0	5	1		6
+# 0	5	2		X
+# 0	5	3		X
+# 0	5	4		X
+# 0	5	5		2
+# 0	5	6		X
+# 0	5	7		X
+# 0	6	0		X
+# 0	6	1		X
+# 0	6	2		0
+# 0	6	3		X
+# 0	6	4		X
+# 0	6	5		X
+# 0	6	6		4
+# 0	6	7		X
+# 0	7	0		X
+# 0	7	1		X
+# 0	7	2		X
+# 0	7	3		2
+# 0	7	4		X
+# 0	7	5		X
+# 0	7	6		X
+# 0	7	7		6
+# 1	0	0		0
+# 1	0	1		1
+# 1	0	2		2
+# 1	0	3		3
+# 1	0	4		4
+# 1	0	5		5
+# 1	0	6		6
+# 1	0	7		7
+# 1	1	0		X
+# 1	1	1		2
+# 1	1	2		X
+# 1	1	3		X
+# 1	1	4		X
+# 1	1	5		6
+# 1	1	6		X
+# 1	1	7		X
+# 1	2	0		X
+# 1	2	1		X
+# 1	2	2		4
+# 1	2	3		X
+# 1	2	4		X
+# 1	2	5		X
+# 1	2	6		0
+# 1	2	7		X
+# 1	3	0		X
+# 1	3	1		X
+# 1	3	2		X
+# 1	3	3		6
+# 1	3	4		X
+# 1	3	5		X
+# 1	3	6		X
+# 1	3	7		2
+# 1	4	0		4
+# 1	4	1		5
+# 1	4	2		6
+# 1	4	3		7
+# 1	4	4		0
+# 1	4	5		X
+# 1	4	6		X
+# 1	4	7		X
+# 1	5	0		X
+# 1	5	1		6
+# 1	5	2		X
+# 1	5	3		X
+# 1	5	4		X
+# 1	5	5		2
+# 1	5	6		X
+# 1	5	7		X
+# 1	6	0		X
+# 1	6	1		X
+# 1	6	2		0
+# 1	6	3		X
+# 1	6	4		X
+# 1	6	5		X
+# 1	6	6		4
+# 1	6	7		X
+# 1	7	0		X
+# 1	7	1		X
+# 1	7	2		X
+# 1	7	3		2
+# 1	7	4		X
+# 1	7	5		X
+# 1	7	6		X
+# 1	7	7		6
+# End time: 17:43:27 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 3
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:43:45 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:43:45 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:43:45 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[2]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	0	2		2
+# 0	0	3		3
+# 0	0	4		4
+# 0	0	5		5
+# 0	0	6		6
+# 0	0	7		7
+# 0	1	0		1
+# 0	1	1		2
+# 0	1	2		3
+# 0	1	3		0
+# 0	1	4		5
+# 0	1	5		6
+# 0	1	6		7
+# 0	1	7		4
+# 0	2	0		2
+# 0	2	1		3
+# 0	2	2		4
+# 0	2	3		5
+# 0	2	4		6
+# 0	2	5		7
+# 0	2	6		0
+# 0	2	7		1
+# 0	3	0		3
+# 0	3	1		0
+# 0	3	2		5
+# 0	3	3		6
+# 0	3	4		7
+# 0	3	5		4
+# 0	3	6		1
+# 0	3	7		2
+# 0	4	0		4
+# 0	4	1		5
+# 0	4	2		6
+# 0	4	3		7
+# 0	4	4		0
+# 0	4	5		1
+# 0	4	6		2
+# 0	4	7		3
+# 0	5	0		5
+# 0	5	1		6
+# 0	5	2		7
+# 0	5	3		4
+# 0	5	4		1
+# 0	5	5		2
+# 0	5	6		3
+# 0	5	7		0
+# 0	6	0		6
+# 0	6	1		7
+# 0	6	2		0
+# 0	6	3		1
+# 0	6	4		2
+# 0	6	5		3
+# 0	6	6		4
+# 0	6	7		5
+# 0	7	0		7
+# 0	7	1		4
+# 0	7	2		1
+# 0	7	3		2
+# 0	7	4		3
+# 0	7	5		0
+# 0	7	6		5
+# 0	7	7		6
+# 1	0	0		0
+# 1	0	1		1
+# 1	0	2		2
+# 1	0	3		3
+# 1	0	4		4
+# 1	0	5		5
+# 1	0	6		6
+# 1	0	7		7
+# 1	1	0		1
+# 1	1	1		2
+# 1	1	2		3
+# 1	1	3		0
+# 1	1	4		5
+# 1	1	5		6
+# 1	1	6		7
+# 1	1	7		4
+# 1	2	0		2
+# 1	2	1		3
+# 1	2	2		4
+# 1	2	3		5
+# 1	2	4		6
+# 1	2	5		7
+# 1	2	6		0
+# 1	2	7		1
+# 1	3	0		3
+# 1	3	1		0
+# 1	3	2		5
+# 1	3	3		6
+# 1	3	4		7
+# 1	3	5		4
+# 1	3	6		1
+# 1	3	7		2
+# 1	4	0		4
+# 1	4	1		5
+# 1	4	2		6
+# 1	4	3		7
+# 1	4	4		0
+# 1	4	5		1
+# 1	4	6		2
+# 1	4	7		3
+# 1	5	0		5
+# 1	5	1		6
+# 1	5	2		7
+# 1	5	3		4
+# 1	5	4		1
+# 1	5	5		2
+# 1	5	6		3
+# 1	5	7		0
+# 1	6	0		6
+# 1	6	1		7
+# 1	6	2		0
+# 1	6	3		1
+# 1	6	4		2
+# 1	6	5		3
+# 1	6	6		4
+# 1	6	7		5
+# 1	7	0		7
+# 1	7	1		4
+# 1	7	2		1
+# 1	7	3		2
+# 1	7	4		3
+# 1	7	5		0
+# 1	7	6		5
+# 1	7	7		6
+# End time: 17:43:49 on Jan 05,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 3
+do run_ex3.txt
+# ex3.v
+# adder_subtractor_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:46:08 on Jan 05,2024
+# vlog -reportprogress 300 ex3.v 
+# -- Compiling module FAC
+# -- Compiling module adder_subtractor
+# -- Compiling module adder_subtractor_tb
+# 
+# Top level modules:
+# 	adder_subtractor_tb
+# End time: 17:46:08 on Jan 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" adder_subtractor_tb 
+# Start time: 17:46:09 on Jan 05,2024
+# Loading work.adder_subtractor_tb
+# Loading work.adder_subtractor
+# Loading work.FAC
+# ** Warning: (vsim-3015) ex3.v(16): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[0]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[1]/genblk1/f File: ex3.v
+# ** Warning: (vsim-3015) ex3.v(20): [PCDPC] - Port size (1) does not match connection size (32) for port 'y'. The port definition is at: ex3.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_tb/uut/vect[2]/genblk1/f File: ex3.v
+# sub	x	y		z
+# 0	0	0		0
+# 0	0	1		1
+# 0	0	2		2
+# 0	0	3		3
+# 0	0	4		4
+# 0	0	5		5
+# 0	0	6		6
+# 0	0	7		7
+# 0	1	0		1
+# 0	1	1		2
+# 0	1	2		3
+# 0	1	3		4
+# 0	1	4		5
+# 0	1	5		6
+# 0	1	6		7
+# 0	1	7		0
+# 0	2	0		2
+# 0	2	1		3
+# 0	2	2		4
+# 0	2	3		5
+# 0	2	4		6
+# 0	2	5		7
+# 0	2	6		0
+# 0	2	7		1
+# 0	3	0		3
+# 0	3	1		4
+# 0	3	2		5
+# 0	3	3		6
+# 0	3	4		7
+# 0	3	5		0
+# 0	3	6		1
+# 0	3	7		2
+# 0	4	0		4
+# 0	4	1		5
+# 0	4	2		6
+# 0	4	3		7
+# 0	4	4		0
+# 0	4	5		1
+# 0	4	6		2
+# 0	4	7		3
+# 0	5	0		5
+# 0	5	1		6
+# 0	5	2		7
+# 0	5	3		0
+# 0	5	4		1
+# 0	5	5		2
+# 0	5	6		3
+# 0	5	7		4
+# 0	6	0		6
+# 0	6	1		7
+# 0	6	2		0
+# 0	6	3		1
+# 0	6	4		2
+# 0	6	5		3
+# 0	6	6		4
+# 0	6	7		5
+# 0	7	0		7
+# 0	7	1		0
+# 0	7	2		1
+# 0	7	3		2
+# 0	7	4		3
+# 0	7	5		4
+# 0	7	6		5
+# 0	7	7		6
+# 1	0	0		0
+# 1	0	1		1
+# 1	0	2		2
+# 1	0	3		3
+# 1	0	4		4
+# 1	0	5		5
+# 1	0	6		6
+# 1	0	7		7
+# 1	1	0		1
+# 1	1	1		2
+# 1	1	2		3
+# 1	1	3		4
+# 1	1	4		5
+# 1	1	5		6
+# 1	1	6		7
+# 1	1	7		0
+# 1	2	0		2
+# 1	2	1		3
+# 1	2	2		4
+# 1	2	3		5
+# 1	2	4		6
+# 1	2	5		7
+# 1	2	6		0
+# 1	2	7		1
+# 1	3	0		3
+# 1	3	1		4
+# 1	3	2		5
+# 1	3	3		6
+# 1	3	4		7
+# 1	3	5		0
+# 1	3	6		1
+# 1	3	7		2
+# 1	4	0		4
+# 1	4	1		5
+# 1	4	2		6
+# 1	4	3		7
+# 1	4	4		0
+# 1	4	5		1
+# 1	4	6		2
+# 1	4	7		3
+# 1	5	0		5
+# 1	5	1		6
+# 1	5	2		7
+# 1	5	3		0
+# 1	5	4		1
+# 1	5	5		2
+# 1	5	6		3
+# 1	5	7		4
+# 1	6	0		6
+# 1	6	1		7
+# 1	6	2		0
+# 1	6	3		1
+# 1	6	4		2
+# 1	6	5		3
+# 1	6	6		4
+# 1	6	7		5
+# 1	7	0		7
+# 1	7	1		0
+# 1	7	2		1
+# 1	7	3		2
+# 1	7	4		3
+# 1	7	5		4
+# 1	7	6		5
+# 1	7	7		6
+# End time: 17:46:12 on Jan 05,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 3

@@ -1,0 +1,190 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Laboratoare/Laborator_08
+vcntr
+Z1 !s110 1731881896
+!i10b 1
+!s100 aU>6[D`YZicR2MJz6ggm40
+IXkh3He^=FaAF75mE7Aa;I2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1731881499
+8cntr.v
+Fcntr.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1731881896.000000
+Z5 !s107 sha2indpath.v|cntr.v|pktmux.v|dec.v|regfl64.v|rgst64.v|sumator.v|
+Z6 !s90 -reportprogress|300|sumator.v|rgst64.v|regfl64.v|dec.v|pktmux.v|cntr.v|sha2indpath.v|
+!i113 1
+Z7 tCvgOpt 0
+vdec
+R1
+!i10b 1
+!s100 XROTeOz_CcYjUh^4Y=E0Q0
+I[VH@j<b6Vl7?KBTXDTYl03
+R2
+R0
+w1731880844
+8dec.v
+Fdec.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vpktmux
+R1
+!i10b 1
+!s100 QZ1WgSW:_J`KV69>MSQig2
+I^NGl5dkCj>XCDLNk1P;VH1
+R2
+R0
+Z8 w1731879825
+Z9 8pktmux.v
+Z10 Fpktmux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vpktmux_tb
+R1
+!i10b 1
+!s100 5G[o5B^m@zJK`8WQ8M>IZ2
+I<6VS[jgll1d4T]hDj=U7V1
+R2
+R0
+R8
+R9
+R10
+L0 24
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vregfl64
+R1
+!i10b 1
+!s100 QF;QJN<97[hT^@HiTj[No3
+IN2bi=>VS^Sj46B>Uch@mc2
+R2
+R0
+w1731881891
+8regfl64.v
+Fregfl64.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vrgst64
+R1
+!i10b 1
+!s100 3QnN9MG2ab`jlKhJT6>I@1
+I>=?7cPfV@O2:12A[TRK[60
+R2
+R0
+w1731881326
+8rgst64.v
+Frgst64.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsha2indpath
+R1
+!i10b 1
+!s100 H<ZPK]Kakz?VdZLz<`MeQ2
+IF7X<8?mVi0dGUA[7Df5ko3
+R2
+R0
+Z11 w1731881861
+Z12 8sha2indpath.v
+Z13 Fsha2indpath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsha2indpath_tb
+R1
+!i10b 1
+!s100 @JPT@L0KI@I_Zb;DC<;B92
+I@=U^e?]2l?OReNDY[_:G_3
+R2
+R0
+R11
+R12
+R13
+L0 76
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsumator
+R1
+!i10b 1
+!s100 VmhXET;2^XIEc6RGP[28]3
+ITF3d^7a>al`ObzEJV7[b;2
+R2
+R0
+w1731881495
+8sumator.v
+Fsumator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

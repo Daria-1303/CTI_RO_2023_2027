@@ -1,0 +1,35 @@
+# add all Verilog source files, separated by spaces
+set sourcefiles {fac.v}
+
+# set name of the top module
+set topmodule fac_tb
+
+###################################################
+#####DO NOT MODIFY THE SCRIPT BELLOW THIS LINE#####
+###################################################
+
+# quit current simulation if any
+quit -sim
+
+# empty the work library if present
+if [file exists "work"] {vdel -all}
+#create a new work library
+vlib work
+
+# run the compiler
+if [catch "eval vlog $sourcefiles"] {
+    puts "correct the compilation errors"
+    return
+}
+
+vsim -voptargs=+acc $topmodule
+
+# Fisierele fac.v si run_fac.txt trebuie sa se afle in folderul personal
+# In fereastra Transcript se ruleaza comanda:
+#         do run_fac.txt
+# Se va rula simularea prin comanda:
+#         run -all
+# Incheierea simularii este realizata prin comanda:
+#         quit -sim
+# Optional: Comenzile `run -all` si `quit -sim` de mai sus pot fi adaugate
+#     la finalul fisierului script

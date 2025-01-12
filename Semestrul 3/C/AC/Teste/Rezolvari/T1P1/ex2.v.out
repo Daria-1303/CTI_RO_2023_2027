@@ -1,0 +1,85 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001ce167e83c0 .scope module, "ex2_tb" "ex2_tb" 2 13;
+ .timescale 0 0;
+v000001ce167f1c00_0 .net "cifra_unitatilor", 3 0, L_000001ce16898db0;  1 drivers
+v000001ce167f1840_0 .net "cifra_zecilor", 3 0, L_000001ce167f13e0;  1 drivers
+v000001ce167f1fc0_0 .var/i "i", 31 0;
+v000001ce167f2100_0 .var "nr1", 3 0;
+v000001ce167f1a20_0 .var "nr2", 3 0;
+S_000001ce167f58b0 .scope module, "ex2_instanta" "ex2" 2 21, 2 1 0, S_000001ce167e83c0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "nr1";
+    .port_info 1 /INPUT 4 "nr2";
+    .port_info 2 /OUTPUT 4 "cifra_zecilor";
+    .port_info 3 /OUTPUT 4 "cifra_unitatilor";
+v000001ce167e8550_0 .net *"_ivl_0", 31 0, L_000001ce167f1f20;  1 drivers
+L_000001ce168400b8 .functor BUFT 1, C4<00000000000000000000000000001010>, C4<0>, C4<0>, C4<0>;
+v000001ce16936f40_0 .net/2u *"_ivl_10", 31 0, L_000001ce168400b8;  1 drivers
+v000001ce16937310_0 .net *"_ivl_12", 31 0, L_000001ce167f21a0;  1 drivers
+v000001ce167e80e0_0 .net *"_ivl_16", 31 0, L_000001ce167f1b60;  1 drivers
+L_000001ce16840100 .functor BUFT 1, C4<0000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v000001ce167e8180_0 .net *"_ivl_19", 27 0, L_000001ce16840100;  1 drivers
+v000001ce167f5a40_0 .net *"_ivl_20", 31 0, L_000001ce167f1480;  1 drivers
+L_000001ce16840148 .functor BUFT 1, C4<0000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v000001ce167f5ae0_0 .net *"_ivl_23", 27 0, L_000001ce16840148;  1 drivers
+v000001ce167f18e0_0 .net *"_ivl_24", 31 0, L_000001ce167f1520;  1 drivers
+L_000001ce16840190 .functor BUFT 1, C4<00000000000000000000000000001010>, C4<0>, C4<0>, C4<0>;
+v000001ce167f17a0_0 .net/2u *"_ivl_26", 31 0, L_000001ce16840190;  1 drivers
+v000001ce167f1de0_0 .net *"_ivl_28", 31 0, L_000001ce167f1ca0;  1 drivers
+L_000001ce16840028 .functor BUFT 1, C4<0000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v000001ce167f2240_0 .net *"_ivl_3", 27 0, L_000001ce16840028;  1 drivers
+v000001ce167f1980_0 .net *"_ivl_4", 31 0, L_000001ce167f22e0;  1 drivers
+L_000001ce16840070 .functor BUFT 1, C4<0000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v000001ce167f1d40_0 .net *"_ivl_7", 27 0, L_000001ce16840070;  1 drivers
+v000001ce167f1e80_0 .net *"_ivl_8", 31 0, L_000001ce167f1ac0;  1 drivers
+v000001ce167f2060_0 .net "cifra_unitatilor", 3 0, L_000001ce16898db0;  alias, 1 drivers
+v000001ce167f15c0_0 .net "cifra_zecilor", 3 0, L_000001ce167f13e0;  alias, 1 drivers
+v000001ce167f1660_0 .net "nr1", 3 0, v000001ce167f2100_0;  1 drivers
+v000001ce167f1700_0 .net "nr2", 3 0, v000001ce167f1a20_0;  1 drivers
+L_000001ce167f1f20 .concat [ 4 28 0 0], v000001ce167f2100_0, L_000001ce16840028;
+L_000001ce167f22e0 .concat [ 4 28 0 0], v000001ce167f1a20_0, L_000001ce16840070;
+L_000001ce167f1ac0 .arith/sum 32, L_000001ce167f1f20, L_000001ce167f22e0;
+L_000001ce167f21a0 .arith/div 32, L_000001ce167f1ac0, L_000001ce168400b8;
+L_000001ce167f13e0 .part L_000001ce167f21a0, 0, 4;
+L_000001ce167f1b60 .concat [ 4 28 0 0], v000001ce167f2100_0, L_000001ce16840100;
+L_000001ce167f1480 .concat [ 4 28 0 0], v000001ce167f1a20_0, L_000001ce16840148;
+L_000001ce167f1520 .arith/sum 32, L_000001ce167f1b60, L_000001ce167f1480;
+L_000001ce167f1ca0 .arith/mod 32, L_000001ce167f1520, L_000001ce16840190;
+L_000001ce16898db0 .part L_000001ce167f1ca0, 0, 4;
+    .scope S_000001ce167e83c0;
+T_0 ;
+    %vpi_call 2 31 "$display", "nr1 nr2   cifra_zecilor cifra_unitatilor" {0 0 0};
+    %vpi_call 2 32 "$monitor", "%d %d %d %d", v000001ce167f2100_0, v000001ce167f1a20_0, v000001ce167f1840_0, v000001ce167f1c00_0 {0 0 0};
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v000001ce167f1fc0_0, 0, 32;
+T_0.0 ;
+    %load/vec4 v000001ce167f1fc0_0;
+    %cmpi/s 16, 0, 32;
+    %jmp/0xz T_0.1, 5;
+    %vpi_func 2 35 "$urandom_range" 32, 32'sb00000000000000000000000000000000, 32'sb00000000000000000000000000001111 {0 0 0};
+    %pad/u 4;
+    %store/vec4 v000001ce167f2100_0, 0, 4;
+    %vpi_func 2 36 "$urandom_range" 32, 32'sb00000000000000000000000000000000, 32'sb00000000000000000000000000001111 {0 0 0};
+    %pad/u 4;
+    %store/vec4 v000001ce167f1a20_0, 0, 4;
+    %delay 10, 0;
+    %load/vec4 v000001ce167f1fc0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v000001ce167f1fc0_0, 0, 32;
+    %jmp T_0.0;
+T_0.1 ;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "ex2.v";

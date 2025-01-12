@@ -7,15 +7,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/daria/Documents/GitHub/Mostenire_CTI_RO_2023_2027/Semestrul 3/C/AC/Laboratoare/Laborator_04/Problema_01
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Laboratoare/Laborator_04/Problema_01
 vfac
-Z1 !s110 1729187762
+Z1 !s110 1729487349
 !i10b 1
 !s100 e3f[UZ6BTNmI<M>4>MdTS0
 IO]<1DS3RaleIAX8I_W;;^0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1729187760
+Z3 w1729487347
 Z4 8fac.v
 Z5 Ffac.v
 L0 2
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1729187762.000000
+Z7 !s108 1729487349.000000
 Z8 !s107 fac.v|
 Z9 !s90 -reportprogress|300|fac.v|
 !i113 1

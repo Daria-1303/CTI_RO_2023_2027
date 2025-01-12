@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Laboratoare/Laborator_10/Problema_02
+vmschdpath
+Z1 !s110 1733076830
+!i10b 1
+!s100 JMT?CLU`J1<11RCHei^7f1
+Ie:14=iYD6`SA2A4`fO8=d0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1733076827
+Z4 8mschdpath.v
+Z5 Fmschdpath.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1733076830.000000
+Z8 !s107 mschdpath.v|sigma1.v|sigma0.v|mux.v|rgst.v|
+Z9 !s90 -reportprogress|300|rgst.v|mux.v|sigma0.v|sigma1.v|mschdpath.v|
+!i113 1
+Z10 tCvgOpt 0
+vmux
+R1
+!i10b 1
+!s100 ieFS>]Y8>c121Y9zbU63M1
+IW60zj<@A7TWUF8>3WL7<o0
+R2
+R0
+w1733076751
+8mux.v
+Fmux.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vrgst
+R1
+!i10b 1
+!s100 8;h9S?IQDZ9[U`LTUo0db3
+IQ[3gG]=l`KBQbO4^am`P72
+R2
+R0
+w1733073459
+8rgst.v
+Frgst.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsigma0
+R1
+!i10b 1
+!s100 I3@1ZG=GmUGWSTWVkj2ZO0
+In_CEZTU96==FF9O2?WJ9@3
+R2
+R0
+w1733074452
+8sigma0.v
+Fsigma0.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsigma1
+R1
+!i10b 1
+!s100 ?gJCiRYbW9XcFA?d=m2=Q1
+IFn_HP275jKg98GMIEiN<m3
+R2
+R0
+w1733074539
+8sigma1.v
+Fsigma1.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtb_mschdpath
+R1
+!i10b 1
+!s100 <MFdP?JcT0O:TN_Y2F3F23
+IdZb6R5T]Pk_RW6@]lTVnJ0
+R2
+R0
+R3
+R4
+R5
+L0 126
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

@@ -35,6 +35,7 @@ module cmp2b_tb;
 
 	reg [1:0] x, y;
 	wire eq, lt, gt;
+
 cmp2b uut (
     .x(x), 
     .y(y), 
@@ -58,7 +59,7 @@ initial begin
         $display("%b %b | %b  %b  %b", x, y, eq, lt, gt);
     end
 
-   //$finish; 
+   $finish; 
 end
 
 endmodule

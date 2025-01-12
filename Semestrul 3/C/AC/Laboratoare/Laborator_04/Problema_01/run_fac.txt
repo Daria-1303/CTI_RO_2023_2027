@@ -24,5 +24,6 @@ if [catch "eval vlog $sourcefiles"] {
 
 vsim -voptargs=+acc $topmodule
 
+add wave *
 run -all
-quit -sim
+#quit -sim

@@ -1,0 +1,44 @@
+module regfl64#(
+	parameter reg_w=64,
+	parameter reg_cnt=8,
+	parameter dec_w=3
+)(
+	input clk,
+	input rst_b,
+	input we,
+	input [dec_w-1:0] s,
+	input [reg_w-1:0] d,
+	output [reg_cnt*reg_w-1:0] q
+);
+
+wire [reg_cnt-1:0] o;
+wire [reg_w-1:0] data [reg_cnt-1:0];
+
+dec #(
+	.w(dec_w)
+) dec0 (
+	.s(s),
+	.e(we),
+	.o(o)
+);
+
+generate
+genvar i;
+
+for (i = 0; i < reg_cnt; i = i + 1) begin: reg_inst
+	rgst #(.w(reg_w)) reg_inst(
+		.clk(clk),
+		.clr(1'b0),
+		.rst_b(rst_b),
+		.ld(o[i]),
+		.d(d),
+		.q(data[i])
+	);
+end
+
+endgenerate
+
+assign q = {data[7] , data[6] , data[5] , data[4] , data[3] , data[2] , data[1] , data[0]};
+
+endmodule
+

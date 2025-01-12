@@ -9,6 +9,7 @@ module fac(
 
 assign z = x ^ y ^ ci;
 assign co = (x & y) | (x & ci) | (y & ci);
+//sau {co, z} = x + y + ci;
 
 endmodule
 	

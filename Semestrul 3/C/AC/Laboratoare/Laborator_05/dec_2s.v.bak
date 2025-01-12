@@ -1,0 +1,14 @@
+module dec_2s(
+	input e,
+	input [1:0] s,
+	output reg [3:0] o
+);
+
+always @(*)
+	case {{e, s}}:
+
+	endcase
+end
+
+
+endmodule

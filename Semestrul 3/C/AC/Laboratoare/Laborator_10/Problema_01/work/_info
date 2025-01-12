@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Laboratoare/Laborator_10/Problema_01
+vmlopadd
+Z1 !s110 1733073300
+!i10b 1
+!s100 [S`8DdU6J;Vc6<gJ1ImO20
+IaJ9KLnzo[IoMQ_SJ^U`2e1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1733073291
+Z4 8mlopadd.v
+Z5 Fmlopadd.v
+L0 36
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1733073300.000000
+Z8 !s107 mlopadd.v|rgst.v|
+Z9 !s90 -reportprogress|300|rgst.v|mlopadd.v|
+!i113 1
+Z10 tCvgOpt 0
+vrgst
+R1
+!i10b 1
+!s100 8;h9S?IQDZ9[U`LTUo0db3
+IQ[3gG]=l`KBQbO4^am`P72
+R2
+R0
+w1733072033
+8rgst.v
+Frgst.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtb_mlopadd
+R1
+!i10b 1
+!s100 ?]092W^_K9Lk?^J3iD=^j2
+Ifib9LQ:7S<`1J:Lb2X6C70
+R2
+R0
+R3
+R4
+R5
+L0 56
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

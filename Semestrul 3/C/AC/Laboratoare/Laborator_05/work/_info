@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Laboratoare/Laborator_05
+vdec_2_4
+Z1 !s110 1730096414
+!i10b 1
+!s100 d[OkoNbf4UbS`4BM]Z7@C0
+I3k1E>7=C;E@IocbbF1g0F3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730066727
+8dec_2_4.v
+Fdec_2_4.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1730096414.000000
+Z5 !s107 regfl_4x8.v|mux_2s.v|dec_2_4.v|rgst.v|
+Z6 !s90 -reportprogress|300|rgst.v|dec_2_4.v|mux_2s.v|regfl_4x8.v|
+!i113 1
+Z7 tCvgOpt 0
+vmux_2s
+R1
+!i10b 1
+!s100 V87N`aTMQC8YMmF7jd0W20
+I>lhVJ;gTnniPGVS:8i_FU1
+R2
+R0
+Z8 w1730095817
+Z9 8mux_2s.v
+Z10 Fmux_2s.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vregfl4x8_tb
+R1
+!i10b 1
+!s100 Hi9Ujbc;3C3=YfbQlomoc1
+I91cd;:[c7g[kkeR6o@TCi2
+R2
+R0
+Z11 w1730066716
+Z12 8regfl_4x8.v
+Z13 Fregfl_4x8.v
+L0 38
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vregfl_4x8
+R1
+!i10b 1
+!s100 I1>OBb=Hh_n0<TLjj?Cle2
+ILzQjfOnYG]C45Bm:hgkUK3
+R2
+R0
+R11
+R12
+R13
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vrgst
+R1
+!i10b 1
+!s100 @HgL8nWmh@Y^j_ND0d:h^1
+I_[HWZOZV_0gfLnKZVZ7>^2
+R2
+R0
+w1730066741
+8rgst.v
+Frgst.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb_mux_2s
+R1
+!i10b 1
+!s100 L7R=A]NP<YM[38i@Td9dV3
+IaMZ6KVSBUXK387CIbo1;X2
+R2
+R0
+R8
+R9
+R10
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

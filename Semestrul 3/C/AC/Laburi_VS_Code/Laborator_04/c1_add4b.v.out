@@ -1,0 +1,87 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001c1796a79d0 .scope module, "c1_add4b_tb" "c1_add4b_tb" 2 67;
+ .timescale 0 0;
+v000001c1796b0db0_0 .var "ci", 0 0;
+v000001c1796b1030_0 .var/i "k", 31 0;
+v000001c1796b1530_0 .var "x", 3 0;
+v000001c1796b1210_0 .var "y", 3 0;
+v000001c1796b0d10_0 .net "z", 3 0, L_000001c1796b1710;  1 drivers
+S_000001c1796a7d30 .scope module, "dut" "c1_add4b" 2 73, 2 25 0, S_000001c1796a79d0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "x";
+    .port_info 1 /INPUT 4 "y";
+    .port_info 2 /INPUT 1 "ci";
+    .port_info 3 /OUTPUT 4 "z";
+v000001c1795f76d0_0 .net *"_ivl_0", 4 0, L_000001c1796b10d0;  1 drivers
+v000001c1795f7360_0 .net *"_ivl_10", 4 0, L_000001c1796b15d0;  1 drivers
+L_000001c1797000b8 .functor BUFT 1, C4<0000>, C4<0>, C4<0>, C4<0>;
+v000001c1795f6b70_0 .net *"_ivl_13", 3 0, L_000001c1797000b8;  1 drivers
+v000001c1795f6c10_0 .net *"_ivl_17", 3 0, L_000001c1796b13f0;  1 drivers
+v000001c1795f6cb0_0 .net *"_ivl_19", 0 0, L_000001c1796b1670;  1 drivers
+v000001c1795f6d50_0 .net *"_ivl_20", 3 0, L_000001c1796b0e50;  1 drivers
+L_000001c179700100 .functor BUFT 1, C4<000>, C4<0>, C4<0>, C4<0>;
+v000001c1795f6df0_0 .net *"_ivl_23", 2 0, L_000001c179700100;  1 drivers
+L_000001c179700028 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v000001c1795f6e90_0 .net *"_ivl_3", 0 0, L_000001c179700028;  1 drivers
+v000001c1795f6f30_0 .net *"_ivl_4", 4 0, L_000001c1796b1990;  1 drivers
+L_000001c179700070 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v000001c1796b09a0_0 .net *"_ivl_7", 0 0, L_000001c179700070;  1 drivers
+v000001c1796b0a40_0 .net *"_ivl_8", 4 0, L_000001c1796b12b0;  1 drivers
+v000001c1796b1850_0 .net "ci", 0 0, v000001c1796b0db0_0;  1 drivers
+v000001c1796b0f90_0 .net "suma", 4 0, L_000001c1796b1350;  1 drivers
+v000001c1796b0ef0_0 .net "x", 3 0, v000001c1796b1530_0;  1 drivers
+v000001c1796b1490_0 .net "y", 3 0, v000001c1796b1210_0;  1 drivers
+v000001c1796b1170_0 .net "z", 3 0, L_000001c1796b1710;  alias, 1 drivers
+L_000001c1796b10d0 .concat [ 4 1 0 0], v000001c1796b1530_0, L_000001c179700028;
+L_000001c1796b1990 .concat [ 4 1 0 0], v000001c1796b1210_0, L_000001c179700070;
+L_000001c1796b12b0 .arith/sum 5, L_000001c1796b10d0, L_000001c1796b1990;
+L_000001c1796b15d0 .concat [ 1 4 0 0], v000001c1796b0db0_0, L_000001c1797000b8;
+L_000001c1796b1350 .arith/sum 5, L_000001c1796b12b0, L_000001c1796b15d0;
+L_000001c1796b13f0 .part L_000001c1796b1350, 0, 4;
+L_000001c1796b1670 .part L_000001c1796b1350, 4, 1;
+L_000001c1796b0e50 .concat [ 1 3 0 0], L_000001c1796b1670, L_000001c179700100;
+L_000001c1796b1710 .arith/sum 4, L_000001c1796b13f0, L_000001c1796b0e50;
+    .scope S_000001c1796a79d0;
+T_0 ;
+    %vpi_call 2 82 "$display", "Time\011x\011y\011ci\011z" {0 0 0};
+    %vpi_call 2 83 "$monitor", "%0t\011%d\011%d\011%b\011%b", $time, v000001c1796b1530_0, v000001c1796b1210_0, v000001c1796b0db0_0, v000001c1796b0d10_0 {0 0 0};
+    %pushi/vec4 0, 0, 9;
+    %split/vec4 1;
+    %store/vec4 v000001c1796b0db0_0, 0, 1;
+    %split/vec4 4;
+    %store/vec4 v000001c1796b1210_0, 0, 4;
+    %store/vec4 v000001c1796b1530_0, 0, 4;
+    %pushi/vec4 1, 0, 32;
+    %store/vec4 v000001c1796b1030_0, 0, 32;
+T_0.0 ;
+    %load/vec4 v000001c1796b1030_0;
+    %cmpi/s 512, 0, 32;
+    %jmp/0xz T_0.1, 5;
+    %delay 10, 0;
+    %load/vec4 v000001c1796b1030_0;
+    %pad/s 9;
+    %split/vec4 1;
+    %store/vec4 v000001c1796b0db0_0, 0, 1;
+    %split/vec4 4;
+    %store/vec4 v000001c1796b1210_0, 0, 4;
+    %store/vec4 v000001c1796b1530_0, 0, 4;
+    %load/vec4 v000001c1796b1030_0;
+    %addi 1, 0, 32;
+    %store/vec4 v000001c1796b1030_0, 0, 32;
+    %jmp T_0.0;
+T_0.1 ;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "c1_add4b.v";

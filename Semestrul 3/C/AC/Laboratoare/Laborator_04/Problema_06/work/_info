@@ -7,38 +7,118 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/daria/Documents/GitHub/Mostenire_CTI_RO_2023_2027/Semestrul 3/C/AC/Laboratoare/Laborator_04/Problema_06
-vc1_add4b
-Z1 !s110 1729265988
+Z0 dC:/Users/daria/Documents/GitHub/Faculta/Anul 2/Arhitectura-calculatoarelor-AC-/Laboratoare/Laborator_04/Problema_06
+vadd2b
+Z1 !s110 1729487797
 !i10b 1
-!s100 n3ZG_f9EdD@Ej:e]7c_YC0
-Ik_IRLLBEW8M93h2Zem<bG2
+!s100 4f<3`>Q8:86je6oWn]>3O1
+IAYgCJ06;7^ZNnX_k]V`GZ2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1729265945
-Z4 8c1_add4b.v
-Z5 Fc1_add4b.v
+Z3 w1729346712
+Z4 8add2b.v
+Z5 Fadd2b.v
 L0 1
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1729265988.000000
-Z8 !s107 c1_add4b.v|
-Z9 !s90 -reportprogress|300|c1_add4b.v|
+Z7 !s108 1729487797.000000
+Z8 !s107 c1_add4b.v|add2b.v|fac.v|
+Z9 !s90 -reportprogress|300|fac.v|add2b.v|c1_add4b.v|
 !i113 1
 Z10 tCvgOpt 0
-vc1_add4b_tb
+vadd2b_tb
 R1
 !i10b 1
-!s100 X9YOcdJXB2GghXhFfzR7n2
-IX>TKbIhiOcNXmz2a]WY741
+!s100 jRl^:52GC5QX[5DA8dhgI2
+I[SZSOZaCBGTk<gJ8DK^<[3
 R2
 R0
 R3
 R4
 R5
-L0 17
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vc1_add4b
+R1
+!i10b 1
+!s100 eHk>g3]kg90V8I@DcedVA3
+I4XH9Fz89_TKfk7MVobDDY2
+R2
+R0
+Z11 w1729347196
+Z12 8c1_add4b.v
+Z13 Fc1_add4b.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vc1_add4b_tb
+R1
+!i10b 1
+!s100 8Xfh?b>[U@[FInUhGSk7m2
+I8`hTgJ9nS23@D45Ga6fjb1
+R2
+R0
+R11
+R12
+R13
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vfac
+R1
+!i10b 1
+!s100 e3f[UZ6BTNmI<M>4>MdTS0
+IO]<1DS3RaleIAX8I_W;;^0
+R2
+R0
+Z14 w1729346100
+Z15 8fac.v
+Z16 Ffac.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vfac_tb
+R1
+!i10b 1
+!s100 JF79EZFETX9l8YGSka^VL3
+I:f1hAIbXT9O55GGHhN2ok1
+R2
+R0
+R14
+R15
+R16
+L0 15
 R6
 r1
 !s85 0
