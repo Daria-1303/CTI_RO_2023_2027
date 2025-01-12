@@ -1,0 +1,115 @@
+192.168.25.0 /24  -- 192.168.25.255/24 - 8 biti de host
+
+8 biti de host => 2^8=256 adrese => 254 adrese de HOST
+
+256:4 = 64 adrese/subretea
+
+2^6=64 => 6 biti de host
+
+4 subretele
+2^2=4
+00
+01
+10
+11
+
+I 	192.168.25.0/26   -- 192.168.25.63/26
+II	192.168.25.64/26  -- 192.168.25.127/26
+III 192.168.25.128/26 -- 192.168.25.191/26
+IV  192.168.25.192/26 -- 192.168.25.255/26
+
+care este numarul minim de subretele pe care il obtine folosind subnetare statica?
+2 subretele - 1 bit de host devine bit de retea ~ /25
+
+
+daca alegem /24 care este numarul maxim de subretele, daca tinem cont ca in fiecare subretea trebuie sa avem si adrese de host?
+
+64 de subretele
+
+2 biti de host => 4 adrese/subretea => /30
+
+192.168.25.0 /24  -- 192.168.25.255/24 - 8 biti de host
+
+2^6=64 < 102 < 2^7=128
+
+Transformarea ȋn zecimal:
+1. Adresa de rețea
+192.168.25.0/25
+2. Adresa de broadcast
+192.168.25.127/25
+3. Adrese de host:
+192.168.25.1/25 -> 192.168.25.126/25
+adresa de gateway ~ poate fi oricare adresa de host, dar de obicei se alege prima sau ultima adresa de host
+192.168.25.1/25
+care este cea de-a 10-a adresa de host:192.168.25.10/25
+
+1. adresa de rețea
+192.168.25.192/27
+2. Adresa de broadcast
+192.168.25.223/27
+
+cate subretele a cate 4 adrese se mai pot forma din adresele ramase?
+8 subretele, 5 biti de host -> 3 devin biti de retea
+						       2 biti de host
+							   
+
+
+172.10.15.236 /21
+a) 2 subretele  a cate 14 adrese de host
+b) o subretea a 15 adrese de host
+c) o subretea a 255 adrese de host
+d) o subretea a 127 adrese de host
+e) o subretea a 128 adrese de host
+
+/21 => 11 biti de host, 2^11=2048 de adrese
+
+I 255 adrese de host + adresa de retea + adresa de broadcast => 257 adrese necesare => 2^9=512, 9 biti de host /23
+II 128 adrese de host + adresa de retea + adresa de broadcast => 130 adrese necesare => 2^8= 256, 8 biti de host /24
+III 127 adrese de host +adresa de retea + adresa de broadcast => 129 adrese necesare => 2^8=256, 8 biti de host /24
+IV 15 adrese de host +adresa de retea + adresa de broadcast => 17 adrese necesare => 2^5 =32 adrese, 5 biti de host /27
+V 2x 14 host + adresa de retea+ adresa de broadcast => 16 adrese pentru fiecare => 2^4=16 adrese, 4 biti de host /28
+
+172.10.15.236	10101100 00001010 00001111 11101100
+255.255.248.0   11111111 11111111 11111000 00000000
+				10101100 00001010 00001000 00000000 => 172.10.8.0/21 adresa de retea
+				10101100 00001010 00001111 11111111 => 172.10.15.255/21 adresa de broadcast
+
+cel de-al 255-lea host: 172.10.8.255 /21
+primul host: 172.10.8.1 /21	
+
+172.10.9.0/21 --  172.10.9.255 /21 -- 256 adrese de host
+
+hostul 511 : 172.10.9.255/21	
+
+I 		172.10.8.0 /23 						-- 		172.10.9.255/23
+10101100 00001010 00001000 00000000			10101100 00001010 00001001 11111111
+
+
+172.10.8.0 /23 -- 172.10.8.255/23 - 256 adrese
+172.10.9.0 /23 -- 172.10.9.255/23 - 256 adrese
+
+II 			172.10.10.0 /24 			-- 			 172.10.10.255/24 - 256 adrese, 254 adrese de host
+10101100 00001010 00001010 00000000			10101100 00001010 00001010 11111111
+
+III			172.10.11.0 /24             --			 172.10.11.255/24 - 256 adrese, 254 adrese de host
+10101100 00001010 00001011 00000000			10101100 00001010 00001011 11111111
+
+IV			172.10.12.0 /27             --           172.10.12.63 /27 -- 32 adrese, 30 de host
+10101100 00001010 00001100 00000000			10101100 00001010 00001100 00011111
+
+V			172.10.12.32 /28 			-- 			 172.10.12.47 /28 -- 16 adrese, 14 de host
+10101100 00001010 00001100 00100000		--	10101100 00001010 00001100 00101111
+
+			172.10.12.48 /28 			--		   	 172.10.12.63 /28 -- 16 adrese, 14 de host
+10101100 00001010 00001100 00110000			10101100 00001010 00001100 00111111
+
+cate subretele a cate 2 adrese de host se pot forma din adresele ramase?
+
+960 adrese disponibile
+4 adrese necesare pentru o subretea cu 2 adrese de host 
+
+960:4=240 subretele a cate 2 adrese de host
+
+192.168.10.2 -- 192.168.10.254
+
+netmask: /26 6 biti de host => 64 de adrese 

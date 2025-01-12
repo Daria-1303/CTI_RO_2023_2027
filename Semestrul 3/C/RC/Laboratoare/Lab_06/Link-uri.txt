@@ -1,0 +1,9 @@
+Procesul de "slow start" in TCP windowing:
+https://www.isi.edu/nsnam/DIRECTED_RESEARCH/DR_HYUNAH/D-Research/slow-start-tcp.html
+
+Diferentele intre TCP si UDP:
+https://finematics.com/udp-vs-tcp/
+
+Ghid video pentru TCP windowig - youtube:
+https://www.youtube.com/watch?v=hkXPXJA8-UA
+

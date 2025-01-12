@@ -1,0 +1,104 @@
+192.168.25.0/24 - adresa de retea
+192.168.25.255 /24 - adresa de broadcast
+
+192.168.25.1/24 -- 192.168.25.254 /24 -- adrese ade host
+
+00 - prima subretea
+01 - a doua subretea
+10
+11
+
+a 3-a subretea
+192.168.25.128 /26 -- 192.168.25.191 /26
+
+a 4-a subretea
+192.168.25.192 /26 -- 192.168.25.255 /26
+
+192.168.25.0/24 - 192.168.25.255 /24 - 8 biti de host => 2^8=256 adrese, 254 adrese de host
+adresa de retea				adresa de broadcast
+
+/26 - 6 biti de host => 64 de adrese per subretea
+
+192.168.25.0 /24
+
+-- care este numarul minim de subretele pe care le punem obtine folosind subnetarea statica?
+2 subretele => netmask /25 => 7 biti de retea, 128 adrese/subretea
+
+--care este numarul maxim de subretele pe care le punem obtine folosind subnetarea statica?
+
+00000000
+11111110 => 1 bit de host=> 2^1 adrese  - adresa de retea
+										- adresa de broadcast
+
+64 de subretele a cate 4 adrese - 2 adrese de host
+
+172.10.15.229 /25 -- 7 biti de host, 2^7 =128 adrese
+
+-- 6 subretele
+
+172.10.15.229			-- 10101100 00001010 00001111 11100101
+255.255.255.128			-- 11111111 11111111 11111111 10000000
+						   10101100 00001010 00001111 10000000 => 172.10.15.128 /25 - adresa de retea
+						   10101100 00001010 00001111 11111111 => 172.10.15.255 /25 - adresa de broadcast
+																  172.10.15.129 /25 -- 172.10.15.254 /25 -- adrese de host
+																  adresa de gateway: 172.10.15.129/25
+																  
+2^2 < 6 <2^3 => 3 biti de host -> biti de retea => /28 noul netmask => 4biti de host, 2^4=16 adrese
+
+I 172.10.15.128 /28 -- 172.10.15.143 /28
+II 172.10.15.144 /28 -- 172.10.15.159 /28
+III 172.10.15.160 /28 -- 172.10.15.175 /28
+IV 172.10.15.176 /28 -- 172.10.15.191 /28
+V 172.10.15.192 /28 -- 172.10.15.207 /28
+VI 172.10.15.208 /28 -- 172.10.15.223 /28
+VII 172.10.15.224 /28 -- 172.10.15.239 /28
+VIII 172.10.15.240 /28 -- 172.10.15.255 /28 => al 9-lea host: 172.10.15.249/28
+
+
+192.168.10.39 /23 -- 9 biti de host=> 2^9=512 adrese, 510 adrese de host/utilizabile
+a) o retea cu 30 adrese de host
+b) retele cu cate 32 adrese de host
+c) o retea cu 127 adrese de host
+d) 254 adrese de host
+e) cate subretele a cate 4 adrese/2 adrese de host se pot obtine din adresele ramase
+						7 adrese de host
+
+Pasul 1
+192.168.10.39    11000000 10101000 00001010 00100111
+255.255.254.0    11111111 11111111 11111110	00000000
+				 11000000 10101000 00001010 00000000 => 192.168.10.0 /23 -- adresa de retea
+				 11000000 10101000 00001011 11111111 => 192.168.11.255 /23 -- adresa de broadcast
+				 
+														care este adresa celui de-al 255-lea host:     192.168.10.255 /23
+														care este adresa celui de-al 256-lea host: 	   192.168.11.0 /23
+192.168.10.0/23 -- 192.168.10.255 /23 -- 256 adrese
+
+
+d) 254 adrese de host + adresa retea + adresa broadcast=> 256 adrese= 2^8 => 8 biti de host ~ /24
+
+		192.168.10.0 /24 -- 						192.168.10.255 /24
+11000000 10101000 00001010 00000000			11000000 10101000 00001010 11111111
+
+ultima adresa de host: 192.168.10.254 /24 - adresa de gateway
+
+c) 126 adrese de host => 128 adrese, 7 biti de host ~ /25
+
+192.168.11.0 /25 -- 192.168.10.127 /25 -- 126 adrese de host : 192.168.11.0.1/25 -- 192.168.11.126/25
+
+b) 32 adrese de host = 34 adrese => 6 biti de host, 2^5<34<2^6
+
+192.168.11.128 /26 -- 192.168.11.191 /26 -- 62 adrese de host
+
+a) 30 adrese de host => 32 adrese, 5 biti de host ~ /27
+
+192.168.11.192 /27 -- 192.168.11.223 /27 - 30 adrese de host
+
+192.168.11.224 - 192.168.11.255 -- adrese disponibile 32
+
+e) 8 subretele a cate 4 adrese
+   2 subretele a cate 7 adrese de host
+
+
+
+What is the broadcast address of the network 172.21.248.0/26?  -- 172.21.248.63 /26
+											 adresa de retea      adresa de broadcast

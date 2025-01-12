@@ -1,0 +1,8 @@
+Configurare OSPF - activitate:
+https://w7cloud.com/ospf-single-area-configuration-on-packet-tracer-lab-with-pdf/
+
+exemplu video - ospf configurare:
+https://www.youtube.com/watch?v=btjCFlNfy7Y
+
+Exemplu de cost pentru OSPF:
+https://www.computernetworkingnotes.com/ccna-study-guide/ospf-metric-cost-calculation-formula-explained.html

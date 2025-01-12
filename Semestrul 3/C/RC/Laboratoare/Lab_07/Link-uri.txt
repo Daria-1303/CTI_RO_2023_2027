@@ -1,0 +1,33 @@
+Exemple de cod pentru FTP
+Cerințe pentru finalizare
+In continuare veti putea gasi cateva exemple de cod pentru a crea servere respectiv clienti FTP in diverse limbaje de programare. 
+
+Cele 3 de mai jos sunt printre cele mai utilizate limbaje de programare de pe piata in acest moment. 
+
+Exemple de cod 
+C/C++	http://armi.in/wiki/FTP_Server_and_Client_Implementation_in_C/C%2B%2B
+Java	https://www.codejava.net/java-se/ftp/java-ftp-file-upload-tutorial-and-example
+Python	http://zetcode.com/python/ftp/
+
+
+Scurta prezentare DHCP:
+https://www.youtube.com/watch?v=e6-TaH5bkjo
+
+
+Analiza pachetelor cu Wireshark
+Cerințe pentru finalizare
+In aceasta sectiune putem gasi cate un exemplu de analiza a unor transferuri de wireshark pentru protocoalele discutate in cadrul laboratorului. 
+
+Desi explicatiile sunt in limba engleza sunt suficient de clare si detaliate in asa fel incat sa fie usor de inteles. 
+
+DHCP:
+
+https://www.python4networkengineers.com/posts/wireshark/analyzing_dhcp_process_with_wireshark/
+
+FTP:
+
+https://www.python4networkengineers.com/posts/wireshark/analyzing_an_ftp_connection_with_wireshark/
+
+HTTP:
+
+https://www.python4networkengineers.com/posts/wireshark/analyzing_an_http_connection_with_wireshark

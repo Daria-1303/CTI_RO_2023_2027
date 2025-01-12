@@ -1,0 +1,111 @@
+192.168.25.172/24
+
+/24 ~ 255.255.255.0
+
+
+192.168.25.0 /24 -- adresa de retea
+192.168.25.255 /24 -- adresa de broadcast
+
+192.168.25.1 /24 -- 192.168.25.254 /24 -- adrese de Host
+
+00
+01
+10
+11
+
+192.168.25.0 /24 -- 192.168.25.255 /24 -- 8 biti de host => 2^8=256 de adrese, 254 adrese de host, 2^nr_biti_host - 2  adrese de host
+
+I	192.168.25.0 /26 -- 192.168.25.63 /26
+
+II	192.168.25.64 /26 -- 192.168.25.127 /26
+
+III	192.168.25.128 /26 -- 192.168.25.191 /26
+
+IV	192.168.25.192 /26 -- 192.168.25.255 /26  -- 6 biti de host => 62 adrese de host
+Care este cea de-a 10-a adresa de host: 192.168.25.202 /26
+
+
+
+
+
+172.15.10.234 /26
+
+172.15.10.234
+10101100 00001111 00001010 11101010
+
+255.255.255.192
+11111111 11111111 11111111 11000000
+
+10101100 00001111 00001010 11101010
+11111111 11111111 11111111 11000000
+10101100 00001111 00001010 11000000 => 172.15.10.192 /26 -- adresa de retea
+10101100 00001111 00001010 11111111	=> 172.15.10.255/26 -- adresa de broadcast
+
+Impartim in 8 subretele => 3 biti de host vor deveni biti de retea => noua masca de retea: /29
+
+I	172.15.10.192 /29 							-- 172.15.10.199 /29  
+10101100 00001111 00001010 11 000 000
+							   r   h
+	172.15.10.193 /29 -- 172.15.10.198 /29 -- adrese de host						   
+8 adrese dintre care 6 sunt adrese de host
+
+II	172.15.10.200 /29 -- 172.15.10.207 /29
+	care este ultima adresa utilizabila? 172.15.10.206/29
+	
+III	172.15.10.208 /29 -- 172.15.10.215 /29
+	adresa de gateway: 172.15.10.209 /29
+	
+IV	172.15.10.216 /29 -- 172.15.10.223 /29
+	172.15.10.217 /29 
+	172.15.10.218 /29
+	172.15.10.219 /29
+	172.15.10.220 /29
+	172.15.10.221 /29
+	172.15.10.222 /29
+	
+V	172.15.10.224 /29 -- 172.15.10.231 /29
+
+VI  172.15.10.232 /29 -- 172.15.10.239 /29
+
+VII 172.15.10.240 /29 -- 172.15.10.247 /29
+
+VIII 172.15.10.248 /29 -- 172.15.10.255 /29
+
+/24
+Care este numarul minim de subretele in care putem subneta o retea folosind subnetare statica?
+	2 subretele
+
+Care este numarul maxim de subretele in care putem subneta o retea avand masca de retea /24 folosind subnetare statica?
+
+4 adrese => 2 biti de host => 2^6=64 de subretele
+
+/24 		-- 	/30
+256 adrese		Y x 4 adrese
+
+2 adrese per subretea => 128 de subretele
+
+Which subnet does host 172.24.239.229/26 belong to?
+
+
+What is the broadcast address of the network 172.20.42.0 255.255.254.0?
+
+255.255.254.0?
+11111111 11111111 11111110 00000000
+
+
+172.20.		42.			0 --> 172.20.43.255
+		00101010	00000000
+		
+		
+IPV4 =32 biti
+11111111 11111111 11111111 11111111
+	255		255		255		255
+
+
+172.20.42.0/23 - 512 adrese
+
+172.20.42.0 /23  -- 172.20.42.255 /23   -- 256 adrese
+adresa de retea		adresa de host
+
+172.20.43.0 /23  -- 172.20.43.255 /23   -- 256 adrese
+adresa de host		adresa de broadcast

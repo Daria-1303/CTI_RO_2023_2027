@@ -1,0 +1,25 @@
+Exemple de codare de canal:
+NRZ-I : https://youtu.be/Kxndom8GaUQ
+Manchester: https://youtu.be/XKtxxZ327UM
+AMI Bipolar: https://youtu.be/O9gWkLz8eZI
+Manchester Diferental: https://youtu.be/O9gWkLz8eZI
+MLT3: https://youtu.be/Mj_mIbmcims
+
+
+Codare 4b/5b si 8b/10b:
+https://erg.abdn.ac.uk/users/gorry/course/phy-pages/4b5b.html
+https://youtu.be/3NIdellYW5o
+https://erg.abdn.ac.uk/users/gorry/course/phy-pages/8b10b.html
+https://youtu.be/B6JRJ3ax3mc
+
+Exercitii de codare canal:
+http://www.ee.unb.ca/cgi-bin/tervo/encoding.pl?binary=10101010&c=1&d=1
+
+Convertor ASCI-to-binary:
+https://www.rapidtables.com/convert/number/ascii-to-binary.html
+
+Concepte pentru OFDM:
+https://rfmw.em.keysight.com/wireless/helpfiles/89600B/WebHelp/Subsystems/wlan-ofdm/Content/ofdm_basicprinciplesoverview.htm
+
+OFDM in cazul 802.11a:
+https://rfmw.em.keysight.com/wireless/helpfiles/89600b/webhelp/subsystems/wlan-ofdm/content/ofdm_80211-overview.htm

@@ -1,0 +1,38 @@
+Diferentele in 2.4GHz si 5GHz:
+https://www.youtube.com/watch?v=J_bf_KE5llQ
+
+Scurta comparatie intre retele de telecomunicatii mobile
+Cerințe pentru finalizare
+In aceasta pagina puteti gasi cateva link-uri catre pagini care va descriu pe scurt evolutia retelelor de comunicatii mobile. 
+
+Acestea au inceput cu prima generatie in 1970 si continua si astazi datorita schimbarii necesitatilor de zi cu zi ale utilizatorilor. 
+
+De exemplu la inceput, transiterea mesajelor scurte (SMS-uri) era suficient, volum de date ce putea fi acoperit de retelele de tip 2G.
+
+Astazi dorim continut video la calitate 4k, dorim sa putem executa interventii chirurgicale distante( remote surgery) si ne bazam pe comunicatiile intre diverse echipamente ( machine to machine communications).
+
+Pentru descrierea evolutiei puteti apela site-urilor: 
+
+Gemalto: https://justaskthales.com/us/generations-mobile-networks-explained/
+
+Universitatea Stanford: https://mse238blog.stanford.edu/2017/07/ssound/1g-2g-5g-the-evolution-of-the-gs/
+
+http://net-informations.com/q/diff/generations.html#:~:text=The%20speed%20increases%20and%20the,is%20based%20on%20LTE%20technology%20.
+
+Acestea prezinta o imagine de ansamblu. 
+
+Pentru mai multe detalii tehnice va puteti adresa Wikipedia: 
+
+https://en.wikipedia.org/wiki/Comparison_of_wireless_data_standards
+
+https://en.wikipedia.org/wiki/Comparison_of_mobile_phone_standards.
+
+
+WiFi in 6GHz:
+http://www.techplayon.com/802-11ax-6ghz-spectrum-wi-fi/
+
+Scurta descriere a evolutiei standardului WiFi:
+https://www.actiontec.com/wifihelp/evolution-wi-fi-standards-look-802-11abgnac/
+
+Mesh Wifi -studiu optional:
+https://www.linksys.com/us/r/resource-center/whole-home-mesh-wifi/#:~:text=Mesh%20WiFi%20or%20Whole%20Home,password%2C%20unlike%20traditional%20WiFi%20routers.

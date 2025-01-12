@@ -1,0 +1,5 @@
+Modelul OSI:
+https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/
+
+Modelul OSI - video:
+https://www.youtube.com/watch?v=3b_TAYtzuho 

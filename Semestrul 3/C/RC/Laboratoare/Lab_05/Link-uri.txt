@@ -1,0 +1,8 @@
+Descriere pentru adresare IP:
+https://www.youtube.com/watch?v=8npT9AALbrI
+
+ARP explained:
+https://www.youtube.com/watch?v=cn8Zxh9bPio
+
+Simulare ARP - Cisco Packet Tracer:
+https://www.youtube.com/watch?v=ihKtFQEikFA

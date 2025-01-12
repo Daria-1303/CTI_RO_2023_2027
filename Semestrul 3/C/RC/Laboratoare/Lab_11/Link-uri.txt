@@ -1,0 +1,13 @@
+Exemple subnetare - exemple video:
+In acest exemplu puteti vedea cum se pot gasi :
+
+Adresa de retea
+Adresa de broadcast
+adresa primului host
+Adresa ultimului host
+
+Exemplu 1:
+https://youtu.be/NLZhJy8IJBY
+
+Exemplu 2:
+https://youtu.be/POPoAjWFkGg
