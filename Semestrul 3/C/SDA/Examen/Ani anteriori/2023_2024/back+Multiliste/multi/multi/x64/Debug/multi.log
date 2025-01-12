@@ -1,0 +1,6 @@
+﻿  main3.c
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\back+Multiliste\multi\multi\main3.c(20,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\back+Multiliste\multi\multi\main3.c(123,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\back+Multiliste\multi\multi\main3.c(133,3): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\back+Multiliste\multi\multi\main3.c(137,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  multi.vcxproj -> C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\back+Multiliste\multi\x64\Debug\multi.exe

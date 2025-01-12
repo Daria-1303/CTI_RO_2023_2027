@@ -1,0 +1,5 @@
+﻿  p2.c
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\examenti\examenti\p2.c(55,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\examenti\examenti\p2.c(56,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\examenti\examenti\p2.c(57,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  examenti.vcxproj -> C:\Users\MadimDell\Desktop\sda\pregatireexamen\p1\examenti\x64\Debug\examenti.exe

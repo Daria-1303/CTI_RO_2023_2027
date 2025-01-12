@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82F4CB30-FB04-469A-979A-44CD750A9E04}|Bonus.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\Example.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{82F4CB30-FB04-469A-979A-44CD750A9E04}|Bonus.vcxproj|solutionrelative:Example.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F4CB30-FB04-469A-979A-44CD750A9E04}|Bonus.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\Bonus.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82F4CB30-FB04-469A-979A-44CD750A9E04}|Bonus.vcxproj|solutionrelative:Bonus.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Example.txt",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\Example.txt",
+              "RelativeDocumentMoniker": "Example.txt",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\Example.txt",
+              "RelativeToolTip": "Example.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-26T20:45:12.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bonus.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\Bonus.c",
+              "RelativeDocumentMoniker": "Bonus.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Laboratoare\\Bonus\\Bonus\\Bonus.c",
+              "RelativeToolTip": "Bonus.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-26T20:44:34.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

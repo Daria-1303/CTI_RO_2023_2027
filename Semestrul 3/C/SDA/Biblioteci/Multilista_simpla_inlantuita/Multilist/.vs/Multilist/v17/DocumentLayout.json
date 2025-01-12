@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B029F23-A6E1-4F24-ACFE-3B3C6E1BEF81}|Multilist.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Multilist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B029F23-A6E1-4F24-ACFE-3B3C6E1BEF81}|Multilist.vcxproj|solutionrelative:Multilist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B029F23-A6E1-4F24-ACFE-3B3C6E1BEF81}|Multilist.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Multilist.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B029F23-A6E1-4F24-ACFE-3B3C6E1BEF81}|Multilist.vcxproj|solutionrelative:Multilist.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B029F23-A6E1-4F24-ACFE-3B3C6E1BEF81}|Multilist.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B029F23-A6E1-4F24-ACFE-3B3C6E1BEF81}|Multilist.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-09T10:56:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Multilist.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Multilist.c",
+              "RelativeDocumentMoniker": "Multilist.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Multilist.c",
+              "RelativeToolTip": "Multilist.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-09T10:55:33.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Multilist.h",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Multilist.h",
+              "RelativeDocumentMoniker": "Multilist.h",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Structuri-de-date-si-algoritmi-SDA-\\Biblioteci\\Multilista_simpla_inlantuita\\Multilist\\Multilist.h",
+              "RelativeToolTip": "Multilist.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T10:54:22.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

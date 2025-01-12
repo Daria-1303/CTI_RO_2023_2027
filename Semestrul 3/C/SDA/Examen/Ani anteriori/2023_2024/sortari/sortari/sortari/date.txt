@@ -1,0 +1,6 @@
+5
+xadi 20 1
+marius 20 1
+jung 20 0
+popa 20 1
+creatura 20 0

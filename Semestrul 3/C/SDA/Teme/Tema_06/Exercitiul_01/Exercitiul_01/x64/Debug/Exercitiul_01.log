@@ -1,0 +1,3 @@
+﻿  Variante_Shellsort.c
+C:\Users\daria\Documents\GitLab\sda_1_2_ciobanu_daria\Teme\Tema_06\Exercitiul_01\Variante_Shellsort.c(182,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Exercitiul_01.vcxproj -> C:\Users\daria\Documents\GitLab\sda_1_2_ciobanu_daria\Teme\Tema_06\Exercitiul_01\x64\Debug\Exercitiul_01.exe
