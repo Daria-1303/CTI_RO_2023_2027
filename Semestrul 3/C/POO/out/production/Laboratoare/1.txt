@@ -1,0 +1,33 @@
+class Student{
+	//stari
+	String name;
+	short varsta;
+
+
+	void invata(){
+		//printeaza
+	}
+}
+
+
+
+
+class Calculator{
+	int memorieRAM;
+	int memorieSSD;
+	..
+
+	void porneste(){
+		// amfjsaf
+	}
+}
+
+//ne cream classe care ne rezolva o anumita probleme
+
+String este declarat ca si o clasa care are declarat intern un array de caractere
+//tipurile de date cu litera mare sunt deja obiecte
+
+if (a || b)
+a si b trb sa fie boolean si va fi a()
+
+ne gândim la metode

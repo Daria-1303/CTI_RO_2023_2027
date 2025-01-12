@@ -1,0 +1,10 @@
+// Exercitiul 1
+Metodele nu sunt supraincarcate, deoare semnaturile lor nu difera suficient.
+
+public void faCeva(int x){}
+
+public int faCeva(int x){}
+
+--> vom avea cel mai probabil o eroare de compilator
+
+Pentru a fi supraincarcate, metodele trebuie sa difere prin nr de parametrii, tipurile de parametrii si ordinea tipurilor de parametrii

@@ -1,0 +1,224 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Recap.Laborator_07.Exercitiul_02.Main",
+            "projectName": "POO_e28bb14e"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "POO_e28bb14e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Laboratoare.Lab_07.Exercitiul_04.Main",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Aplicatie",
+            "request": "launch",
+            "mainClass": "Aplicatie",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "ClientCeas",
+            "request": "launch",
+            "mainClass": "ClientCeas",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Cursuri.Curs_03.Main",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Cursuri.Curs_04.Main",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "Discord.Baze.Program1",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(1)",
+            "request": "launch",
+            "mainClass": "Exercitiul_02.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(2)",
+            "request": "launch",
+            "mainClass": "Exercitiul_03.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(3)",
+            "request": "launch",
+            "mainClass": "Exercitiul_04.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(4)",
+            "request": "launch",
+            "mainClass": "Exercitiul_05.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "ExempluIO",
+            "request": "launch",
+            "mainClass": "Laboratoare.Lab_04.Problema_01.ExempluIO",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "BooleanComparison",
+            "request": "launch",
+            "mainClass": "Laboratoare.Lab_04.Problema_02.BooleanComparison",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "CountMatchingLines",
+            "request": "launch",
+            "mainClass": "Laboratoare.Lab_04.Problema_03.CountMatchingLines",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "InmultireMatrice",
+            "request": "launch",
+            "mainClass": "Laboratoare.Lab_04.Problema_04.InmultireMatrice",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(5)",
+            "request": "launch",
+            "mainClass": "Laboratoare.Lab_04.Tiruri.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "Main2",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(6)",
+            "request": "launch",
+            "mainClass": "P5.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(7)",
+            "request": "launch",
+            "mainClass": "Versionare_fisiere.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(8)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_01.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(9)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_02.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(10)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_03.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(11)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_04.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(12)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_05.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(13)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_06.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(14)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_07.Client",
+            "projectName": "POO-1_d24debb1"
+        },
+        {
+            "type": "java",
+            "name": "Client(15)",
+            "request": "launch",
+            "mainClass": "testeLaborator.test1.Mosteniri.Subiectul_08.Client",
+            "projectName": "POO-1_d24debb1"
+        }
+    ]
+}

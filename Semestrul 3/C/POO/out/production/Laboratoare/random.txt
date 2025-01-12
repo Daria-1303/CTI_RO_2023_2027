@@ -1,0 +1,21 @@
+int x = 3;
+int y = 3;
+
+System.out.println(x == y); //True
+
+Student stud1 = new Student("Daniel", 22);
+Student stud2 = new Student("Daniel", 22);
+
+//avem 2 obiecte diferite
+System.out.println(stud1 == stud2); //False
+
+//pentru comparare putem implementa o functie de comparare
+
+boolean equals = stud1.getName() == stud2.getName();
+
+//clasa Object contine functia equals
+class Object{
+    boolean equals(Object obj){
+        return this == obj;
+    }
+}

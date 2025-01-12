@@ -1,0 +1,522 @@
+//Ex1:
+class X {
+    protected int v = 0;
+    public X() {v += 87;}
+}
+
+class Y extends X {
+    public Y() {v += 94;}
+    public int getV() {return v;}
+}
+
+class Z extends X {
+    public Z() {v += 46;}
+}
+
+
+class Main{
+    public static void main(String argv[]){
+        X x = new Z();
+        Y y = new Y();
+        Z z = new Z();
+        System.out.println(y.getV());
+    }
+}//Rs:181
+
+
+//Ex2:
+abstract class A{
+    public int proc(A p) {return 74;}
+}
+
+class B extends A{
+    public int proc(A p) {return 33;}
+}
+
+class C extends A{
+    public int proc(C p) {return 71;}
+}
+
+public class Main{
+    public static void main(String argv[]){
+        C x = new C();
+        A y = new B();
+        C z = new C();
+
+        System.out.println(y.proc(x) + z.proc(x));
+    }
+}//Rs: 104
+
+
+//Ex3: exceptie
+class Ex extends Exception{}
+
+class Main{
+    public static void main(String argv[]) throws Ex{
+        int i = 0;
+        int z = 0;
+        while (i < 2){
+            try {
+                int k = 0;
+                while (k < 3) {
+                    k++;
+                    z = z + 2;
+                    if (i == 0) throw new Ex();
+                }
+                z = z+2;
+            } catch (Ex e){
+                System.out.println(e);
+            } finally {
+                z = z+1;
+            }
+            i++;
+        }
+        System.out.println(z);
+    }//Rs: Ex 12
+
+
+
+    //Ex4: pair
+
+    class Pair {
+        private int v;
+        private int t[];
+        public Pair(int x, int[] y){v = x; t = y;}
+        public void setVT(int x, int[] y){v = x; t = y;}
+        public void setVIT(int x, int i, int y){v = x; t[i] = y;}
+        public int getV() {return v;}
+        public int[] getT() {return t;}
+    }
+
+
+    class Main{
+        public static Pair call(Pair p, Pair q){
+            q.setVT(15, p.getT());
+            q = p;
+            q.setVIT(25, 0, 20);
+            int tz[] = {36, 6};
+            return new Pair(12, tz);
+        }
+        public static void main(String argv[]){
+            int ta[] = {85, 9};
+            int tb[] = {25, 68};
+            Pair a = new Pair(18, ta);
+            Pair b = new Pair(9, tb);
+            Pair c = b;
+            b = call(a, b);
+            System.out.println(c.getT[0]);
+        }
+    }//Rs: 20
+
+
+
+    //Ex5: abstract2
+
+    abstract class A{
+        public int proc(A p) {return 98;}
+    }
+
+    class B extends A{
+        public int proc(A p) {return 17;}
+    }
+
+    class C extends A{
+        public int proc(C p) {return 65;}
+    }
+
+    public class Main{
+        public static void main(String argv[]){
+            C x = new C();
+            A y = new B();
+            C z = new C();
+
+            System.out.println(y.proc(x) + z.proc(x));
+        }
+    }//Rs:82
+
+
+
+    //Ex6:
+
+    abstract class A{
+        public int proc(B p) {return 5;}
+    }
+
+    class B extends A{
+        public int proc(C p) {return 21;}
+    }
+
+    class C extends B{
+        public int proc(C p) {return 45;}
+    }
+
+    public class Main{
+        public static void main(String argv[]){
+            A x = new C();
+            C y = new C();
+            C z = new C();
+
+            System.out.println(x.proc(z) + y.proc(z));
+        }
+    } //Rs:50
+
+
+
+    //Ex7: extends2
+
+    class X {
+        protected int v = 0;
+        public X() {v += 43;}
+    }
+
+    class Y extends X {
+        public Y() {v -= 24;}
+        public int getV() {return v;}
+    }
+
+    class Z extends Y {
+        public Z() {v += 100;}
+    }
+
+
+    class Main{
+        public static void main(String argv[]){
+            X x = new Z();
+            Y y = new Y();
+            Z z = new Z();
+            System.out.println(y.getV());
+        }
+    }//Rs: 19
+
+
+    //Ex8: exceptie2
+
+    class Ex extends Exception{}
+
+    class Main{
+        public static void main(String argv[]) throws Ex{
+            int i = 0;
+            int z = 0;
+            while (i < 2){
+                try {
+                    int k = 0;
+                    while (k < 1) {
+                        k++;
+                        z = z + 2;
+                        if (i == 8) throw new Ex();
+                    }
+                    z = z + 2;
+                } catch (Ex e){
+                    System.out.println(e);
+                } finally {
+                    z = z + 1;
+                }
+                i++;
+            }
+            System.out.println(z);
+        }
+    } //Rs:10
+
+
+
+    //Ex9: pair2
+
+    class Pair {
+        private int v;
+        private int t[];
+        public Pair(int x, int[] y){v = x; t = y;}
+        public void setVT(int x, int[] y){v = x; t = y;}
+        public void setVIT(int x, int i, int y){v = x; t[i] = y;}
+        public int getV() {return v;}
+        public int[] getT() {return t;}
+    }
+
+
+    class Main{
+        public static Pair call(Pair p, Pair q){
+            p.setVT(76, q.getT());
+            p = q;
+            p.setVIT(87, 0, 74);
+            int tz[] = {97, 93};
+            return new Pair(19, tz);
+        }
+        public static void main(String argv[]){
+            int ta[] = {29, 35};
+            int tb[] = {6, 87};
+            Pair a = new Pair(3, ta);
+            Pair b = new Pair(50, tb);
+            Pair c = b;
+            b = call(a, c);
+            System.out.println(c.getV());
+        }
+    }//Rs: 87
+
+
+
+    //Ex10: abstract4
+
+    abstract class A{
+        public int proc(A p) {return 20;}
+    }
+
+    class B extends A{
+        public int proc(A p) {return 100;}
+    }
+
+    class C extends A{
+        public int proc(C p) {return 75;}
+    }
+
+    public class Main{
+        public static void main(String argv[]){
+            C x = new C();
+            A y = new B();
+            C z = new C();
+
+            System.out.println(y.proc(x) + z.proc(x));
+        }
+    }//Rs: 175
+
+
+
+    //Ex11: AClass
+
+    class AClass{
+        private static int a;
+        private int b;
+        public void put(int a1, int b1) { a=a1; b=b1;}
+        public int retA() {return a;}
+        public int retB() {return b;}
+    }
+
+    class Main{
+        public static void exec(AClass z, AClass t){
+            System.out.println(z.retA());
+            t.put(12,13);
+            z = new AClass();
+            z.put(0,0);
+        }
+        public static void main(String[] args){
+            AClass x = new AClass();
+            x.put(8,9);
+            AClass y = new AClass();
+            y.put(10,11);
+            exec(x,y);
+            System.out.println(x.retB());
+            System.out.println(x.retB());
+        }
+    } //Rs: 10 9 9
+
+
+
+    //Ex12: abstract5
+    abstract class A{
+        public int proc(A p) {return 76;}
+    }
+
+    class B extends A{
+        public int proc(A p) {return 14;}
+    }
+
+    class C extends A{
+        public int proc(C p) {return 88;}
+    }
+
+    public class Main{
+        public static void main(String argv[]){
+            C x = new C();
+            A y = new B();
+            A z = new C();
+
+            System.out.println(y.proc(x) + z.proc(x));
+        }
+    }//Rs: 90
+
+
+
+    //Ex13: exceptie3
+    class ExA extends Exception{}
+    class ExB extends ExA {}
+
+    class Main{
+        public static int make(int a) throws ExA{
+            for(int k = 0; k < 2; k++) {
+                a = a - 1;
+                if(a == -2) throw new ExB();
+            }
+            return a;
+        }
+
+        public static void main(String argv[]) throws ExA{
+            int x = 0;
+            for(int i = 0; i < 2; i++){
+                try {
+                    x = x - 1;
+                    x = make(x);
+                    x = x - 1;
+                } catch (ExB e){
+                    System.out.println(e);
+                } finally {
+                    x = x - 1;
+                }
+            }
+            System.out.println(x);
+        }
+    } //Rs: ExB  -7
+
+
+
+    //Ex14: pair3
+
+    class Pair {
+        private int v;
+        private int t[];
+        public Pair(int x, int[] y){v = x; t = y;}
+        public void setVT(int x, int[] y){v = x; t = y;}
+        public void setVIT(int x, int i, int y){v = x; t[i] = y;}
+        public int getV() {return v;}
+        public int[] getT() {return t;}
+    }
+
+
+    class Main{
+        public static Pair call(Pair p, Pair q){
+            q.setVT(96, p.getT());
+            q = p;
+            q.setVIT(51, 0, 36);
+            int tz[] = {22, 74};
+            return new Pair(31, tz);
+        }
+        public static void main(String argv[]){
+            int ta[] = {18, 66};
+            int tb[] = {51, 31};
+            Pair a = new Pair(83, ta);
+            Pair b = new Pair(26, tb);
+            Pair c = b;
+            b = call(a, b);
+            System.out.println(c.getT()[0]);
+        }
+    } //Rs: 36
+
+
+    //Ex14:
+
+
+
+    class X {
+        protected int v = 0;
+        public X() {v += 37;}
+    }
+
+    class Y extends X {
+        public Y() {v += 85;}
+        public int getV() {return v;}
+    }
+
+    class Z extends Y {
+        public Z() {v += 9;}
+    }
+
+
+    class Main{
+        public static void main(String argv[]){
+            X x = new Z();
+            Y y = new Y();
+            Z z = new Z();
+            System.out.println(y.getV());
+        }
+    }//Rs: 122
+
+
+
+    //Ex15: pair4
+
+    class Pair {
+        private int v;
+        private int t[];
+        public Pair(int x, int[] y){v = x; t = y;}
+        public void setVT(int x, int[] y){v = x; t = y;}
+        public void setVIT(int x, int i, int y){v = x; t[i] = y;}
+        public int getV() {return v;}
+        public int[] getT() {return t;}
+    }
+
+
+    class Main{
+        public static Pair call(Pair p, Pair q){
+            q.setVT(11, p.getT());
+            q = p;
+            q.setVIT(5, 1, 27);
+            int tz[] = {57, 60};
+            return new Pair(40, tz);
+        }
+        public static void main(String argv[]){
+            int ta[] = {19, 77};
+            int tb[] = {63, 38};
+            Pair a = new Pair(54, ta);
+            Pair b = new Pair(42, tb);
+            Pair c = b;
+            b = call(a, b);
+            System.out.println(c.getT()[1]);
+        }
+    } //Rs: 27
+
+
+    //Ex15: abstract6
+
+    abstract class A{
+        public int proc(B p) {return 94;}
+    }
+
+    class B extends A{
+        public int proc(C p) {return 40;}
+    }
+
+    class C extends B{
+        public int proc(C p) {return 57;}
+    }
+
+    public class Main{
+        public static void main(String argv[]){
+            A x = new C();
+            C y = new C();
+            C z = new C();
+
+            System.out.println(x.proc(z) + y.proc(z));
+        }
+    }//Rs: 151
+
+
+
+    //Ex16: exceptie4
+
+    class ExA extends Exception{}
+    class ExB extends ExA {}
+
+    class Main{
+        public static int make(int a) throws ExA{
+            for(int k = 0; k < 3; k++) {
+                a = a - 1;
+                if(a == -2) throw new ExB();
+            }
+            return a;
+        }
+
+        public static void main(String argv[]) throws ExA{
+            int x = 0;
+            for(int i = 0; i < 2; i++){
+                try {
+                    x = x - 1;
+                    x = make(x);
+                    x = x - 1;
+                } catch (ExB e){
+                    System.out.println(e);
+                } finally {
+                    x = x - 1;
+                }
+            }
+            System.out.println(x);
+        }
+    } //Rs: ExB -8
+
+

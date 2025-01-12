@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cursuri/Cursuri.iml" filepath="$PROJECT_DIR$/Cursuri/Cursuri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discord/Discord.iml" filepath="$PROJECT_DIR$/Discord/Discord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laboratoare/Lab_04/Lab_04.iml" filepath="$PROJECT_DIR$/Laboratoare/Lab_04/Lab_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laboratoare/Lab_07/Lab_07.iml" filepath="$PROJECT_DIR$/Laboratoare/Lab_07/Lab_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laboratoare/Laboratoare.iml" filepath="$PROJECT_DIR$/Laboratoare/Laboratoare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laboratoare/Laborator_10/Laborator_10.iml" filepath="$PROJECT_DIR$/Laboratoare/Laborator_10/Laborator_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeLaborator/test1/Mosteniri/Mosteniri.iml" filepath="$PROJECT_DIR$/testeLaborator/test1/Mosteniri/Mosteniri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testeLaborator/test1/alteCerinte/alteCerinte.iml" filepath="$PROJECT_DIR$/testeLaborator/test1/alteCerinte/alteCerinte.iml" />
+    </modules>
+  </component>
+</project>
