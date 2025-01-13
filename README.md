@@ -1,4 +1,8 @@
 # Materiale CTI_RO_2023_2027
+## Contact
+
+-Daca doreste cineva sa contribuie sau sa adauge, puteti lasa mesaj la dariasianisia@gmail.com
+
 ## INFO
 -Materialele din anul curent(anul 2) vor fi urcate mai intai pe Repo-uri separate(se pot gasi pe profil), iar la final de semestru/an si aici
 
@@ -29,7 +33,4 @@
 
 -subiecte de teste si examene + rezolvari
 
-## Contact
-
--Daca doreste cineva sa contribuie sau sa adauge, puteti lasa mesaj
 
